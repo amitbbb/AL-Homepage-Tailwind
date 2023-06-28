@@ -1,0 +1,137 @@
+<style>
+  .newsletter-page form.klaviyo-form button.needsclick {
+    background-image: url({{ 'submit-arrow.png' | asset_url }})!important;
+    width: 135px!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+  }
+  @media screen and (max-width: 600px) {
+    .newsletter-page form.klaviyo-form button.needsclick {
+      width: 80px!important;
+    }
+  }
+</style>
+<div class="page-width">
+  <div class="grid">
+    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+      <div class="section-header text-center">
+        <h1>{{ page.title }}</h1>
+      </div>
+      <div class="rte">
+        {{ page.content }}
+      </div>
+    </div>  
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Newsletter page",
+    "class": "newsletter-page",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+  .newsletter-page {
+    padding: 100px 15px 0;
+  }
+  body.template-page .newsletter-page .section-header.text-center h1 {
+    font-size: 45px;
+  }
+  body.template-page .newsletter-page p {
+    font-family: 'Kepler-Std-Light';
+    font-weight: 326;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .page-content {
+    margin-top: 40px;
+    max-width: 800px;
+    margin: 40px auto 0; 
+  }
+  .newsletter-page form .needsclick.kl-private-reset-css-Xuajs1 .needsclick.kl-private-reset-css-Xuajs1:first-child {
+    width: 100%;
+    align-self: flex-start;
+    padding-left: 0!important;
+    padding-top: 0!important;
+    text-transform: uppercase;
+    color: #000!important;
+    font-family: 'Tungsten'!important;
+  }
+  .newsletter-page form .needsclick.kl-private-reset-css-Xuajs1 .needsclick.kl-private-reset-css-Xuajs1 input {
+    font-family: 'Tungsten'!important;
+    border: none!important;
+    background: transparent!important;
+    border-bottom: 1px solid #000!important;
+    padding-right: 15px!important;
+    height: auto!important;
+    margin-top: 3px;
+    padding-bottom: 13px!important;
+    border-radius: 0px!important;
+    margin: 0;
+    outline: none!important;
+    font-size: 24px!important;
+  }
+  .newsletter-page form.klaviyo-form {
+    max-width: 420px!important;
+  } 
+  .newsletter-page form.klaviyo-form button.needsclick {
+    top: 8%;
+    background-repeat: no-repeat!important;
+    background-size: 100%!important;
+    width: 50px!important;
+    height: 14px!important;
+    padding: 0!important;
+    font-size: 0px!important;
+    background: transparent!important;
+    border: none!important;
+    position: absolute;
+    right: 25px;
+    font-family: 'Tungsten'!important;
+    outline: none!important;
+  } 
+  .newsletter-page form input[type='email']::placeholder {
+    font-weight:800!important;
+    opacity:1;
+    font-family: 'Tungsten'!important;
+    color: #000!important;f
+    font-size: 30px!important;
+  }
+  .newsletter-page form input[type='email']::-webkit-input-placeholder {
+    font-weight:800!important;
+    opacity:1;
+    font-family: 'Tungsten'!important;
+    color: #000!important;
+    font-size: 30px!important;
+  } 
+  .newsletter-page form input[type='email']:-ms-input-placeholder { 
+    font-weight:800!important;
+    opacity:1;
+    font-family: 'Tungsten'!important;
+    color: #000!important;
+    font-size: 30px!important;
+  }
+  .newsletter-page .klaviyo-form {
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 600px) {
+    .newsletter-page form input[type='email']::placeholder {
+      font-size: 20px!important;
+    }
+    .newsletter-page form input[type='email']::-webkit-input-placeholder {
+      font-size: 20px!important;
+    }
+    .newsletter-page form input[type='email']:-ms-input-placeholder { 
+      font-size: 20px!important;
+    }
+    .newsletter-page form.klaviyo-form button.needsclick {
+      top: 20%;
+    }  
+  }
+{% endstylesheet %}
+
+{% javascript %}
+  
+{% endjavascript %}

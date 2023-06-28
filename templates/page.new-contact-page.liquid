@@ -1,0 +1,327 @@
+{% render 'shogun-products', content: page %}
+<div class="new-page-width">
+  <div class="grid">
+    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth new-gridn">
+      <div class="section-header text-center">
+        <h1 class="main-head">{{ page.title }}</h1>
+      </div>
+     <div class="flx">
+      {% if page.content.size > 0 %}
+        
+        <div class="rte">
+           <h2 class="sec-tit">{{ page.title }}</h2>
+          {{ page.content }}
+        </div>
+      {% endif %}
+
+<div class="custom_contact_details">
+<div data-tf-widget="MbCWQYqH" id="wrapper" data-tf-opacity="100" data-tf-inline-on-mobile data-tf-iframe-props="title=Customer Service" data-tf-transitive-search-params data-tf-auto-focus data-tf-medium="snippet"></div>
+</div>    
+       
+{% comment %}
+      <div class="contact-form form-vertical">
+        {%- assign formId = 'ContactForm' -%}
+        {% form 'contact', id: formId %}
+
+
+          <div class="grid grid--half-gutters">
+            <div class="grid__item medium-up--one-half pad-r">
+              <label for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label>
+              <input placeholder="Name*" required type="text" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+            </div>
+            <div class="grid__item medium-up--one-half">
+             	<label for="last-name">Last name</label>
+               <input placeholder="Last Name" type="text" name="contact[last_name]" id="last-name" />
+            </div>
+            <div class="grid__item medium-up--one-half pad-r">
+              <label for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true">*</span></label>
+              <input
+                     placeholder="Email*"
+                     required
+                type="email"
+                id="{{ formId }}-email"
+                name="contact[email]"
+                autocorrect="off"
+                autocapitalize="off"
+                value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                aria-required="true"
+                {%- if form.errors contains 'email' -%}
+                  class="input--error"
+                  aria-invalid="true"
+                  aria-describedby="{{ formId }}-email-error"
+                {%- endif -%}
+                >
+              {%- if form.errors contains 'email' -%}
+                <span id="{{ formId}}-email-error" class="input-error-message">
+                  <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+                  {% include 'icon-error' %}
+                  <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+                </span>
+              {%- endif -%}
+            </div>
+            
+            
+            
+            <div class="grid__item medium-up--one-half">
+              <label for="{{ formId }}-email">Confirm email <span aria-hidden="true">*</span></label>
+              <input
+                      placeholder="Confirm Email"
+                type="email"
+                id="{{ formId }}-email"
+                name="contact[email]"
+                autocorrect="off"
+                autocapitalize="off"
+                value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                aria-required="true"
+                {%- if form.errors contains 'email' -%}
+                  class="input--error"
+                  aria-invalid="true"
+                  aria-describedby="{{ formId }}-email-error"
+                {%- endif -%}
+                >
+              {%- if form.errors contains 'email' -%}
+                <span id="{{ formId}}-email-error" class="input-error-message">
+                  <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+                  {% include 'icon-error' %}
+                  <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+                </span>
+              {%- endif -%}
+            </div>
+             <div class="grid__item medium-up--one-half pad-r">
+          <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }}</label>
+          <input  placeholder="Phone Number*"  required type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+        </div>
+            
+             <div class="grid__item medium-up--one-half">
+               
+         
+             <label for="order-number">Order number</label>
+                <input placeholder=" Order Number(Optional)" type="text" name="contact[order_number]" id="order-number" />
+  
+            </div>
+          </div>
+
+        
+          <label for="{{ formId }}-message">{{ 'contact.form.message' | t }}</label>
+          <textarea placeholder="Comment" rows="10" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+         <div class="chek-boxc"> <input type="checkbox"  class="k-color" name="contact[contact_time_2]" value="afternoon"><label for="afternoon" class="check-msg"> <span class="checkmark"></span>Please add me to the Afternoon Light email list (optional)</label><br>
+           </div>
+        <input type="submit" class="mybtnn " value="Send Message">
+        {% include 'form-status', form: form, form_id: formId %}
+        {% endform %}
+      </div>
+
+  {% endcomment %}
+  
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+   #wrapper{
+    width:100%;height:100%;}
+  iframe{border-radius:0 !important;
+    }
+  .custom_contact_details {
+    width: 100%;
+}
+  
+body.template-page.template-new-contact-page div#PageContainer {
+    padding-top: 100px;
+}
+
+  h2.sec-tit {
+    font-family: 'Tungsten';
+    font-size: 63px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+ 
+  span.new-rte {
+    font-size: 30px;
+    font-family: 'Keplerlite';
+    line-height: 36px;
+}
+  
+  .section-header.text-center h1.main-head {
+   font-size: 72px !important;
+    font-family: 'Compacta' !important;
+    font-weight: 500;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+  label {
+    display: none;
+}
+  input, textarea {
+    border: 2px solid #121111;
+ 
+  }
+  input, textarea {
+ 
+    font-size: 35px;
+    font-family: 'Tungsten';
+     background-color: #f4f0ec00;
+
+}
+  input:placeholder{
+   font-family: 'Tungsten';
+    font-size: 32px;
+       
+  }
+  @media only screen and (min-width: 769px){
+    .rte {
+    width: 45%;
+    padding-right: 180px;
+}
+.medium-up--five-sixths {
+    width: 100%;
+    padding-right: 170px;
+    padding-left: 200px !important;
+    position: unset !important;
+}
+    .flx {
+    display: flex;
+}
+
+.contact-form.form-vertical {
+    width: 73%;
+}
+/* }.grid--half-gutters>.grid__item {
+    padding-left: 29px;
+} */
+
+    h2.sec-tit {
+    position: relative;
+    bottom: 5px;
+}
+/*     textarea#ContactForm-message {
+    
+          margin-top: 5px;
+      margin-left: 15px;
+} */
+    
+    .form-vertical input,textarea {
+    
+    margin-bottom: 36.44444px;
+  }
+    .grid__item.medium-up--one-half.pad-r {
+    padding-right: 22px;
+}
+    textarea#ContactForm-message {
+    margin-bottom: 46px;
+}
+    textarea#ContactForm-message {
+    margin-bottom: 46px;
+}
+  }
+  
+  label.check-msg {
+    font-size: 37px;
+    font-family: 'Tungsten';
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+  
+  
+  input[type="checkbox"] {
+ padding: 40px !important;
+    width: 50px !important;
+    height: 50px;
+    border: 2px solid #000 !important;
+        margin-right: 24px!important;
+}
+/*   .form-vertical [type=radio], .form-vertical [type=checkbox] {
+   
+    margin-left: 13px;
+} */
+  .mybtnn{
+ 
+    width: 68%!important;
+    font-family: Tungsten;
+    background-color: black;
+    color: #fff;
+    text-align: initial;
+/*      margin-left: 15px; */
+    margin-top: 30px;
+}
+ 
+
+
+.menus-cont p a {
+    font-family: 'Tungsten';
+    font-size: 40px;
+}
+
+.menus-cont p {
+    margin: 0;
+}
+   .chek-boxc input.k-color ~ label span {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+	top: 5px;
+     border: 2px solid #000 !important;
+}
+
+.chek-boxc input:checked ~ label span.checkmark {
+      background: transparent;
+    
+}
+
+.chek-boxc {
+    position: relative;
+}
+
+.chek-boxc input.k-color {
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    top: 5px;
+}
+
+.chek-boxc input.k-color:checked {
+    opacity: 1;
+}
+
+.chek-boxc label.check-msg {
+    margin-left: 70px;
+}
+  
+ @media only screen and (max-width: 769px){ 
+     .custom_contact_details {
+     height: 900px;
+}
+  .rte {
+    width: 100%;
+    padding-right: 0px;
+}
+   .contact-form.form-vertical {
+    padding-right: 30px;
+}
+   .section-header.text-center h1.main-head {
+    display: none;
+}
+   input, textarea {
+    font-size: 40px;
+   }
+ }
+  
+  @media only screen and (min-width: 1024px)and (max-width: 1100){
+  
+  .medium-up--five-sixths {
+    width: 100%;
+    padding-right: 82px;
+    padding-left: 82px !important;
+    position: unset !important;
+}
+    
+  
+.rte {
+    width: 45%;
+    padding-right: 53px;
+}
+  }
+</style>

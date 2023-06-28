@@ -1,0 +1,191 @@
+<style>
+section.section2 ul.alphabet {
+    display: flex;
+    flex-wrap: wrap;
+   margin: 50px 0 50px 70px;
+}
+  section.section2 ul.alphabet a {
+    text-align: left;
+    font-size: 41px;
+    font-family: 'Tungsten';
+    color: var(--charcoal);
+    font-weight: bold;
+    letter-spacing: 23.78px;
+    line-height: 1.2;
+   
+}
+  section.section2 ul.medical_dictionary {
+    font-family: KeplerStd-Subhead;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: semi-condensed;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--charcoal);
+	margin: 74px 1111px 427px 70px;
+      }
+  
+  /*
+#pinkdesign {
+    padding: 449px 70px;
+    width: 518px;
+    height: 1484px;
+    position: absolute;
+    background-color: #e386b6;
+    -ms-transform: rotate(45deg);
+    -ms-transform-origin: 50% 30%;
+    transform: rotate( 
+50deg
+ );
+    border-radius: 1000px;
+    top: -50%;
+    right: -10%;
+    z-index: -1;
+}
+  */
+  
+    section.section1 {
+    text-align: center;
+    background-color: #edeeed;
+    padding: 92px 0px;
+}
+  section.section2
+  {
+  	position: relative;
+    min-height: 839px;
+  }
+  section.section1  p, section.section1 h2 {
+    font-family: KeplerStd-ScnCapt;
+     font-size: 35px;
+    line-height: 50px;
+    color: #242d2d;
+    font-family: 'Kepler';
+    text-transform: initial;
+    
+    text-align: center;
+    color: var(--charcoal);
+}
+  section.section1 p {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+  html {
+  scroll-behavior: smooth;
+}
+  
+</style>
+
+
+
+<section class="section1">
+  <h2>  {{ section.settings.head }} </h2>
+  <p>   {{ section.settings.pahra }}
+    
+  </p>
+ 
+  
+</section>
+
+<section class="section2">
+   <div id="pinkdesign"></div>
+<ul class="alphabet">
+    <li><a href="#a">A</a></li>    <li><a href="#b">B</a></li>    <li><a href="#c">C</a></li>    <li><a href="#d">D</a></li>
+    <li><a href="#e">E</a></li>    <li><a href="#f">F</a></li>    <li><a href="#g">G</a></li>    <li><a href="#h">H</a></li>
+    <li><a href="#i">I</a></li>    <li><a href="#j">J</a></li>    <li><a href="#k">K</a></li>    <li><a href="#l">L</a></li>
+    <li><a href="#m">M</a></li>    <li><a href="#n">N</a></li>    <li><a href="#o">O</a></li>    <li><a href="#p">P</a></li>
+    <li><a href="#q">Q</a></li>    <li><a href="#r">R</a></li>    <li><a href="#s">S</a></li>    <li><a href="#t">T</a></li>
+    <li><a href="#u">U</a></li>    <li><a href="#v">V</a></li>    <li><a href="#y">Y</a></li>    <li><a href="#z">Z</a></li>
+</ul>
+
+<ul class="medical_dictionary" id="stocksymbols">
+  {% for block in section.blocks %}
+  	 {% if block.type == 'brands' %}
+  <li id="{{ block.settings.text | slice: 0 | downcase }}"><a href="{{ block.settings.url }}"><strong>{{ block.settings.text }} </strong></a></li>
+  	 {% endif %}
+  {% endfor %}
+</ul>
+</section>
+
+
+
+<script>
+//   alphabet scroll
+//   var triggers = $('ul.alphabet li a');
+// var filters = $('ul.medical_dictionary li strong');
+
+// triggers.click(function() {
+//     var takeLetter = $(this).text();
+//     var found = false;
+//     filters.parent().hide();
+
+//     filters.each(function(i) {
+//         var compareFirstLetter = $(this).text().substr(0,1);
+//         if ( compareFirstLetter ==  takeLetter ) {
+//             $(this).parent().fadeIn(222);
+//             found = true;
+//         }
+//     });
+//     if (!found) { alert('There is no result.');
+//                 window.location.reload();
+//                 }
+// });
+  
+  
+  
+  function sortList(ul) {
+  var ul = document.getElementById(ul);
+
+  Array.from(ul.getElementsByTagName("LI"))
+    .sort((a, b) => a.textContent.localeCompare(b.textContent))
+    .forEach(li => ul.appendChild(li));
+}
+
+sortList("stocksymbols");
+
+  
+</script>
+  
+
+
+{% schema %}
+  {
+    "name": "Brands",
+    "settings": [
+		{
+			"id":"head",
+			"type":"text",
+			"label":"heading"
+		},
+			{
+			"id":"pahra",
+			"type":"richtext",
+			"label":"Description"
+		} 
+],
+	"blocks":[
+  	{
+      "name": "Brands",
+      "type": "brands",
+      "settings": [
+          {
+              "type": "url",
+              "id": "url",
+              "label": "Link"
+          },
+		  {
+              "type": "text",
+              "id": "text",
+              "label": "text"
+          }
+		  
+	]}]
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

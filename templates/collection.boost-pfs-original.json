@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template",
+      "settings": {
+        "layout": "grid",
+        "grid": 3,
+        "rows": 4,
+        "show_collection_image": true,
+        "show_vendor": false,
+        "sort_enable": true,
+        "tags_enable": true,
+        "layout1": "left",
+        "title": "Image with text",
+        "text": "",
+        "button_label": "SHOP LOREM",
+        "button_link": "",
+        "button_label1": "",
+        "button_link1": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

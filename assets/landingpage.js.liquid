@@ -1,0 +1,59 @@
+$(function(){
+  //let curTarget = $(".landing_nav li.active a").attr("data-target");
+  //$("#landingpage").addClass("active_"+curTarget);
+  $("body").on("click", ".landing_nav li a", function(event){
+    event.preventDefault();
+    
+    
+    $(".landing_nav li").removeClass("active");
+    $(this).parent("li").addClass("active");
+    
+    
+    let target = $(this).attr("data-target");
+    //let attr = "data-bg-"+target;
+    //let bg = $("#landingpage").attr(attr);
+    
+    //$("#landingpage").css({"background-image":"url("+bg+")"});
+    $(".landing-bg").removeClass("active");
+    $(".landing-bg-"+target).addClass("active");
+    
+    if(target == "about") {
+      let targetClass = ".slide_"+target;
+      $(".page-slide").removeClass("active");
+      $(targetClass).addClass("active");
+      $("#landingpage").addClass("active_"+target);
+    }
+  });
+  $("body").on("click", ".back-to-home", function(event){
+    event.preventDefault();
+    let bg_home = $("#landingpage").attr("data-bg-home");
+    //$("#landingpage").css({"background-image":"url("+bg_home+")"});
+    $(".landing-bg").removeClass("active");
+    $(".landing-bg-home").addClass("active");
+    
+    $("#landingpage").removeClass("active_about");
+     $("#landingpage").removeClass("active_followLink");
+    $(".landing_nav li").removeClass("active");
+    $(".page-slide").removeClass("active");
+    $(".slide_home").addClass("active");
+    
+  });
+  $("body").on("mouseover", "a.followLink, a.contactLink, a.aboutLink", function(event){
+    $(".landing-bg-follow").removeClass("active");
+    $(".landing-bg-contact").removeClass("active");
+  	$(".landing-bg-mood").removeClass("active");
+    $(".landing-bg-home").addClass("active");
+  });
+  $("body").on("mouseover", "a.moodLink", function(event){
+    $(".landing-bg-follow").removeClass("active");
+    $(".landing-bg-contact").removeClass("active");
+  	$(".landing-bg-about").removeClass("active");
+  });
+});
+
+
+window.addEventListener("klaviyoForms", function(e) {
+  if (e.detail.type == 'submit') {
+    $(".appendToForm").css({"display":"none"});
+  }
+});

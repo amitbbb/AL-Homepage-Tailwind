@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "main": {
+      "type": "third-collection",
+      "settings": {
+        "layout": "grid",
+        "grid": 3,
+        "rows": 8,
+        "show_collection_image": true,
+        "show_vendor": false,
+        "sort_enable": true,
+        "tags_enable": true,
+        "layout1": "left",
+        "title": "Image with text",
+        "text": "",
+        "button_label": "",
+        "button_link": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,39 @@
+<h2 class="main-hed-blog"><a href="/blogs/stories/">STORIES</a></h2>
+  {%- assign blog = blogs[section.settings.blog] -%}
+
+  {% unless blog.articles_count == 0 %}
+    <ul class="grid grid--uniform grid--blog">
+      {% for article in blog.articles limit: section.settings.post_limit %} 
+        <li class="grid__item medium-up--one-third {% if forloop.index == 1 %}first-grid{% endif %}">
+             <a href="{{ article.url }}" class="article__link 1">
+                {% if article.image %}
+                  {% capture img_id %}ArticleImage-{{ article.image.id }}{% endcapture %}
+                  {% capture img_wrapper_id %}ArticleImageWrapper-{{ article.image.id }}{% endcapture %}
+                  {%- assign img_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+               
+                    <div class="article__grid-image-container" style="padding-top:{{ 1 | divided_by: article.image.aspect_ratio | times: 100}}%;" data-image-loading-animation>
+                      <img id="{{ img_id }}"
+                          class="article__grid-image lazyload"
+                          data-src="{{ img_url }}"
+                          data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                          data-aspectratio="{{ article.image.aspect_ratio }}"
+                          data-sizes="auto"
+                          alt="">
+                    </div>
+               {% endif %}
+                  <noscript>
+                    <div class="article__grid-image-wrapper">
+                      {{ article | img_url: '345x345', scale: 2 | img_tag: article.title, 'article__grid-image' }}
+                    </div>
+                  </noscript>
+                <h2 class="article__title h3 mob">
+                  <a class="story-title" href="{{ article.url }}">{{ article.title }}</a>
+                  <p class="edi"> {{ article.excerpt  | truncate: 100  }}</p>
+                  <p class="read-story"><a href="{{ article.url }}">READ THE STORY</a></p>
+				</h2>
+             </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endunless %}
+        

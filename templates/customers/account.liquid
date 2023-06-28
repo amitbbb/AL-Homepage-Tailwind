@@ -1,0 +1,128 @@
+<div id='frcp_app_wrapper' class='frcp-app-wrapper'></div>
+<div class="page-width">
+  <div class="section-header bnbg">
+    <h1 class="act-hed">{{ 'customer.account.title' | t }}</h1>
+  </div>
+  {% comment %}
+  <div class="customer-wrap">
+    <ul class="customer-details">
+      <li><b>Name:</b> {{ customer.name }}</li>
+      <li><b>Email:</b> {{ customer.email }}</li>
+    </ul>
+  </div>
+  {% endcomment %}
+  <div class="grid myaccount">
+    
+    {% include 'account-sidebar' %}
+    
+    <div class="account-details">
+      <div class="grid__item account_details myorder active">
+        <div class="customer-wrap">
+          <ul class="customer-details">
+            <li><b>Name:</b> {{ customer.name }}</li>
+            <li><b>Email:</b> {{ customer.email }}</li>
+          </ul>
+          <br/>
+          <p>Click here to view your <a href="/account/#orderhistory"><strong>order history</strong></a>.</p>
+        </div>
+      </div>
+    <div class="grid__item myaccount__order-history myorder">
+      {% paginate customer.orders by 20 %}
+        {% if customer.orders.size != 0 %}
+
+          <table class="responsive-table">
+            <thead>
+              <tr>
+                <th scope="col">{{ 'customer.orders.order_number' | t }}</th>
+                <th scope="col">{{ 'customer.orders.date' | t }}</th>
+                <th scope="col">{{ 'customer.orders.payment_status' | t }}</th>
+                <th scope="col">{{ 'customer.orders.fulfillment_status' | t }}</th>
+                <th scope="col">{{ 'customer.orders.total' | t }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for order in customer.orders %}
+                <tr>
+                  <th data-label="{{ 'customer.orders.order_number' | t }}" scope="row">
+                    <a href="{{ order.customer_url }}" class="btn btn--secondary btn--small" aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}">{{ order.name }}</a>
+                  </th>
+                  <td data-label="{{ 'customer.orders.date' | t }}">{{ order.created_at | time_tag: format: 'date' }}</td>
+                  <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
+                  <td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
+                  <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+
+        {% else %}
+
+          <p>{{ 'customer.orders.none' | t }}</p>
+
+        {% endif %}
+        {%- if paginate.pages > 1 -%}
+          {% include 'pagination', paginate: paginate %}
+        {%- endif -%}
+      {% endpaginate %}
+    </div>
+   {% comment %}
+   <div class="grid__item  nhyjhj">
+     <h2 class="act-wish">
+       <a style="" href="https://afternoonlight.myshopify.com/pages/wishlist">MY WISHLIST</a></h2>
+    </div>
+    {% endcomment %}
+    
+     {% comment %}
+     <div class="grid__item myaccount__account-details">
+      <div class="newoo">
+      {{ customer.default_address | format_address }}
+
+      <p><a href="{{ routes.account_addresses_url }}" class="btn btn--small">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a></p>
+      </div>
+     </div>
+      {% endcomment %}
+    </div>
+  </div>
+  
+		{% comment %}
+      {{ 'layout.customer.log_out' | t | customer_logout_link }}
+  		{% endcomment %}
+</div>
+
+
+<script>
+
+  
+  
+/*
+$('.responsive-table, .newoo, .link3Div').hide();
+$('.first').click(function(e){
+    e.stopPropagation();
+    $('.responsive-table').fadeToggle();
+  $('.newoo,.link3Div').slideUp();
+  $('.first').toggleClass('active');
+  $('.act-dtl, .link3').removeClass('active');
+});
+$('.act-dtl').click(function(e){
+    e.stopPropagation();
+    $('.newoo').slideToggle();
+  $('.responsive-table,.link3Div').slideUp();
+  $('.act-dtl').toggleClass('active');
+  $('.first, .link3').removeClass('active');
+});
+$('.link3').click(function(e){
+    e.stopPropagation();
+    $('.link3Div').slideToggle();
+  $('.responsive-table, .newoo').slideUp();
+  $('.link3').toggleClass('active');
+  $('.first, .act-dtl').removeClass('active');
+});
+
+$(document).click(function(){
+     $('.responsive-table, .newoo, .link3Div').slideUp();
+   $('.first, .act-dtl, .link3').removeClass('active');
+});
+
+*/
+
+</script>

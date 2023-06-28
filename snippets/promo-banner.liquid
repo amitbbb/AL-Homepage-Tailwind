@@ -1,0 +1,16 @@
+{%comment%} Promotional Section  {%endcomment%}
+
+  	{%if collection.metafields.promo-banner.promo-banner-img != blank %}
+	<div class="promotion-section">
+      <div class="promo-img"><img src="{{collection.metafields.promo-banner.promo-banner-img}}"></div>
+      <div class="promo-right">
+        <div class="line-wrap">
+          {%if collection.metafields.promo-banner.promo-banner-text1 != blank %}<div class="first_line promo_line">{{collection.metafields.promo-banner.promo-banner-text1}}</div>{%endif%}
+          {%if collection.metafields.promo-banner.promo-banner-text2 != blank %}<div class="second_line promo_line">{{collection.metafields.promo-banner.promo-banner-text2}}</div>{%endif%}
+          {%if collection.metafields.promo-banner.promo-banner-text3 != blank %}<div class="third_line promo_line">{{collection.metafields.promo-banner.promo-banner-text3}}</div>{%endif%}
+          {%if collection.metafields.promo-banner.promo-banner-text4 != blank %}<div class="fourth_line promo_line">{{collection.metafields.promo-banner.promo-banner-text4}}</div>{%endif%}
+          {%if collection.metafields.promo-banner.banner-btn-text != blank %}<div class="cta-btn"><a href="{{collection.metafields.promo-banner.banner-btn-url | replace:"http:", "https:"}}">{{collection.metafields.promo-banner.banner-btn-text}}</a></div>{%endif%}
+        </div>  
+      </div>
+	</div>
+	{%endif%}

@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "ameico-collection-template",
+      "settings": {
+        "layout": "grid",
+        "grid": 3,
+        "rows": 2,
+        "show_collection_image": true,
+        "show_vendor": false,
+        "sort_enable": true,
+        "tags_enable": true,
+        "image": "shopify:\/\/shop_images\/ameico-image2.jpg",
+        "layout1": "left",
+        "title": "Image with text",
+        "text": "Image with text",
+        "button_label": "",
+        "button_link": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

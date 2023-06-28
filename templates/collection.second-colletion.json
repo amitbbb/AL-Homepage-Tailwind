@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "main": {
+      "type": "second-collection-template",
+      "settings": {
+        "layout": "grid",
+        "grid": 3,
+        "rows": 20,
+        "show_collection_image": true,
+        "show_vendor": false,
+        "sort_enable": false,
+        "tags_enable": false,
+        "layout1": "left",
+        "title": "Image with text",
+        "text": "",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "1653026225251011d5": {
+      "type": "promo-banner-section",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "main",
+    "1653026225251011d5",
+    "shogun-below"
+  ]
+}

@@ -1,0 +1,63 @@
+<div class="page-width">
+  <div class="empty-page-content text-center">
+    <h1>{{ 'general.404.title' | t }}</h1>
+  
+    <div style="line-height: 1.2;"> <i> <p class="q-par-n">WONDER</p></i>
+      
+    <p class="q-par">Early blue evening.</p>
+      <p class="q-par">Lights ain’t come on yet.</p>
+      <p class="q-par">Looky yonder!</p>
+      <p class="q-par">They come on now.</p>
+      <i> <p class="q-par-p">-LANGSTON HUGHES
+
+  </p></i></div>
+    
+  {%comment%}  <p>{{ 'general.404.subtext' | t }}</p>  {%endcomment%} 
+    <p>
+      <a href="{{ routes.root_url }}" class="btn btn--has-icon-after new-btn-hov">RETURN TO THE HOMEPAGE<br>{% include 'icon-arrow-right' %}</a>
+      
+    </p>
+  </div>
+</div>
+<style>
+
+.empty-page-content.text-center h1 {
+    font-family: 'Tungsten';
+    font-size: 65px;
+    padding-top: 50px;
+}
+
+.empty-page-content.text-center p {
+    font-size: 30px;
+    font-family: 'Kepler-std-light';
+    padding-top: 40px;
+}
+
+a.btn.btn--has-icon-after {
+    font-family: 'Tungsten';
+    background-color: #f4f0ec;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 34px;
+    border: 1px solid;
+    margin-top: 25px;
+    padding-top: 22px;
+    padding-bottom: 10px;
+    padding-right: 26px;
+    padding-left: 29px;
+}
+  .btn .btn--has-icon-after:hover{
+  
+    background-color: #ff85fba6 !important;
+}
+  svg.icon.icon--wide.icon-arrow-right.arr {
+    height: 62px;
+    width: 50px;
+    margin: 0px !important;
+
+  }
+  a.btn.btn--has-icon-after.new-btn-hov:hover {
+      background-color: #e95a29!important;
+}
+ 
+</style>

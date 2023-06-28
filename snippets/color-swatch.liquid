@@ -1,0 +1,16 @@
+<div class="swatchWrapper">
+  <div class="swatchLabel">{{ option.name }}</div>
+<ul class="colorSwatch">
+{% for value in option.values %}
+  {% for block in section.blocks %}
+  	{% assign vName = value | downcase %}
+  	{% assign oName = block.settings.heading | downcase %}
+  	{% if vName == oName %}
+	<li>
+      <span class="{% if option.selected_value == value %}active{% endif %}" data-value="{{ value | escape }}" title="{{ value }}" style="background-color:{{ block.settings.color_code }};"></span>
+  	</li>
+	{% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>
+</div>

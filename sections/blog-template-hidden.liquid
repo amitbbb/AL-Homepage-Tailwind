@@ -1,0 +1,120 @@
+  <ul class="blog-list-view blog-list hidden" style="display: none;"> 
+    {% assign counter = 1 %}
+    <h1 class="main-hed-blog"><a href="/blogs/stories/">STORIES</a></h1>
+    {% for article in blog.articles %}
+      <li class="another-blog-list postNum-3 {% if forloop.index > 1 %}other-grid{% else %}first-grid{% endif %} {% if forloop.index > 3 %}home-blog{% endif %}">
+        <div class="page-width">
+          <div class="grid">
+            <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+              <div class="article-listing">
+                <h2 class="article__title h3 mob">
+                   <a href="{{ article.url }}">{{ article.title }}</a>
+                  <p class="edi"> {{ article.excerpt  | truncate: 100  }}</p>
+                  <p class="read-story"><a href="{{ article.url }}">READ THE STORY</a></p>
+				</h2>
+				<a href="{{ article.url }}">
+                  <div class="blog-list-image">
+                <div class="blog-hover-effect">
+                </div>
+					{{ article | img_url: '345x345', scale: 2 | img_tag: article.title, 'article__grid-image' }}
+				</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      {% assign counter = counter | plus: 1 %}
+      {% if counter > 5 %}
+    	{% assign counter = 1 %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+{% schema %}
+{
+  "name": {
+    "en": "Blog pages hidden"
+  },
+  "settings": [
+
+				{
+			"id":"but1",
+			"type":"text",
+			"label":"Button_text_1"
+		},
+		{
+			"id":"url",
+			"type":"url",
+			"label":"URL_Link_1"
+		},
+
+    {
+      "type": "checkbox",
+      "id": "sort_enable",
+      "label": {
+        "en": "Enable sorting"
+      },
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "tags_enable",
+      "label": {
+        "en": "Enable tag filtering"
+      },
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "back_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "text",
+      "id": "para",
+      "label": "Para Label"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": {
+        "en": "Layout"
+      },
+      "default": "list",
+      "options": [
+        {
+          "value": "grid",
+          "label": {
+            "en": "Grid"
+          }
+        },
+        {
+          "value": "list",
+          "label": {
+            "en": "List"
+          }
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_author",
+      "label": {
+        "en": "Show author"
+      },
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_date",
+      "label": {
+        "en": "Show date"
+      },
+      "default": true
+    }
+  ]
+}
+{% endschema %}
+
+

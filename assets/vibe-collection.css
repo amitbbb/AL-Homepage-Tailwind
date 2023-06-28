@@ -1,0 +1,196 @@
+.vibe-collections {
+  padding-top: 0px;
+  padding-bottom: 92px;
+}
+.vibe-collections .page-width.section-main {
+  padding-left: 46px !important;
+  padding-right: 46px !important;
+  max-width: unset;
+}
+.vibe-collections .section-heading {
+  text-align: right;
+  margin-bottom: 35px;
+}
+.vibe-collections .section-heading h2 {
+  text-align: right;
+  font-family: Compacta;
+  font-size: 45px;
+  line-height: 62.1px;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  margin: 0;
+  padding-right: 38px;
+}
+.vibe-collections .collection-grid ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.vibe-collections .collection-grid ul li.grid_item {
+  position: relative;
+  flex-basis: calc(16.666% - 22px);
+  margin: 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+.vibe-collections
+  .collection-grid
+  ul
+  li.grid_item
+  .collection-grid-item__title.h3 {
+  font-size: 45px;
+  font-family: Compacta;
+  font-weight: 400;
+  color: #f3f0eb;
+  line-height: 62.13px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+.vibe-collections .collection-grid ul li:before {
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0.5;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.vibe-collections .collection-grid ul li:hover:before {
+  background: #bc6d95;
+  opacity: 0.5;
+}
+.index-section.hero-banner {
+  padding-bottom: 0;
+}
+.vibe-collections .collection-grid ul li.grid_item a {
+  display: block;
+  height: 100%;
+}
+.vibe-collections .collection-grid ul li.grid_item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity:0;
+}
+.vibe-collections .collection-grid ul li.grid_item img.lazyautosizes.lazyloaded{
+  opacity:1;
+}
+@media (max-width: 1440px) {
+  .vibe-collections
+    .collection-grid
+    ul
+    li.grid_item
+    .collection-grid-item__title.h3 {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 1380px) {
+  .vibe-collections
+    .collection-grid
+    ul
+    li.grid_item
+    .collection-grid-item__title.h3 {
+    font-size: 35px;
+    line-height: 51.13px;
+  }
+}
+
+@media (max-width: 991px) {
+  .vibe-collections .collection-grid ul li.grid_item {
+    flex-basis: calc(33.33% - 21px);
+    margin-bottom: 31px;
+  }
+
+  .vibe-collections .page-width.section-main {
+    max-width: unset;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+  }
+  .vibe-collections
+    .collection-grid
+    ul
+    li.grid_item
+    .collection-grid-item__title.h3 {
+    font-size: 27px;
+    line-height: 39.13px;
+  }
+  .vibe-collections .section-heading h2 {
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 990px) {
+  .vibe-collections .collection-grid ul li.grid_item {
+    width: calc(30% + -0px);
+    margin-bottom: 23px;
+  }
+  .vibe-collections .page-width.section-main {
+    padding-left: 31px !important;
+    padding-right: 31px !important;
+  }
+  .vibe-collections
+    .collection-grid
+    ul
+    li.grid_item
+    .collection-grid-item__title.h3 {
+    font-size: 34px;
+    line-height: 46.13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-hero-slider .slick-dots {
+    width: 100%;
+  }
+  .vibe-collections .collection-grid ul li.grid_item {
+    width: calc(50% - 7px);
+  }
+  .vibe-collections {
+    padding-top: 41px;
+    padding-bottom: 49px;
+  }
+  .vibe-collections .section-heading h2 {
+    font-size: 23px;
+    line-height: 44px;
+    font-weight: 400;
+    padding-right: 0;
+  }
+  .vibe-collections .section-heading {
+    margin-bottom: 15px;
+  }
+  .vibe-collections
+    .collection-grid
+    ul
+    li.grid_item
+    .collection-grid-item__title.h3 {
+    font-size: 34px;
+    line-height: 43.84px;
+  }
+  .vibe-collections .collection-grid ul li.grid_item .collection-grid-item {
+    margin-bottom: 23px;
+  }
+  .vibe-collections
+    .collection-grid
+    ul
+    li.grid_item
+    .collection-grid-item__overlay.box {
+    max-width: 174px;
+    max-height: 174px;
+  }
+  .vibe-collections .page-width.section-main {
+    padding-left: 11px !important;
+    padding-right: 11px !important;
+  }
+  .vibe-collections .collection-grid ul {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .vibe-collections .collection-grid ul li.grid_item {
+    flex-basis: calc(50% - 11px);
+    margin-bottom: 23px;
+  }
+}

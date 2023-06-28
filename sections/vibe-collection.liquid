@@ -1,0 +1,79 @@
+{{ 'vibe-collection.css' | asset_url | stylesheet_tag }}
+<div class="vibe-collections" {%- if section.settings.bg_color != blank -%}style="background-color: {{ section.settings.bg_color }}" {% endif %}>
+  <div class="page-width section-main">
+    {% if section.settings.title != blank %}
+        <div class="section-heading">
+            <h2>{{ section.settings.title | escape }}</h2>
+        </div>
+      {% endif %}
+    <div class="collection-grid">
+        <ul>
+          {% for block in section.blocks %} 
+              <li class="grid_item">
+                  <a href="{{ block.settings.collection_url }}">
+                    {%- if block.settings.image != blank-%}
+                      {% assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+                         <img class="lazyload" 
+                         src="{{ img | img_url: '300x' }}"
+                         data-src="{{ img_url }}"
+                         data-widths="[720, 1080]"
+                         data-aspectratio="{{ img.aspect_ratio }}"
+                         data-sizes="auto">
+                      {% endif %}
+                    {%- if block.settings.name != blank-%}
+                       <h3 class="collection-grid-item__title h3">{{ block.settings.name }}</h3>
+                    {% endif %}
+                  </a>
+              </li>
+          {% endfor %}
+         </ul>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Vibe Collections",
+    "class": "fadein",
+    "max_blocks": 6,
+    "settings": [
+      {
+        "type": "color",
+        "id": "bg_color",
+         "label": "Background Color"
+      },
+      {
+        "type": "text",
+        "id": "title",
+         "label": "Heading"
+      }
+    ],
+    "blocks":[
+      {
+        "name": "Collection",
+        "type": "collection",
+        "settings":[
+                  {
+                     "label": "Name",
+                     "type": "text",
+                     "id": "name"
+                  },
+                  {
+                     "label": "background Image",
+                     "type": "image_picker",
+                     "id": "image"
+                  },
+                  {
+                     "label": "Collection Url",
+                     "type": "url",
+                     "id": "collection_url"
+                  }
+        ]
+    }
+    ],
+    "presets":[
+      {
+          "name": "Vibe Collections"
+      }      
+    ]
+  }
+{% endschema %}

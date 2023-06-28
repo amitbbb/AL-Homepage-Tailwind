@@ -1,0 +1,684 @@
+{%include 'blogsss'%}
+<div id="blogs-content">
+  <ul class="blog-list-view blog-list"></ul>
+</div>
+<a class="view-all-btn" href="#">view all stories</a>
+
+
+{% schema %}
+{
+    "name": "Home Blog Section",
+    "class": "index-section new-home-blog-section fadein",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": {
+        "cs": "Nadpis",
+        "da": "Overskrift",
+        "de": "Titel",
+        "en": "Heading",
+        "es": "Título",
+        "fi": "Otsake",
+        "fr": "En-tête",
+        "it": "Heading",
+        "ja": "見出し",
+        "ko": "제목",
+        "nb": "Overskrift",
+        "nl": "Kop",
+        "pl": "Nagłówek",
+        "pt-BR": "Título",
+        "pt-PT": "Título",
+        "sv": "Rubrik",
+        "th": "ส่วนหัว",
+        "tr": "Başlık",
+        "vi": "Tiêu đề",
+        "zh-CN": "标题",
+        "zh-TW": "標題"
+      },
+      "default": {
+        "cs": "Příspěvky na blogu",
+        "da": "Blogopslag",
+        "de": "Blogposts",
+        "en": "Blog posts",
+        "es": "Entradas del blog",
+        "fi": "Blogijulkaisut",
+        "fr": "Articles de blog",
+        "it": "Articoli del blog",
+        "ja": "ブログ記事",
+        "ko": "블로그 게시물",
+        "nb": "Blogginnlegg",
+        "nl": "Blogberichten",
+        "pl": "Posty na blogu",
+        "pt-BR": "Posts do blog",
+        "pt-PT": "Publicações no blogue",
+        "sv": "Blogginlägg",
+        "th": "โพสต์บล็อก",
+        "tr": "Blog gönderileri",
+        "vi": "Bài viết blog",
+        "zh-CN": "博客文章",
+        "zh-TW": "網誌文章"
+      }
+    },
+    {
+      "id": "blog",
+      "type": "blog",
+      "label": {
+        "cs": "Blog",
+        "da": "Blog",
+        "de": "Blog",
+        "en": "Blog",
+        "es": "Blog",
+        "fi": "Blogi",
+        "fr": "Blog",
+        "it": "Blog",
+        "ja": "ブログ",
+        "ko": "블로그",
+        "nb": "Blogg",
+        "nl": "Blog",
+        "pl": "Blog",
+        "pt-BR": "Blog",
+        "pt-PT": "Blogue",
+        "sv": "Blogg",
+        "th": "บล็อก",
+        "tr": "Blog",
+        "vi": "Blog",
+        "zh-CN": "博客",
+        "zh-TW": "網誌"
+      }
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "label": {
+        "cs": "Příspěvky",
+        "da": "Opslag",
+        "de": "Posts",
+        "en": "Posts",
+        "es": "Publicaciones",
+        "fi": "Julkaisut",
+        "fr": "Articles",
+        "it": "Articoli",
+        "ja": "投稿",
+        "ko": "게시물",
+        "nb": "Innlegg",
+        "nl": "Berichten",
+        "pl": "Posty",
+        "pt-BR": "Posts",
+        "pt-PT": "Publicações",
+        "sv": "Inlägg",
+        "th": "โพสต์",
+        "tr": "Gönderiler",
+        "vi": "Bài viết",
+        "zh-CN": "文章",
+        "zh-TW": "貼文"
+      },
+      "min": 3,
+      "max": 12,
+      "step": 3,
+      "default": 3
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_author",
+      "label": {
+        "cs": "Zobrazit autora",
+        "da": "Vis forfatter",
+        "de": "Autor anzeigen",
+        "en": "Show author",
+        "es": "Mostrar autor",
+        "fi": "Näytä tekijä",
+        "fr": "Afficher l'auteur",
+        "it": "Mostra autore",
+        "ja": "執筆者を表示する",
+        "ko": "작성자 표시",
+        "nb": "Vis forfatter",
+        "nl": "Auteur weergeven",
+        "pl": "Pokaż autora",
+        "pt-BR": "Exibir autor",
+        "pt-PT": "Mostrar autor",
+        "sv": "Visa författare",
+        "th": "แสดงผู้เขียน",
+        "tr": "Yazarı göster",
+        "vi": "Hiển thị tác giả",
+        "zh-CN": "显示作者",
+        "zh-TW": "顯示作者"
+      },
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_date",
+      "label": {
+        "cs": "Zobrazit datum",
+        "da": "Vis dato",
+        "de": "Datum anzeigen",
+        "en": "Show date",
+        "es": "Mostrar fecha",
+        "fi": "Näytä päivämäärä",
+        "fr": "Afficher la date",
+        "it": "Mostra data",
+        "ja": "日付を表示する",
+        "ko": "날짜 표시",
+        "nb": "Vis dato",
+        "nl": "Datum weergeven",
+        "pl": "Pokaż datę",
+        "pt-BR": "Exibir data",
+        "pt-PT": "Mostrar data",
+        "sv": "Visa datum",
+        "th": "แสดงวันที่",
+        "tr": "Tarihi göster",
+        "vi": "Hiển thị ngày",
+        "zh-CN": "显示日期",
+        "zh-TW": "顯示日期"
+      },
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_all",
+      "label": {
+        "cs": "Zobrazit tlačítko Zobrazit vše",
+        "da": "Vis knappen \"Se flere\"",
+        "de": "'Alle anzeigen' Button anzeigen",
+        "en": "Show 'View all' button",
+        "es": "Mostrar el botón 'Ver todo'",
+        "fi": "Näytä \"Näytä kaikki\" -painike",
+        "fr": "Afficher le bouton “Voir tout”",
+        "it": "Mostra il pulsante \"Visualizza tutto\"",
+        "ja": "「すべて表示」ボタンを表示する",
+        "ko": "'모두 보기' 버튼 표시",
+        "nb": "Vis «Se alle»-knapp",
+        "nl": "Knop 'Alles weergeven' weergeven",
+        "pl": "Pokaż przycisk „Wyświetl wszystkie”",
+        "pt-BR": "Exibir botão \"Ver tudo\"",
+        "pt-PT": "Mostrar botão 'Ver tudo'",
+        "sv": "Visa \"Visa alla\"-knappen",
+        "th": "แสดงปุ่ม 'ดูทั้งหมด'",
+        "tr": "\"Tümünü görüntüle\" düğmesini göster",
+        "vi": "Hiển thị nút \"Xem tất cả\"",
+        "zh-CN": "显示“查看全部”按钮",
+        "zh-TW": "顯示「檢視全部」按鈕"
+      },
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "cs": "Příspěvky na blogu",
+        "da": "Blogopslag",
+        "de": "Blogposts",
+        "en": "Home Blog Section",
+        "es": "Entradas del blog",
+        "fi": "Blogijulkaisut",
+        "fr": "Articles de blog",
+        "it": "Articoli del blog",
+        "ja": "ブログ記事",
+        "ko": "블로그 게시물",
+        "nb": "Blogginnlegg",
+        "nl": "Blogberichten",
+        "pl": "Posty na blogu",
+        "pt-BR": "Posts do blog",
+        "pt-PT": "Publicações no blogue",
+        "sv": "Blogginlägg",
+        "th": "โพสต์บล็อก",
+        "tr": "Blog gönderileri",
+        "vi": "Bài viết blog",
+        "zh-CN": "博客文章",
+        "zh-TW": "網誌文章"
+      },
+      "category": {
+        "cs": "Blog",
+        "da": "Blog",
+        "de": "Blog",
+        "en": "Blog",
+        "es": "Blog",
+        "fi": "Blogi",
+        "fr": "Blog",
+        "it": "Blog",
+        "ja": "ブログ",
+        "ko": "블로그",
+        "nb": "Blogg",
+        "nl": "Blog",
+        "pl": "Blog",
+        "pt-BR": "Blog",
+        "pt-PT": "Blogue",
+        "sv": "Blogg",
+        "th": "บล็อก",
+        "tr": "Blog",
+        "vi": "Blog",
+        "zh-CN": "博客",
+        "zh-TW": "網誌"
+      },
+      "settings": {
+        "blog": "News",
+        "post_limit": 3
+      }
+    }
+  ]
+}
+{% endschema %}
+{% stylesheet %}
+.new-home-blog-section {
+  padding: 0 80px;
+}
+.new-home-blog-section .grid__item .article__grid-image-container{
+  margin-bottom: 40px;
+}
+.new-home-blog-section .view-all-btn {
+  height: 75px;
+  background: #242d2d;
+  color: #fff;
+  font-family: Tungsten;
+  font-style: normal;
+  font-weight: 326;
+  text-transform: uppercase;
+  margin: 80px auto 0;
+  width: 100%;
+  max-width: 196px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  line-height: 50px;
+}
+.new-home-blog-section .view-all-btn:hover{
+  color:#fff;
+}
+.new-home-blog-section .main-hed-blog {
+  margin: 35px 0 !important;
+  text-align: right;
+  margin-top: 80px!important;
+}
+.new-home-blog-section .main-hed-blog a {
+  font-family: "Compacta";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 62.1px;
+  text-transform: uppercase;
+  letter-spacing: normal; 
+}
+.new-home-blog-section .blog-list-view .first-grid .page-width {
+  padding: 0;
+  max-width: unset;
+}
+.new-home-blog-section .blog-list-view .first-grid .page-width .grid {
+  margin: 0;
+}
+.new-home-blog-section
+  .blog-list-view
+  .first-grid
+  .page-width
+  .grid
+  .grid__item {
+  width: 100%;
+  left: unset;
+  padding: 0;
+}
+.new-home-blog-section
+  .blog-list-view
+  .first-grid
+  .page-width
+  .grid
+  .grid__item
+  .article-listing {
+  padding-top: 0;
+  margin-bottom: 0px;
+}
+.new-home-blog-section
+  .blog-list-view
+  .first-grid
+  .page-width
+  .grid
+  .grid__item
+  .article__title *{
+  /*display: none;*/
+}
+.new-home-blog-section
+  .blog-list-view
+  .first-grid
+  .page-width
+  .grid
+  .grid__item
+  .article__title .blog-title{
+  /*display: block;
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Compacta';
+  font-size: 85px;
+  color: #FFF;*/
+}
+.new-home-blog-section
+  .blog-list-view
+  .first-grid
+  .page-width
+  .grid
+  .grid__item
+  .blog-list-image
+  img {
+  position: unset;
+  display: block;
+}
+.new-home-blog-section .blog-list-view .other-list-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.new-home-blog-section .blog-list-view .other-list-wrap .other-grid {
+  width: calc(50% - 25px);
+  margin-bottom: 70px; 
+}
+.other-grid .page-width {
+  padding: 0;
+  max-width: unset; 
+}
+.other-grid .page-width .grid {
+  margin-left: 0px;
+}
+.other-grid .page-width .grid .grid__item {
+  padding: 0;
+  width: 100%;
+  left: 0;
+}
+.other-grid .page-width .grid .grid__item .article-listing {
+  padding: 0;
+  margin: 0;
+}
+.other-grid
+  .page-width
+  .grid
+  .grid__item
+  .article-listing
+  .blog-list-image
+  img {
+  position: unset;
+  height: 48vh;
+  object-fit: cover;
+  display: block;
+}
+.another-blog-list .article__title {
+  margin-top: 36px; 
+  margin-bottom: 36px; 
+}  
+.another-blog-list .article__title > a, .new-home-blog-section .grid--blog .article__title .story-title {
+  font-family: "Compacta";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: uppercase;
+} 
+.another-blog-list .article__title .edi, .new-home-blog-section .grid--blog .article__title .edi {
+  font-family: "Kepler";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: 20px;
+}
+.another-blog-list .article__title .read-story, .new-home-blog-section .grid--blog .article__title .read-story {
+  margin: 0;
+  margin-top: 20px;
+}
+.another-blog-list .article__title .read-story a, .new-home-blog-section .grid--blog .article__title .read-story a {
+  font-family: "Tungsten";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin: 0;
+  position: relative;
+}
+ 
+.another-blog-list .article__title .read-story a:after, .new-home-blog-section .grid--blog .article__title .read-story a:after{
+  content: "";
+  position: absolute;
+  top: 54%;
+  background: url('https://cdn.shopify.com/s/files/1/0573/2201/2880/t/56/assets/arrow-bo-right.png?v=1664285703');
+  width: 50px;
+  height: 10px;
+  left: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  right: -75px;
+  transform: translateY(-50%);
+} 
+
+.new-home-blog-section .blog-list-view.blog-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 80px;
+} 
+.new-home-blog-section .blog-list-view.blog-list .home-blog{
+  width: calc(50% - 25px);
+}
+.new-home-blog-section .grid--blog > .grid__item{
+  width: calc(50% - 25px);
+}
+.new-home-blog-section .grid--blog > .grid__item.first-grid{
+  width: 100%;
+  margin-bottom: 28px;
+}
+.new-home-blog-section .grid--blog{
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.new-home-blog-section .grid--blog:after{
+  display: none;
+}  
+.new-home-blog-section .grid--blog .grid__item{
+ padding-left: 0; 
+}
+.new-home-blog-section .blog-list-view.blog-list .home-blog .article-listing{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.view-all-btn.hide-this{
+  display: none;
+}
+@media screen and (max-width: 1440px) {
+  .other-grid
+    .page-width
+    .grid
+    .grid__item
+    .article-listing
+    .blog-list-image
+    img {
+    height: 48vh;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .other-grid
+    .page-width
+    .grid
+    .grid__item
+    .article-listing
+    .blog-list-image
+    img {
+    height: 40vh;
+  }
+  .new-home-blog-section .view-all-btn {
+    max-width: 265px;
+    height: 100px;
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .other-grid
+    .page-width
+    .grid
+    .grid__item
+    .article-listing
+    .blog-list-image
+    img {
+    height: 20vh;
+  }
+  .new-home-blog-section {
+    padding: 0 55px;
+  }
+  .new-home-blog-section .view-all-btn {
+    margin: 20px auto 0;
+  }
+.new-home-blog-section
+  .blog-list-view
+  .first-grid
+  .page-width
+  .grid
+  .grid__item
+  .article__title .blog-title{
+    bottom: 100px;
+}
+}
+@media screen and (max-width: 820px) {
+  .new-home-blog-section .blog-list-view .other-list-wrap .other-grid {
+    margin-bottom: 50px;
+  }
+  .new-home-blog-section{
+      padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .another-blog-list .article__title .edi, .new-home-blog-section .grid--blog .article__title .edi {
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: 10px;
+ }
+  .another-blog-list .article__title .read-story, .new-home-blog-section .grid--blog .article__title .read-story{
+    margin-top: 15px;
+  }
+  .another-blog-list .article__title .read-story a, .new-home-blog-section .grid--blog .article__title .read-story a{
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .new-home-blog-section .grid__item .article__grid-image-container{
+    margin-bottom: 35px;
+  }
+  .new-home-blog-section .blog-list-view.blog-list{
+    margin-top: 60px;
+  }
+  .new-home-blog-section .blog-list-view.blog-list .home-blog{
+    margin-bottom: 0px;
+  }
+  .new-home-blog-section .grid--blog .article__title{
+    padding-left: 22px;
+    padding-right: 12px;
+    margin-bottom: 35px;
+  }
+  .new-home-blog-section .grid--blog .first-grid .article__title .story-title{
+        font-size: 30px;
+    line-height: 37px;
+  }
+  .new-home-blog-section .grid--blog > .grid__item.first-grid, .new-home-blog-section .grid--blog > .grid__item{
+    margin-bottom: 10px;
+  }
+  .new-home-blog-section .article__grid-image-container{
+    margin: 0 0 24px 0;
+  }
+  .hero-banner .banner-img {
+    object-fit: cover;
+  }
+
+.new-home-blog-section .blog-list-view .first-grid .page-width .grid .grid__item .article__title .blog-title{
+  font-family: Compacta;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+  .new-home-blog-section {
+    padding: 0;
+  } 
+  .another-blog-list .article__title .edi {
+    margin: 10px 0 0;
+  }
+  .new-home-blog-section .main-hed-blog {
+    margin: 70px 10px 15px 10px !important;
+  } 
+  .new-home-blog-section .main-hed-blog a {
+    font-size: 23px;
+    line-height: 44px;
+    font-weight: 400;
+    padding-right: 0px; 
+    letter-spacing: normal;
+  }
+  .new-home-blog-section .blog-list-view .other-list-wrap .other-grid, .new-home-blog-section .grid--blog > .grid__item, .new-home-blog-section .blog-list-view.blog-list .home-blog {
+    width: 100%;
+  }
+  .other-grid
+    .page-width
+    .grid
+    .grid__item
+    .article-listing
+    .blog-list-image
+    img {
+    height: auto;
+  }
+  .another-blog-list.article__title {
+    margin-top: 0;
+    margin: 30px;
+  }
+  .other-grid .article__title .read-story {
+    margin: 35px 0 0;
+  }
+  .new-home-blog-section .blog-list-view .other-list-wrap .other-grid {
+    margin-bottom: 0;
+  }
+  .another-blog-list .article__title{
+    margin-top: 34px;
+    padding-left: 22px;
+    padding-right: 12px;
+    margin-bottom: 34px;
+  }
+  .another-blog-list .article__title .read-story a {
+    position: relative;
+  }
+  .another-blog-list .article__title .read-story a:after {
+    content: "";
+    position: absolute;
+    top: 54%;
+    background: url("https://cdn.shopify.com/s/files/1/0573/2201/2880/t/56/assets/arrow-bo-right.png?v=1664285703");
+    width: 30px;
+    height: 6px; 
+    left: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    right: -45px;
+    transform: translateY(-50%);
+  }
+  .new-home-blog-section .view-all-btn {
+    max-width: 150px;
+    height: 50px;
+    margin: 30px auto 0;
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+ 
+{% endstylesheet %}
+
+{% javascript %}
+ 
+$(document).ready( function() {
+    $(".new-home-blog-section .view-all-btn").on("click", function(e) {
+      e.preventDefault();
+        $("#blogs-content .blog-list-view").load("/blogs/stories/ .blog-list-view.blog-list.hidden .home-blog");
+       setTimeout( function(){
+        $('.view-all-btn').addClass('hide-this'); 
+       }, 2000); 
+    });
+});
+
+{% endjavascript %}

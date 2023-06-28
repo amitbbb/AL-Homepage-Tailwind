@@ -1,0 +1,40 @@
+{% if section.settings.isEditorial %}
+{% if product.metafields.editorial.para1 != blank %}
+<div class="product-editorial-wrapper">
+  <div class="editorial-text">
+    <div class="textWrap">
+      <p>{{product.metafields.editorial.para1}}</p>
+      <p>{{product.metafields.editorial.para2}}</p>
+      <div class="edit-button">
+        <a href="{{product.metafields.editorial.btn_url}}">{{product.metafields.editorial.btn_label}}</a>
+      </div>
+    </div>
+  </div>
+  <div class="editorial-image">
+    {% if product.metafields.editorial.image != blank %}
+    <img src="{{product.metafields.editorial.image}}" alt="editorial">
+    {% endif %}
+  </div>
+  
+</div>
+{% endif %}
+{% endif %}
+{% schema %}
+  {
+    "name": "Editorial",
+	"class": "product-editorial",
+    "settings": [
+	  {
+		"type": "checkbox",
+		"label":"Enable",
+		"id": "isEditorial"
+	  }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

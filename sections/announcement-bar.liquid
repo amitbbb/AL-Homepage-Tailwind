@@ -1,0 +1,172 @@
+{%- if  section.blocks.size > 0 and section.settings.show_announcement_bar -%}
+<div class="announcement-bar swiper-container">
+  <span class="close-announcement">+</span>
+  <div class="messages swiper-wrapper">
+    {%- for block in section.blocks -%}
+    <div class="message swiper-slide"><a href="{{block.settings.url}}">{% if block.settings.title != blank %}<span>{{ block.settings.title }} &mdash;</span> {% endif %}{{block.settings.message}}</a></div>
+    {%- endfor -%}
+  </div>
+  <div class="swiper-button swiper-button-prev"></div>
+  <div class="swiper-button swiper-button-next"></div>
+</div>
+  {% comment %}
+<script src="//unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="//unpkg.com/swiper/swiper-bundle.min.css" />
+<script>
+  const swiper = new Swiper('.swiper-container', {
+    {%- if section.settings.autoplay %}
+    autoplay: {delay: {{section.settings.delay}} },
+    {%- endif -%}
+    loop: true,
+	speed: 500,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+{% endcomment %}  
+<style>
+  .close-announcement {
+    position: absolute;
+    color: #fff;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    font-family: 'Tungsten'!important;
+    font-size: 50px;
+    font-weight: 300;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .announcement-bar.setCookie {
+    display: none;
+  }
+  .swiper-button-next{
+    right: 10%!important;
+  }
+  .swiper-button-prev{
+    left: 10%!important;
+  }
+  .message.swiper-slide a{
+    color:{{section.settings.colorText}};
+    font-size: 18px;
+    font-family: Tungsten;
+    font-weight: 326;
+    line-height: 21.94px;
+  }
+  .message.swiper-slide a span{
+    font-weight: 400;
+    margin-right: 5px;
+  }
+  .announcement-bar{
+    background:{{section.settings.colorBackground}}!important;
+    position: relative;
+    overflow: hidden;
+    display: none;
+  }
+  .announcement-bar .message{
+    text-align:center;
+    color:{{section.settings.colorText}};
+    padding:14px 7%;
+    font-size: 16px;
+    font-family: 'Kepler'!important;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .announcement-bar .swiper-button-next:after, .announcement-bar .swiper-container-rtl .swiper-button-prev:after,
+  .announcement-bar .swiper-button-prev:after, .announcement-bar .swiper-container-rtl .swiper-button-next:after{
+    font-size: 15px;
+    color:{{section.settings.colorText}};
+  } 
+  {%- if  section.blocks.size < 2 %}
+  .announcement-bar .swiper-button{display:none!important;}
+  {%- endif -%}
+  
+  @media screen and (max-width: 767px){
+    .close-announcement {
+      right: 11px;
+      top: -20px;
+      z-index: 9;
+      transform: rotate(45deg);
+    }
+    .announcement-bar .message{
+      font-size: 15px;
+      padding: 7px 0px;
+      max-width: calc(100% - 90px);
+      margin: 0 auto;
+    }
+    .swiper-button-next{
+      right: 5px!important;
+    }
+    .swiper-button-prev{
+      left: 5px!important;
+    }
+    .message.swiper-slide a {
+      line-height: 18px;
+    }
+  }
+</style>
+{%- endif -%}
+ 
+{% schema %}
+  {
+    "name": "Announcement Bar",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_announcement_bar",
+        "label": "Show"
+      },
+      {
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Autoplay"
+      },
+      {
+        "type": "text",
+        "id": "delay",
+        "label": "Delay between transitions (in ms)",
+        "default": "5000"
+      },
+      {
+        "type": "color",
+        "id": "colorBackground",
+        "label": "Background color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "colorText",
+        "label": "Text color",
+        "default": "#000"
+      }
+],
+"blocks": [
+      {
+        "type": "header",
+        "name": "Message",
+        "settings": [
+            {
+              "id": "title",
+              "type": "text",
+              "label": "Promo Title"
+            },
+            {
+              "id": "message",
+              "type": "text",
+             "label": "Message"
+            },
+            {
+              "id": "url",
+              "type": "text",
+             "label": "URL"
+            }
+            
+        ]
+      }
+]
+  }
+{% endschema %}

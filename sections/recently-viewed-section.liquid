@@ -1,0 +1,89 @@
+{{ '//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js' | script_tag }}
+{{ 'jquery.products.min.js' | asset_url | script_tag }}
+{% if template contains 'product' %}
+<script>
+Shopify.Products.recordRecentlyViewed();
+</script>
+{% endif %}
+<style>
+  .collection.clearfix{
+	display: none!important;
+  }
+  .collection.clearfix.importantRule{
+    display: block!important;
+  }
+</style>
+<div id="recently-viewed-products" class="collection clearfix">
+<h2>{{section.settings.heading}}</h2>
+</div>
+
+
+{% raw %}
+<script id="recently-viewed-product-template"  type="text/x-jquery-tmpl">
+<div id="product-${handle}" class="product">
+<div class="image">
+<a href="${url}">
+<img src="${Shopify.Products.resizeImage(featured_image)}" />
+</a>
+</div>
+<div class="details">
+<a href="${url}" class="title-price-wrap">
+<span class="vendor">${vendor}</span>
+<span class="price">{{if price_varies}}{{/if}}${Shopify.formatMoney(price)}</span>
+<span class="title">${title}</span>
+</a>
+</div>
+</div>
+</script>
+{% endraw %}
+<script>
+Shopify.Products.showRecentlyViewed( { howManyToShow:15 } );
+</script>
+
+
+
+{% schema %}
+{
+  "name": {
+    "en": "Recently Viewed Product"
+  },
+  "class": "recently-viewed-products-main",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_product_recommendations",
+      "label": {
+        "en": "Show dynamic recommendations"
+      },
+      "info": {
+        "en": "Dynamic recommendations change and improve with time. [Learn more](https://help.shopify.com/en/themes/development/recommended-products)"
+      },
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": {
+        "en": "Heading"
+      },
+      "default": {
+        "en": "You may also like"
+      }
+    },  
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "label": {
+        "en": "Show vendor"
+      },
+      "default": false
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

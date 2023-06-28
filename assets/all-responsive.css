@@ -1,0 +1,563 @@
+
+/**********	sub collection css	*****************/
+.collection-main.sub .grid-view-item.product-card dl.price.price--listing {
+   
+    left: auto;
+    right: 0;
+}
+.collection-main.sub .grid-view-item.product-card dl.price.price--listing .price__regular dd {
+    margin-right: 0;
+}
+.collection-main.sub .collection-right-section dl.price.price--listing .price__regular {
+    color: #242d2d;
+    font-size: 19px;
+    line-height: 28px;
+
+    margin: -30px 0;  
+}
+
+.collection-main.sub .filters-toolbar-wrapper {
+    bottom: auto !important;
+    top: 0;
+}
+
+
+/*********** footer	************/
+
+
+a#s-f0b718ad-6448-41d2-be73-b4c989fd357e,
+a#s-9583c399-ac0f-493a-b574-aa599dd5a297 {
+    font-weight: normal;
+}
+a#s-f0b718ad-6448-41d2-be73-b4c989fd357e {
+    padding-left: 16px;
+
+}
+a#s-03174fa0-a59c-40ff-8579-6af4f5d177c1 {
+    bottom: -9px;
+}
+
+/*****	shogun homepage design	**************/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.landing-banner img {
+    max-height: 500px;
+    min-height: 400px;
+    object-fit: cover;
+}
+  
+}
+
+
+
+
+.collection-main header.collection-header+div#Collection dl.price.price--listing {
+    left: auto;
+    right: 0;
+    bottom: -10px;
+    top: auto;
+}
+
+
+.collection-main header.collection-header+div#Collection .infoWrap dl.price.price--listing {
+    bottom: 15px;
+
+}
+
+
+#shopify-section-header .site-header .site-header__icons .search-form .search-form__input {
+    max-width: 120px;
+}
+
+body.template-captcha .shopify-challenge__container input.shopify-challenge__button.btn {
+    max-width: 300px;
+}
+header.site-header.logo--center .h2.site-header__logo a {
+    background: transparent !important;
+}
+
+
+section.section1 {
+    padding: 117px 0 119px 0;
+}
+
+section.section1 {
+    padding: 117px 0 119px 0;
+}
+section.section2
+{
+	z-index: 11;  
+}
+section.section1 h1 {
+    font-size: 72px !important;
+    line-height: 50px  !important;
+    color: #242d2d;
+/*     font-family: 'Kepler'; */
+    text-transform: initial;
+/*     font-weight: 600 !important; */
+    margin-bottom: 70px;
+  letter-spacing: normal;
+}
+
+section.section1 p {
+    font-size: 45px  !important;
+    line-height: 50px  !important;
+    color: #242d2d;
+    font-family: 'Kepler';
+    text-transform: initial;
+    font-weight: normal  !important;
+  letter-spacing: normal;
+}
+section.section2 ul.alphabet li a {
+    font-size: 45px;
+    line-height: 49px;
+/*     letter-spacing: 23.78px; */
+    color: #242d2d;
+    font-weight: normal;
+   font-family: 'Kepler';
+/*     margin-right: 45px; */
+}
+section.section2 ul.alphabet {
+/*     margin: 52px 0 164px 78px !important; */
+}
+
+/* section.section2 ul#stocksymbols li a {
+    font-size: 110px;
+    line-height: 132px;
+    color: #242d2d;
+    font-family: 'Kepler';
+} */
+
+section.section2 ul#stocksymbols li a strong {
+    font-weight: 100 !important;
+}
+/* div#pinkdesign:after {
+    content: "";
+    background: url(https://cdn.shopify.com/s/files/1/0573/2201/2880/files/stories-back-2.png?v=1633699047);
+    width: 100%;
+    height: 1870px;
+    position: absolute;
+    background-position: right bottom;
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    bottom: -300px;
+    right: 0;
+    max-width: 3300px;
+  z-index: -1;
+} */
+
+section.section2 ul.medical_dictionary {
+    z-index: 1;
+    position: relative;
+}
+.rte.article__grid-excerpt {
+    position: relative;
+    line-height: 20px;
+    bottom: 309px;
+    width: 34%;
+    text-align: center;
+    margin: 0 auto;
+}
+@media (min-width: 1900px){
+body.template-collection .collection-main.sub .grid-view-item.product-card .grid-view-item__image-wrapper.js {max-width: 100% !important;width: 100%;margin: 0 auto;height: auto !important;max-height: 100% !important;}
+body.template-collection .collection-main.sub .grid-view-item.product-card .grid-view-item__image-wrapper.js img{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100% !important;
+}
+
+  
+}
+
+@media (max-width: 1540px){
+  /************	sub collection	***************/
+  .collection-main.sub .collection-right-section dl.price.price--listing .price__regular {
+    
+    margin: -35px 0;
+}
+  .collection-main.sub .collection-right-section dl.price.price--listing {
+    position: absolute;
+    left: auto;
+    right: 0;
+}
+   .collection-main.sub .collection-right-section dl.price.price--listing dd {
+    margin-right: 0
+}
+  
+  
+  /******* shogun homepage ************/
+  .banner-section
+  {
+        background-position: 100% 37% !important;
+  }
+  
+  
+	section.section2 ul.alphabet li a {
+/*     margin-right: 26px; */
+}
+ 
+  
+div#pinkdesign:after {
+    min-height: 1900px;
+  max-height: 1900px;
+    bottom: -40px;
+    right: 0;
+}
+  section.section2 ul.medical_dictionary {
+    margin-bottom: 111px !important;
+}
+
+  
+}
+
+/*  section.section2 ul.alphabet {
+   padding-left: 244px;
+    padding-right: 185px;
+} */
+
+/* @media (max-width: 1920px){
+section.section2 ul.alphabet {
+    padding-left: 443px;
+    padding-right: 185px;
+}
+} */
+
+@media (max-width: 1024px)
+{
+	section.section1 p {
+    padding-left: 78px;
+    padding-right: 78px;
+}
+}
+
+@media (max-width: 991px){
+body.template-collection .collection-main.sub .filters-toolbar-wrapper  
+  {
+    top: 0 !important;
+}
+  
+  
+  
+
+section.section1 p {
+    font-size: 25px!important;
+    line-height: normal!important;
+    
+}
+section.section1 p {
+    padding-left: 38px;
+    padding-right: 38px;
+}
+  
+ 
+  
+  
+  section.section1 p {
+    padding-left: 38px;
+    padding-right: 38px;
+    max-width: 340px;
+}
+  
+  section.section1 h2 {
+    font-size: 45px!important;
+    line-height: normal!important;
+    margin-bottom: 25px;
+  }
+  
+  section.section1 {
+    padding: 25px 0px 50px;
+    margin-top: 20px;
+}
+ 
+/*   section.section2 ul.alphabet {
+    margin: 30px 0 58px 20px!important;
+}
+  
+  section.section2 ul.alphabet li a {
+    font-size: 11px;
+    line-height: 49px;
+    letter-spacing: 6.38px;
+    font-weight: bold;
+}
+  
+ section.section2 ul.alphabet li a {
+    margin-right: 14px;
+}
+  
+  section.section2 ul#stocksymbols li a {
+    font-size: 45px;
+    line-height: 60px;
+   
+} */
+
+
+  
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1170px){
+  .site-footer>.page-width {
+      padding-left: 55px;
+    padding-right: 55px;
+}
+  button.btn.newsletter__submit {
+    padding-left: 0;
+    padding-right: 1px;
+}
+
+}
+  
+/**************	neha css start from here*********************/
+
+@media (min-width: 768px) and (max-width: 991px){
+.wishlist div#ZooomyList p.zooomypwishmsg:before {
+    width: 14px;
+    height: 15px;
+}
+}
+
+/**************	neha css end  here*********************/
+
+  
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+  
+  div#pinkdesign:before {
+    content: "";
+    background: #e486b6;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+  div#pinkdesign:after {
+    min-height: 100px;
+    max-height: 2000px;
+    top: 70px;
+    background-size: cover;
+}
+  
+  
+div#pinkdesign:after {
+    min-height: 100px;
+    max-height: 1210px;
+    top: 10px;
+    background-size: 100% 100%;
+}
+  div#pinkdesign:before
+  {
+  	display: none;
+  }
+  
+}
+
+@media only screen and (min-width: 771px) and (max-width: 990px){
+.act {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
+
+
+@media (max-width: 768px){
+section.section2 ul.medical_dictionary {
+    margin-bottom:114px !important;
+}
+  
+  div#pinkdesign:after {
+    min-height: 130px;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    top: -130px;
+    background-position: 30% 100%;
+    max-height: 1430px;
+}
+
+  section.section2 ul.alphabet {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+  ul.alphabet li a {
+    font-size: 45px !important;
+}
+  
+  div#pinkdesign:after {
+    min-height: 100px;
+    max-height: 1220px;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+  
+  
+
+}
+
+
+@media (max-width: 767px){
+  a#s-f0b718ad-6448-41d2-be73-b4c989fd357e {
+    padding-left: 10px;
+  }
+
+.banner-section {
+  background-position: 23% 0% !important;
+}
+  .collection-main.sub .collection-right-section dl.price.price--listing .price__regular {
+    font-size: 7px;
+    line-height: 9px;
+}
+  
+  .collection-main.sub .collection-right-section dl.price.price--listing .price__regular {
+    margin: 0;
+}
+  .collection-main.sub .collection-right-section dl.price.price--listing {
+    bottom: 0;
+}
+  body.template-collection .collection-main.sub header.collection-header .filters-toolbar-wrapper {
+    top: 0 !important;
+}
+  .collection-main.sub .h4.grid-view-item__title.product-card__title
+  {
+  	display: block;
+  }
+  body.template-collection .collection-main.sub .boost-pfs-filter-right.collection-right-section .product-card dl.price.price--listing {
+    top: auto;
+    bottom: -10px;
+}
+  
+  .collection-main.sub div#Collection {
+    margin-top: 20px;
+}
+  
+  
+}
+
+
+@media (max-width: 393px){
+body.template-collection .collection-main header.collection-header .filters-toolbar-wrapper {
+    top: 258px!important;
+}
+  
+}
+
+section.section2 ul.alphabet {
+    
+    max-width: 1045px;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 771px) and (max-width: 1024px){
+ul.alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 50px 0 50px 70px; */
+    padding-left: 136px;
+    padding-right: 100px;
+}
+}
+
+
+ #ArticleImage-105254027472 {
+    max-width: 100%!important;
+}
+  #ArticleImageWrapper-105254027472 {
+    max-width: 100%!important;
+}
+
+img#ArticleImage-105254060240{
+    max-width: 100%!important;
+}
+ #ArticleImageWrapper-105254060240 {
+    max-width: 100%!important;
+}
+img#ArticleImage-105254125776{
+  max-width: 100%!important;
+}
+ #ArticleImageWrapper-105254125776 {
+    max-width: 100%!important;
+}
+
+div#shopify-section-template--15155963265232__164242720683dc08c5 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0573/2201/2880/files/Orange-BG.png?v=1643089989);
+    padding-top: 110px!important;
+    padding-bottom: 140px;
+    background-size: 130%;
+    background-position-x: 0px;
+    background-position-y: -113px;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767px){
+div#shopify-section-template--15155963265232__164242720683dc08c5 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0573/2201/2880/files/imgpsh_fullsize_anim_1.png?v=1625034920);
+    padding-top: 86px!important;
+    padding-bottom: 145px;
+    background-size: 240%;
+    background-position-x: -150px;
+    background-position-y: 267px;
+    background-repeat: no-repeat!important;
+}
+  section.section1 h1 {
+    font-size: 55px!important;
+    line-height: 69px!important;
+    color: #242d2d;
+    text-transform: initial;
+    margin-bottom: 70px;
+    font-weight: 500;
+    letter-spacing: normal;
+}
+  div#shopify-section-branding-list-up section.section1 p, section.section2 ul.alphabet {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px){
+div#shopify-section-template--15155963265232__164242720683dc08c5 {
+    padding-bottom: 0px;
+}
+}
+  
+.collection-main div#Collection .collection-right-section .boost-pfs-filter-product-item .abc.boost-pfs-filter-product-item-image {
+    min-height: 474px !important;
+    max-height: 100%;
+}
+  
+  .collection-main span.disnew {
+    text-transform: capitalize!important;
+  }
+  
+  
+  img.site-header__icon.site-header__wishlist {
+    height: 20px;
+    width: 30px;
+    position: relative;
+    top: -3px;
+}
+  
+  .empty-page-content.text-center h1 {
+    font-family: 'Tungsten';
+    font-size: 65px;
+    padding-top: 50px;
+}
+
+.empty-page-content.text-center p {
+    font-size: 30px;
+    font-family: 'Kepler';
+    padding-top: 40px;
+}
+
+a.btn.btn--has-icon-after {
+    font-family: 'Tungsten';
+    background-color: #f4f0ec;
+    color: black;
+    letter-spacing: 0px;
+    font-size: 34px;
+    border: 1px solid;
+    margin-top: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+  .section-header.bnbg {
+    margin-bottom: 21px;
+    padding-top: 200px;
+}

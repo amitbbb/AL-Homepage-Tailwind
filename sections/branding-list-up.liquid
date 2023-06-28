@@ -1,0 +1,349 @@
+<style>
+ ul.alphabet {
+    display: flex;
+    flex-wrap: wrap;
+/*    margin: 50px 0 50px 70px; */
+}
+ ul.alphabet a {
+    text-align: left;
+    font-size: 41px;
+    font-family: 'Tungsten';
+    color: var(--charcoal);
+    font-weight: bold;
+    letter-spacing: 18.78px;
+    line-height: 1.2;
+   
+}
+  section.section2 ul.medical_dictionary {
+    font-family: KeplerStd-Subhead;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: semi-condensed;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--charcoal);
+	margin: 74px 1111px 427px 70px;
+      }
+  .newdivul {
+    display: flex;
+    justify-content: space-between;
+}
+  /*
+#pinkdesign {
+    padding: 449px 70px;
+    width: 518px;
+    height: 1484px;
+    position: absolute;
+    background-color: #e386b6;
+    -ms-transform: rotate(45deg);
+    -ms-transform-origin: 50% 30%;
+    transform: rotate( 
+50deg
+ );
+    border-radius: 1000px;
+    top: -50%;
+    right: -10%;
+    z-index: -1;
+}
+  */
+  
+    section.section1 {
+    text-align: center;
+/*     background-color: #edeeed; */
+    padding: 92px 0px;
+}
+  section.section2
+  {
+  	position: relative;
+    min-height: 839px;
+  }
+ section.section1 h1 {
+  
+     font-size: 35px;
+    line-height: 50px;
+    color: #242d2d;
+  font-family: 'Compacta';
+   
+    text-transform: initial;
+    
+    text-align: center;
+    color: var(--charcoal);
+}
+  
+    section.section1  p {
+    font-family: KeplerStd-ScnCapt;
+     font-size: 35px;
+    line-height: 50px;
+    color: #242d2d;
+     font-family: 'Kepler';
+    text-transform: initial;
+  
+    text-align: center;
+    color: var(--charcoal);
+}
+  
+  section.section1 p {
+    max-width: 1000px;
+    margin: 0 auto;
+/*     font-family: 'Tungsten'; */
+}
+  html {
+  scroll-behavior: smooth;
+}
+  .newtct {
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top:150px
+}
+  .newdivul ul li {
+    font-size: 40px;
+    font-family: 'Kepler';
+}
+  .h2had {
+    font-size: 40px;
+    font-family: 'Kepler';
+    font-weight: 400;
+}
+  
+  @media (max-width: 768px){
+  
+  .newtct {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 150px;
+}
+      .newdivul {
+    display: block;
+    justify-content: space-between;
+}
+    section.section1 {
+    padding-top:81px !important;
+}
+    
+  }
+  
+  section.section1 {
+    padding-top: 236px;
+}
+</style>
+
+
+
+<section class="section1">
+  <h1>  {{ section.settings.head }} </h1>
+  <p>   {{ section.settings.pahra }}
+    
+  </p>
+ 
+  
+</section>
+
+<section class="section2">
+<!--    <div id="pinkdesign"></div> -->
+<ul class="alphabet">
+    <li><a href="#a">A</a></li>    <li><a href="#b">B</a></li>    <li><a href="#c">C</a></li>    <li><a href="#d">D</a></li>
+    <li><a href="#e">E</a></li>    <li><a href="#f">F</a></li>    <li><a href="#g">G</a></li>    <li><a href="#h">H</a></li>
+    <li><a href="#i">I</a></li>    <li><a href="#j">J</a></li>    <li><a href="#k">K</a></li>    <li><a href="#l">L</a></li>
+    <li><a href="#m">M</a></li>    <li><a href="#n">N</a></li>    <li><a href="#o">O</a></li>    <li><a href="#p">P</a></li>
+    <li><a href="#q">Q</a></li>    <li><a href="#r">R</a></li>    <li><a href="#s">S</a></li>    <li><a href="#t">T</a></li>
+    <li><a href="#u">U</a></li>    <li><a href="#v">V</a></li>    <li><a href="#y">Y</a></li>    <li><a href="#z">Z</a></li>
+  </ul>
+
+{%comment%}<ul class="medical_dictionary" id="stocksymbols">
+  {% for block in section.blocks %}
+  	 {% if block.type == 'brands' %}
+  <li id="{{ block.settings.text | slice: 0 | downcase }}"><a href="{{ block.settings.url }}"><strong>{{ block.settings.text }} </strong></a></li>
+  	 {% endif %}
+  {% endfor %}
+</ul>{%endcomment%}
+  
+  
+  <div class="medical_dictionary newtct" id="a">
+  <h2 class="h2had">A</h2>
+    <div class="newdivul">
+      <ul>
+    {% for block in section.blocks %}
+    <li class="A">
+       <a href="{{ block.settings.urlA1 }}">{{ block.settings.textA1 }} </a></li>
+      {% endfor %}
+      </ul> 
+       <ul>
+      {% for block in section.blocks %}
+      <li class="A">
+      <a href="{{ block.settings.urlA2 }}">{{ block.settings.textA2 }} </a></li>
+      {% endfor %}
+      </ul> 
+        <ul>
+           {% for block in section.blocks %}
+          <li class="A">
+       <a href="{{ block.settings.urlA3 }}">{{ block.settings.textA3 }} </a></li>
+          {% endfor %}
+    </ul>
+        <ul>
+           {% for block in section.blocks %}
+     <li class="A">
+       <a href="{{ block.settings.urlA4 }}">{{ block.settings.textA4 }} </a></li>
+          {% endfor %}
+
+    </ul>
+    </div>
+  </div>
+  
+   <div class="medical_dictionary newtct" id="b">
+  <h2 class="h2had">B</h2>
+    <div class="newdivul">
+      <ul>
+        {% for block in section.blocks %}
+      <li class="A">
+       <a href="{{ block.settings.urlB1 }}">{{ block.settings.textB1 }} </a></li>
+          {% endfor %}
+      </ul> 
+       <ul>
+      {% for block in section.blocks %}
+      <li class="A">
+      <a href="{{ block.settings.urlB2 }}">{{ block.settings.textB2 }} </a></li>
+      {% endfor %}
+      </ul> 
+        <ul>
+           {% for block in section.blocks %}
+          <li class="A">
+       <a href="{{ block.settings.urlB3 }}">{{ block.settings.textB3 }} </a></li>
+          {% endfor %}
+    </ul>
+        <ul>
+           {% for block in section.blocks %}
+     <li class="A">
+       <a href="{{ block.settings.urlB4 }}">{{ block.settings.textB4 }} </a></li>
+          {% endfor %}
+
+    </ul>
+    </div>
+  </div>
+  
+
+
+</section>
+
+
+
+
+
+
+
+  
+
+
+{% schema %}
+  {
+    "name": "Brand List",
+  "settings": [
+	{
+			"id":"head",
+			"type":"text",
+			"label":"heading"
+		},
+			{
+			"id":"pahra",
+			"type":"richtext",
+			"label":"Description"
+		}
+],
+    "blocks":[
+      {
+        "type": "A",
+        "name": "A",
+            "settings": [
+          {
+              "type": "url",
+              "id": "urlA1",
+              "label": "Link"
+          },
+		  {
+              "type": "text",
+              "id": "textA1",
+              "label": "text"
+          },  {
+              "type": "url",
+              "id": "urlA2",
+              "label": "Link"
+          },
+		  {
+              "type": "text",
+              "id": "textA2",
+              "label": "text"
+          },  {
+              "type": "url",
+              "id": "urlA3",
+              "label": "Link"
+          },
+		  {
+              "type": "text",
+              "id": "textA3",
+              "label": "text"
+          } , {
+              "type": "url",
+              "id": "urlA4",
+              "label": "Link"
+          },
+		  {
+              "type": "text",
+              "id": "textA4",
+              "label": "text"
+          }
+		  
+	]
+      },
+      {
+        "type": "B",
+        "name": "B",
+       "settings": [
+        {
+              "type": "url",
+              "id": "urlB1",
+              "label": "Link"
+          },
+		  {
+              "type": "text",
+              "id": "textB1",
+              "label": "text"
+          },  {
+              "type": "url",
+              "id": "urlB2",
+              "label": "Link"
+          },
+		  {
+              "type": "text",
+              "id": "textB2",
+              "label": "text"
+          },  {
+              "type": "url",
+              "id": "urlB3",
+              "label": "Link"
+          },
+		  {
+              "type": "text",
+              "id": "textB3",
+              "label": "text"
+          } , {
+              "type": "url",
+              "id": "urlB4",
+              "label": "Link"
+          },
+		  {
+              "type": "text",
+              "id": "textB4",
+              "label": "text"
+          }
+		  
+	]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

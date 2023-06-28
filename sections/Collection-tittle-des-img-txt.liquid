@@ -1,0 +1,399 @@
+{% assign products_per_row = section.settings.grid | times: 1 %}
+{% case products_per_row %}
+	{% when 2 %}
+		{%- assign max_height = 530 -%}
+		{%- assign grid_item_width = 'medium-up--one-half' -%}
+	{% when 3 %}
+		{%- assign max_height = 345 -%}
+		{%- assign grid_item_width = 'small--one-half medium-up--one-third' -%}
+	{% when 4 %}
+		{%- assign max_height = 250 -%}
+		{%- assign grid_item_width = 'small--one-half medium-up--one-quarter' -%}
+	{% when 5 %}
+		{%- assign max_height = 195 -%}
+		{%- assign grid_item_width = 'small--one-half medium-up--one-fifth' -%}
+{% endcase %}
+
+{% if section.settings.layout == 'grid' %}
+	{%- assign limit = section.settings.grid | times: section.settings.rows -%}
+{% else %}
+	{%- assign limit = 16 -%}
+{% endif %}
+
+{%comment%}
+
+{% render 'breadcrumbs' %}
+
+{%endcomment%}
+
+
+{%comment%}
+
+<div class="breadcum">
+
+  
+  {%- unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' -%}
+{%- assign t = template | split: '.' | first -%}
+
+<nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
+  
+   <h1>Home</h1>
+    
+  <ol class="breadcrumbs__list">
+      {%- case t -%}
+      {%- when 'page' -%}
+        <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+        </li>
+     
+      {%- when 'collection' and collection.handle -%}
+        {%- if current_tags -%}
+          <li class="breadcrumbs__item">
+            {{ collection.title | link_to: collection.url }}
+          </li>
+          <li class="breadcrumbs__item">
+            {%- capture tag_url -%}{{ collection.url }}/{{ current_tags | join: "+"}}{%- endcapture -%}
+            <a class="breadcrumbs__link" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + "}}</a>
+          </li>
+        {%- else -%}
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="{{ collection.url }}" aria-current="page">{{ collection.title | capitalize}}</a>
+          </li>
+        {%- endif -%}
+    {%- endcase -%}
+  </ol>
+</nav>
+{%- endunless -%}
+
+</div>
+
+
+
+
+
+<div data-section-id="{{ section.id }}" data-section-type="collection-template" class="collection-main">
+	<header class="collection-header">
+		{% if section.settings.show_collection_image and collection.image %}
+			<div class="collection-hero">
+				<div class="collection-hero__image lazyload js">
+                  <img src="{{ collection.image | img_url: 'master' }}">
+                </div>
+				<noscript>
+					<div class="collection-hero__image" style="background-image: url({{ collection.image | img_url: '2048x600', crop: 'top' }});"></div>
+				</noscript>
+      		</div>
+		{% endif %}
+  	</header>
+
+    <div class="title-dis-div abd"> 
+      <h1 role="text" class="newtit-div">
+        {{ collection.title }}
+ 	  </h1>
+      <div class="boost-pfs-filter-collection-description rte  new-dis sec-dis-col">
+        {{ collection.description }}
+      </div>
+    </div>
+      
+    <div class="img-txt-div">
+        <p class="abs-txt">{{ collection.metafields.col.image-over-txt.value }}</p>
+      <div class="img-div-in">
+      
+          <a href="{{ collection.metafields.col.img-url.value }}"><img src="{{ collection.metafields.image-sec.img11.value }}"></a>
+      </div>
+      <div class="txt-div">
+        <div class="text-wrapper">
+          <p>{{ collection.metafields.col.txt11.value }}</p>
+          <p>{{ collection.metafields.col.txt12.value }}</p>
+        <a href="{{ collection.metafields.col.txt-url.value }}">  <p class="product-titl">{{ collection.metafields.col.txt121.value }}</p>
+          <p class="blck-part-pp">{{ collection.metafields.col.txt123.value }}</p></a>
+        </div>
+      </div>
+    </div>
+</div>
+
+{% endcomment%}
+
+{% schema %}
+
+{
+  "name": {
+    "cs": "Stránky s kolekcemi",
+    "da": "Kollektionssider",
+    "de": "Kategorie-Seiten",
+    "en": "Brand Landing Banner",
+    "es": "Páginas de colección",
+    "fi": "Kokoelman sivut",
+    "fr": "Pages de collections",
+    "it": "Pagine di collezioni",
+    "ja": "コレクションページ",
+    "ko": "컬렉션 페이지",
+    "nb": "Samlingssider",
+    "nl": "Collectiepagina's",
+    "pl": "Strony kolekcji",
+    "pt-BR": "Páginas de coleções",
+    "pt-PT": "Páginas de coleções",
+    "sv": "Produktseriesidor",
+    "th": "หน้าคอลเลกชัน",
+    "tr": "Koleksiyon sayfaları",
+    "vi": "Trang bộ sưu tập",
+    "zh-CN": "产品系列页面",
+    "zh-TW": "商品系列頁面"
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_collection_image",
+      "label": {
+        "cs": "Zobrazit obrázek kolekce",
+        "da": "Vis kollektionsbillede",
+        "de": "Kategorie-Foto anzeigen",
+        "en": "Show collection image",
+        "es": "Mostrar imagen de la colección",
+        "fi": "Näytä kokoelman kuva",
+        "fr": "Afficher l'image de la collection",
+        "it": "Mostra immagine collezione",
+        "ja": "コレクションの画像を表示する",
+        "ko": "컬렉션 이미지 표시",
+        "nb": "Vis samlingsbilde",
+        "nl": "Collectieafbeelding weergeven",
+        "pl": "Pokaż obraz kolekcji",
+        "pt-BR": "Exibir imagem da coleção",
+        "pt-PT": "Mostrar imagem da coleção",
+        "sv": "Visa produktseriebilder",
+        "th": "แสดงรูปภาพคอลเลกชัน",
+        "tr": "Koleksiyon görselini göster",
+        "vi": "Hiển thị hình ảnh bộ sưu tập",
+        "zh-CN": "显示产品系列图片",
+        "zh-TW": "顯示商品系列圖片"
+      },
+      "default": true
+    }
+  ],"presets": [
+    {
+      "name": "Collection-tittle-des-img-txt"  }
+        ]
+}
+{% endschema %}
+<style>
+
+.feature-row__text {
+    padding-left: 30px;
+    background: #f4f0ec;
+}
+  @media (max-width: 767px){
+  .boost-pfs-filter-collection-description.rte {
+    font-size: 15px;
+    color: #242d2d;
+    padding-bottom: 6pc;
+}
+
+h1.boost-pfs-filter-collection-header {
+    font-size:  20px !important;
+    line-height: 7px !important;
+    padding-bottom: 30p;
+}
+    
+
+    .collection-main header.collection-header {
+    background-color: #edeeed;
+    font-size: 35px;
+    line-height: 50px;
+}
+  }
+  
+      .btn--tertiary {
+    background-color: transparent;
+    color: #f4f0ec;
+    border-color: #f4f0ec;
+}
+    li.pagination__text {
+    color: #f4f0ec;
+}
+  .btn--tertiary:not([disabled]):hover {
+    background-color: transparent;
+    color: #f4f0ec;
+    border-color: #f4f0ec;
+}
+  .collection-hero__image {
+   
+    height: 504px;
+  }
+  .new-had {
+/*     background-image: url(https://cdn.shopify.com/s/files/1/0573/2201/2880/files/Screenshot_24.png?v=1642255410); */
+    object-fit: cover !important;
+    height: 110vh !important;
+  }
+    
+  
+  .new-col-bg header.collection-header+.page-width {
+    margin-top: 108px;
+}
+  body.template-collection .new-col-bg .page-width {
+    max-width: 100%;
+    margin: 0 50px;
+}
+  .new-col-bg h2.filter-heading {
+    font-size: 31px;
+    line-height: 51px;
+    color: #242d2d;
+    letter-spacing: .93px;
+    margin-bottom: 0;
+    margin-top: 127px;
+}
+  .new-col-bg div#boost-pfs-filter-tree {
+    padding-right: 31px;
+    margin-top: 44px;
+}
+  
+  .new-col-bg button.boost-pfs-filter-button.boost-pfs-filter-option-title-heading {
+    width: 100%;
+}
+  
+  .new-col-bg .boost-pfs-filter-option-title-heading span {
+    cursor: pointer;
+    font-size: 23px;
+    line-height: 51px;
+    letter-spacing: .69px;
+    color: #242d2d;
+    font-family: Tungsten;
+}
+ .new-col-bg button.boost-pfs-filter-button span.boost-pfs-filter-option-value {
+    margin-left: 16px;
+    font-size: 23px;
+    line-height: 44px;
+    display: inline-block;
+    letter-spacing: .69px;
+    color: #242d2d;
+    font-family: Tungsten;
+}
+  
+  .new-col-bg .filters-toolbar__item-wrapper.collection-filter {
+    justify-content: flex-end;
+}
+ .new-col-bg .filters-toolbar__item-child:first-child {
+    margin-right: 0;
+}
+  
+ .new-col-bg header.collection-header .filters-toolbar-wrapper {
+    position: absolute;
+    margin-bottom: 0;
+    top: 320px;
+    right: 0;
+}
+  body.template-collection .new-col-bg.page-width {
+    max-width: 100%;
+    margin: 0 50px;
+}
+  .new-col-bg .filters-toolbar__item-child:first-child {
+    margin-right: 0;
+}
+  
+    span.sp3 {
+    left: 318px;
+}
+
+.mnhy.top-pad .group.group2 span.sp3 {
+    left: 325px;
+}
+@media (max-width: 767px){
+body.template-collection .collection-main header.collection-header .filters-toolbar-wrapper {
+    top: 759px!important;
+}
+body.template-collection .collection-main header.collection-header .filters-toolbar-wrapper {
+display:none;
+}
+  body.template-collection .mnhy.top-pad .group.group2 span.sp3 {
+    left: 172px!important;
+}
+  .mnhy.top-pad .ch-sec.feature-row__item.feature-row__text.feature-row__text--left {
+    padding-left: 55px!important;
+}
+  
+}
+  
+.new-col-hed {
+    padding-top: 129px;
+    padding-bottom: 180px;
+}
+
+  
+ @media (max-width: 1024px){
+  .new-had {
+/*     background-image: url(https://cdn.shopify.com/s/files/1/0573/2201/2880/files/Screenshot_24.png?v=1642255410); */
+    object-fit: cover !important;
+    height: 100% !important;
+}
+   .mnhy.top-pad .ch-sec.feature-row__item.feature-row__text.feature-row__text--left {
+    padding-left: 55px!important;
+}
+   .mnhy.top-pad .group.group2 span.sp3 {
+    left: 264px;
+}
+   
+ 
+
+
+  }
+  
+ 
+.title-dis-div {
+    display: flex;
+    padding-left: 51px;
+    padding-right: 50px;
+}
+ .boost-pfs-filter-collection-description.rte.new-dis.sec-dis-col {
+    width: calc(70% - 25px)!important;
+    font-family: 'Keplerlite';
+    font-size: 45px;
+    line-height: normal;
+}
+  .newtit-div {
+    width: 30%;
+}
+  .newtit-div {
+    width: calc(30% - 25px);
+    font-family: 'Compacta';
+    font-weight: 700;
+    font-size: 72px;
+    padding-top: 87px;
+    line-height: normal;
+}
+  .img-txt-div {
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    
+}
+  .img-div-in {
+    width: 50%;
+}
+.txt-div {
+    width: 50%;
+    background-color: #eef1f1;
+}
+  
+    .txt-div {
+   
+    padding-top: 12%;
+  
+}
+  .img-div-in img {
+    width: 100%;
+}
+  .txt-div p {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Kepler';
+}
+  p.product-titl {
+    font-family: 'Tungsten';
+    margin-bottom: 0px;
+}
+  @media (max-width: 768px){
+body.template-collection .mnhy.top-pad .group.group2 span.sp3 {
+    left: 204px;
+}
+  }
+</style>
+
+  

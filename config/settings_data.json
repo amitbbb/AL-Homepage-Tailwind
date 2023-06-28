@@ -1,0 +1,4264 @@
+{
+  "current": {
+    "color_text": "#242d2d",
+    "color_body_text": "#242d2d",
+    "color_body_bg": "#f4f0ec",
+    "type_base_size": 20,
+    "predictive_search_show_vendor": true,
+    "predictive_search_show_price": true,
+    "social_twitter_link": "www.twitter.com\/afternoonlight_",
+    "social_facebook_link": "https:\/\/www.facebook.com\/AfternoonLightHome",
+    "social_pinterest_link": "www.pinterest.com\/afternoonlight",
+    "social_instagram_link": "https:\/\/www.instagram.com\/afternoonlighthome\/",
+    "social_youtube_link": "",
+    "favicon": "shopify:\/\/shop_images\/Browser-Icon_AL.png",
+    "boost_limit_selector": "12,60",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Screenshot_36.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#f4f0ec",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#f4f0ec",
+    "checkout_accent_color": "#101010",
+    "checkout_button_color": "#080808",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "hide_items": false,
+          "align_logo": "center",
+          "logo_max_width": 250,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": false,
+          "message_text": "Shop Coming Soon! Join now for updates and first access.",
+          "message_link": "",
+          "color_bg": "#eb6c44",
+          "color_text": "#ffffff"
+        }
+      },
+      "hero-1": {
+        "type": "hero",
+        "blocks": {
+          "473bdeb1-15a3-4bc1-b3be-3b8648b640a2": {
+            "type": "Slides",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Pride_1.webp",
+              "main_url": "https:\/\/afternoonlight.com\/blogs\/stories\/saygay"
+            }
+          },
+          "100db044-928c-481e-8745-8cd025b925fa": {
+            "type": "Slides",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Howto_homebar_edca2057-2404-4685-bb2b-66e372f97264.jpg",
+              "main_url": "https:\/\/afternoonlight.com\/blogs\/stories\/howtomakeyourbed"
+            }
+          },
+          "4cfab26d-e787-4912-8b78-940997ad8dbc": {
+            "type": "Slides",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shogun_a7c1d40c-6fa7-4a7c-b094-7f62a3c86b10.jpg",
+              "main_url": "https:\/\/afternoonlight.com\/blogs\/stories\/heydaddy"
+            }
+          },
+          "31e56769-5f06-4aca-ae6a-44f9588a87ec": {
+            "type": "Slides",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Howto_homebar.jpg",
+              "main_url": "https:\/\/afternoonlight.com\/blogs\/stories\/how-tothehomebar"
+            }
+          },
+          "2490a378-4fb4-4a9b-8864-17a90a91ed43": {
+            "type": "Slides",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/clockstory.jpg",
+              "main_url": "https:\/\/afternoonlight.com\/blogs\/stories\/timetimetime"
+            }
+          },
+          "5940191b-7b9f-4553-98e1-4e67e48cd961": {
+            "type": "Slides",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shogun_35a17aef-ae57-4855-bf3d-029a794d35c2.jpg",
+              "main_url": "https:\/\/afternoonlight.com\/blogs\/stories\/takefivenicolelyn"
+            }
+          }
+        },
+        "block_order": [
+          "473bdeb1-15a3-4bc1-b3be-3b8648b640a2",
+          "100db044-928c-481e-8745-8cd025b925fa",
+          "4cfab26d-e787-4912-8b78-940997ad8dbc",
+          "31e56769-5f06-4aca-ae6a-44f9588a87ec",
+          "2490a378-4fb4-4a9b-8864-17a90a91ed43",
+          "5940191b-7b9f-4553-98e1-4e67e48cd961"
+        ],
+        "settings": {
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/154076_b.jpg",
+          "layout": "left",
+          "title": "",
+          "text": "<div class=\"group group2\">\n          <span class=\"sp1\"><em><b>The  <span>special  <\/span>things:   from sponges<\/b><\/em><\/span><br>\n        <span class=\"sp2\">to sofas,    vetted,     assorted, edited,<\/span><br><span class=\"sp4\"> and served up so you<\/span><br>\n        <span class=\"sp3\">can stop scrolling and get living.<\/span>\n        <\/div>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "disabled": true,
+        "blocks": {
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "disabled": true,
+        "settings": {
+          "title": "Items we love",
+          "title_mobile": "items we love",
+          "shop_all": "Shop All",
+          "shop_all_url": "https:\/\/afternoonlight.com\/collections\/all",
+          "collection": "items-we-love",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "disabled": true,
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "disabled": true,
+        "blocks": {
+          "image-bar-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "image-bar-2": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "image-bar-2"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "menu": "footer-menu2"
+            }
+          },
+          "223755b6-b472-442b-8959-3b49d275986d": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "menu": "new-theme-footer-menu"
+            }
+          },
+          "footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": ""
+            }
+          },
+          "0b577772-caa0-4c91-a576-20662f5d466c": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "223755b6-b472-442b-8959-3b49d275986d",
+          "footer-1",
+          "0b577772-caa0-4c91-a576-20662f5d466c"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#f6f1ed",
+          "color_footer_text": "#333232",
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "insta": "https:\/\/www.instagram.com\/afternoonlight\/",
+          "fb": "https:\/\/www.facebook.com\/AfternoonLightHome",
+          "twit": "https:\/\/www.twitter.com\/afternoonlight_",
+          "pin": "https:\/\/www.pinterest.com\/afternoonlight"
+        }
+      },
+      "landing-page": {
+        "type": "landing-page",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/imgpsh_fullsize_anim_2.png",
+          "sliderimg1": "shopify:\/\/shop_images\/1_68327c45-a82b-4863-a34d-86201b969630.png",
+          "sliderimg11": "shopify:\/\/shop_images\/Untitled_design_7.png",
+          "sliderimg2": "shopify:\/\/shop_images\/mood_20.jpg",
+          "sliderimg22": "shopify:\/\/shop_images\/Untitled_design_5.png",
+          "sliderimg3": "shopify:\/\/shop_images\/MOOD_3_da9c2fa7-6bd5-42fb-8d88-b647b5cda1d6.jpg",
+          "sliderimg33": "shopify:\/\/shop_images\/Untitled_design_8.png",
+          "sliderimg4": "shopify:\/\/shop_images\/MOOD_4_d87ea42e-db43-4243-982f-7855d063d747.jpg",
+          "sliderimg44": "shopify:\/\/shop_images\/Untitled_design_7_2c014a96-13fa-4750-abf6-11f88a55bf8a.png",
+          "sliderimg5": "shopify:\/\/shop_images\/MOOD_5.jpg",
+          "sliderimg55": "shopify:\/\/shop_images\/Untitled_design_3_dd09bc7c-ef88-4ab5-882c-affe450aa516.png",
+          "sliderimg6": "shopify:\/\/shop_images\/MOOD_6_c51ea778-42db-42aa-b9ea-6ad968348246.jpg",
+          "sliderimg66": "shopify:\/\/shop_images\/Untitled_design_9_1405c5a3-3213-4487-bc0f-b9c295763188.png",
+          "sliderimg9": "shopify:\/\/shop_images\/Wine_glass.jpg",
+          "sliderimg99": "shopify:\/\/shop_images\/Untitled_design_2_f14d340e-8cd7-4716-887c-8bda4c1cd621.png",
+          "sliderimg10": "shopify:\/\/shop_images\/Window_Out.jpg",
+          "sliderimg100": "shopify:\/\/shop_images\/7.png",
+          "t1": "gathers",
+          "t2": "the best home decor on one site.",
+          "t3": "The",
+          "t4": "special",
+          "t5": "things:",
+          "t6": "from sponges",
+          "t7": "to sofas,",
+          "t8": "vetted,",
+          "t9": "assorted, edited, and served up so you",
+          "t10": "can stop scrolling and get living.",
+          "t11": "Independents & old masters.  Collaborations & context.",
+          "t12": "New\/Vintage, High\/Low.",
+          "t13": "Inspiring stories & real people.",
+          "t14": "Human spaces",
+          "t15": "Something for everyone, for everywhere that you reside",
+          "t16": "The perfect__________awaits.",
+          "t17": "Find your way home",
+          "t18": "January 2022"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 3,
+          "rows": 4,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true,
+          "layout1": "left",
+          "title": "Image with text",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+        }
+      },
+      "feature-row1": {
+        "type": "feature-row1",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screenshot_9.png",
+          "layout": "right",
+          "title": "",
+          "text": "<div class=\"group group2\">\n          <span class=\"sp1\"><em>The  <span>special  <\/span>things:   from sponges<\/em><\/span><br>\n        <span class=\"sp2\">to sofas,    vetted,     assorted, edited,<\/span><br><span> and served up so you<\/span><br>\n        <span class=\"sp3\">can stop scrolling and get living.<\/span>\n        <\/div>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "collection1": {
+        "type": "collection1",
+        "settings": {
+          "title": "",
+          "collection": "seating",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "feature-row3": {
+        "type": "feature-row3",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2021-07-18_at_11.48.18.png",
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "collection3": {
+        "type": "collection3",
+        "settings": {
+          "title": "Featured collection",
+          "collection": "seating",
+          "grid": 3,
+          "rows": 4,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "hero1": {
+        "type": "hero1",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screenshot_6.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": false,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "RELATED PRODUCTS",
+          "explore_brand": "Explore Brands",
+          "show_vendor": false
+        }
+      },
+      "Top-collection-text": {
+        "type": "Top-collection-text",
+        "settings": {
+        }
+      },
+      "second-collection-template": {
+        "type": "second-collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 3,
+          "rows": 3,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": false,
+          "tags_enable": false
+        }
+      },
+      "third-collection": {
+        "type": "third-collection",
+        "settings": {
+          "layout": "grid",
+          "grid": 3,
+          "rows": 7,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "brands": {
+        "type": "brands",
+        "blocks": {
+          "c45297ec-d45e-4829-a4d6-8c57f5d68a67": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Areaware"
+            }
+          },
+          "5be4dcb0-d132-4ea2-ab1f-49a83b587f1a": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Ameico"
+            }
+          },
+          "67c740ba-e644-4eba-836d-426853753dcf": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Vitra"
+            }
+          },
+          "e63e0802-8770-4886-ba45-7857718cb5a5": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Concrete"
+            }
+          },
+          "5c17f41c-c926-481d-bc4d-a7cac086cd21": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Dansk"
+            }
+          },
+          "4b52c5f9-fa6b-4244-b2a9-1c61ccef146d": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Preciado"
+            }
+          },
+          "ef49af29-8c96-4860-a1a5-f0e8feccd74a": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Artek"
+            }
+          },
+          "d8f32021-ce52-4500-b0fa-ea45742a4bd6": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Artemide"
+            }
+          },
+          "14f2e85a-e839-4e32-8307-05426bc7ad47": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Hay"
+            }
+          },
+          "01ea26b0-635c-4ce3-b786-5c115e712738": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Herman Miller"
+            }
+          },
+          "1c1abe98-6aca-4409-bf1e-f667b6505111": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Judd"
+            }
+          },
+          "84c16048-d2f7-43fd-aed6-a8ea1ded59a8": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Kartell"
+            }
+          },
+          "08025a12-c019-43d2-888f-495706801c3c": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Knoll"
+            }
+          },
+          "f3850afd-d1cd-4646-90b6-e808bd0d96f4": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Moma"
+            }
+          },
+          "28639716-938e-4613-8d38-47cd0e550ac8": {
+            "type": "brands",
+            "settings": {
+              "url": "",
+              "text": "Ryan Preciado"
+            }
+          },
+          "4b9dbbbd-43ae-46d0-ac45-3ad95eb2c5ae": {
+            "type": "brands",
+            "settings": {
+              "url": "shopify:\/\/collections",
+              "text": "NEW"
+            }
+          }
+        },
+        "block_order": [
+          "c45297ec-d45e-4829-a4d6-8c57f5d68a67",
+          "5be4dcb0-d132-4ea2-ab1f-49a83b587f1a",
+          "67c740ba-e644-4eba-836d-426853753dcf",
+          "e63e0802-8770-4886-ba45-7857718cb5a5",
+          "5c17f41c-c926-481d-bc4d-a7cac086cd21",
+          "4b52c5f9-fa6b-4244-b2a9-1c61ccef146d",
+          "ef49af29-8c96-4860-a1a5-f0e8feccd74a",
+          "d8f32021-ce52-4500-b0fa-ea45742a4bd6",
+          "14f2e85a-e839-4e32-8307-05426bc7ad47",
+          "01ea26b0-635c-4ce3-b786-5c115e712738",
+          "1c1abe98-6aca-4409-bf1e-f667b6505111",
+          "84c16048-d2f7-43fd-aed6-a8ea1ded59a8",
+          "08025a12-c019-43d2-888f-495706801c3c",
+          "f3850afd-d1cd-4646-90b6-e808bd0d96f4",
+          "28639716-938e-4613-8d38-47cd0e550ac8",
+          "4b9dbbbd-43ae-46d0-ac45-3ad95eb2c5ae"
+        ],
+        "settings": {
+          "head": "Brands",
+          "pahra": "<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit  wisi enim ad minim veniam, quis nostru.<\/p>"
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "but1": "Category",
+          "url": "",
+          "sort_enable": true,
+          "tags_enable": true,
+          "back_color": "#edeeed",
+          "para": "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit  wisi enim ad minim veniam, quis nostru.",
+          "layout": "list",
+          "blog_show_author": true,
+          "blog_show_date": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "collection-template-boost-pfs-original": {
+        "type": "collection-template-boost-pfs-original",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true,
+          "layout1": "left",
+          "title": "Image with text",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "email-popup": {
+        "type": "email-popup",
+        "settings": {
+        }
+      },
+      "email-popup-all": {
+        "type": "email-popup-all",
+        "settings": {
+        }
+      },
+      "branding-list-up": {
+        "type": "branding-list-up",
+        "blocks": {
+          "731e638a-4ea0-4096-87a0-d8a57453347c": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "19\/99 Beauty",
+              "urlA2": "",
+              "textA2": "19\/99 Beauty",
+              "urlA3": "",
+              "textA3": "19\/99 Beauty",
+              "urlA4": "",
+              "textA4": "19\/99 Beauty"
+            }
+          },
+          "cc27d4d5-91f1-44ec-b809-1055639b3ebf": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "1986",
+              "urlA2": "",
+              "textA2": "1986",
+              "urlA3": "",
+              "textA3": "1986",
+              "urlA4": "",
+              "textA4": "1986"
+            }
+          },
+          "b0d7927a-fb08-4b7c-b96f-8a8008ab1d69": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "A-COLD-WALL-*",
+              "urlA2": "",
+              "textA2": "A-COLD-WALL-*",
+              "urlA3": "",
+              "textA3": "A-COLD-WALL-*",
+              "urlA4": "",
+              "textA4": "A-COLD-WALL-*"
+            }
+          },
+          "6f424bfc-7abb-47ad-b457-e2e6301270cd": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "Aarke",
+              "urlA2": "",
+              "textA2": "Aarke",
+              "urlA3": "",
+              "textA3": "Aarke",
+              "urlA4": "",
+              "textA4": "Aarke"
+            }
+          },
+          "09016b9a-3990-4950-9719-58bbdeb9b004": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "Acne Studios",
+              "urlA2": "",
+              "textA2": "Acne Studios",
+              "urlA3": "",
+              "textA3": "Acne Studios",
+              "urlA4": "",
+              "textA4": "Acne Studios"
+            }
+          },
+          "bf380d67-edac-4646-a24a-1138c8507d79": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "ACRONYM",
+              "urlA2": "",
+              "textA2": "ACRONYM",
+              "urlA3": "",
+              "textA3": "ACRONYM",
+              "urlA4": "",
+              "textA4": "ACRONYM"
+            }
+          },
+          "08371ed8-d399-441c-b8aa-de7a15b7ecb4": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "adidas Kids",
+              "urlA2": "",
+              "textA2": "adidas Kids",
+              "urlA3": "",
+              "textA3": "adidas Kids",
+              "urlA4": "",
+              "textA4": "adidas Kids"
+            }
+          },
+          "6a2e9331-4ee4-46e2-9154-22fb691195f7": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "adidas Kids",
+              "urlA2": "",
+              "textA2": "adidas Kids",
+              "urlA3": "",
+              "textA3": "adidas Kids",
+              "urlA4": "",
+              "textA4": "adidas Kids"
+            }
+          },
+          "c7f5f9d1-257f-4f86-87be-468cdc087655": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "Aesop",
+              "urlA2": "",
+              "textA2": "Aesop",
+              "urlA3": "",
+              "textA3": "Aesop",
+              "urlA4": "",
+              "textA4": "Aesop"
+            }
+          },
+          "8daf3547-1b19-4357-8df5-c0e48813fed6": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "Afield Out",
+              "urlA2": "",
+              "textA2": "Afield Out",
+              "urlA3": "",
+              "textA3": "Afield Out",
+              "urlA4": "",
+              "textA4": "Afield Out"
+            }
+          },
+          "bb1687ea-349d-4e01-b093-8c28fa884d2f": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "African Botanics",
+              "urlA2": "",
+              "textA2": "African Botanics",
+              "urlA3": "",
+              "textA3": "African Botanics",
+              "urlA4": "",
+              "textA4": "African Botanics"
+            }
+          },
+          "efd9d32c-a6bc-4fc1-bef2-c51209fadcde": {
+            "type": "A",
+            "settings": {
+              "urlA1": "",
+              "textA1": "AGENT NATEUR",
+              "urlA2": "",
+              "textA2": "AGENT NATEUR",
+              "urlA3": "",
+              "textA3": "AGENT NATEUR",
+              "urlA4": "",
+              "textA4": "AGENT NATEUR"
+            }
+          },
+          "7fada40d-1407-4f9e-812e-f131f4e6af68": {
+            "type": "B",
+            "settings": {
+              "urlB1": "",
+              "textB1": "19\/99 Beauty",
+              "urlB2": "",
+              "textB2": "19\/99 Beauty",
+              "urlB3": "",
+              "textB3": "",
+              "urlB4": "",
+              "textB4": ""
+            }
+          },
+          "bcc0b56d-de38-48d9-8236-90552b878be9": {
+            "type": "B",
+            "settings": {
+              "urlB1": "",
+              "textB1": "1986",
+              "urlB2": "",
+              "textB2": "1986",
+              "urlB3": "",
+              "textB3": "",
+              "urlB4": "",
+              "textB4": ""
+            }
+          },
+          "aa168456-5103-450b-bd5f-de6e8c786d7b": {
+            "type": "B",
+            "settings": {
+              "urlB1": "",
+              "textB1": "A-COLD-WALL-*",
+              "urlB2": "",
+              "textB2": "A-COLD-WALL-*",
+              "urlB3": "",
+              "textB3": "",
+              "urlB4": "",
+              "textB4": ""
+            }
+          },
+          "bfd7efc6-ca35-46de-b83d-284a317bc1e2": {
+            "type": "B",
+            "settings": {
+              "urlB1": "",
+              "textB1": "Aarke",
+              "urlB2": "",
+              "textB2": "Aarke",
+              "urlB3": "",
+              "textB3": "",
+              "urlB4": "",
+              "textB4": ""
+            }
+          },
+          "507fe8d9-62d9-4998-971e-6936ea9964bc": {
+            "type": "B",
+            "settings": {
+              "urlB1": "",
+              "textB1": "Acne Studios",
+              "urlB2": "",
+              "textB2": "Acne Studios",
+              "urlB3": "",
+              "textB3": "",
+              "urlB4": "",
+              "textB4": ""
+            }
+          },
+          "17bbc885-4000-4a1a-8d79-eefb922746f1": {
+            "type": "B",
+            "settings": {
+              "urlB1": "",
+              "textB1": "Aesop",
+              "urlB2": "",
+              "textB2": "Aesop",
+              "urlB3": "",
+              "textB3": "",
+              "urlB4": "",
+              "textB4": ""
+            }
+          },
+          "95d896c6-ace9-4d60-8b37-da3879d81f3c": {
+            "type": "B",
+            "settings": {
+              "urlB1": "",
+              "textB1": "Afield Out",
+              "urlB2": "",
+              "textB2": "Afield Out",
+              "urlB3": "",
+              "textB3": "",
+              "urlB4": "",
+              "textB4": ""
+            }
+          },
+          "6e0add94-7098-48e2-b8f4-4bb789a8cbb5": {
+            "type": "B",
+            "settings": {
+              "urlB1": "",
+              "textB1": "African",
+              "urlB2": "",
+              "textB2": "African",
+              "urlB3": "",
+              "textB3": "",
+              "urlB4": "",
+              "textB4": ""
+            }
+          },
+          "eaf41c46-ca86-4caa-8ed7-350ee8b69479": {
+            "type": "B",
+            "settings": {
+              "urlB1": "",
+              "textB1": "AGENT NATEUR",
+              "urlB2": "",
+              "textB2": "AGENT NATEUR",
+              "urlB3": "",
+              "textB3": "",
+              "urlB4": "",
+              "textB4": ""
+            }
+          }
+        },
+        "block_order": [
+          "731e638a-4ea0-4096-87a0-d8a57453347c",
+          "cc27d4d5-91f1-44ec-b809-1055639b3ebf",
+          "b0d7927a-fb08-4b7c-b96f-8a8008ab1d69",
+          "6f424bfc-7abb-47ad-b457-e2e6301270cd",
+          "09016b9a-3990-4950-9719-58bbdeb9b004",
+          "bf380d67-edac-4646-a24a-1138c8507d79",
+          "08371ed8-d399-441c-b8aa-de7a15b7ecb4",
+          "6a2e9331-4ee4-46e2-9154-22fb691195f7",
+          "c7f5f9d1-257f-4f86-87be-468cdc087655",
+          "8daf3547-1b19-4357-8df5-c0e48813fed6",
+          "bb1687ea-349d-4e01-b093-8c28fa884d2f",
+          "efd9d32c-a6bc-4fc1-bef2-c51209fadcde",
+          "7fada40d-1407-4f9e-812e-f131f4e6af68",
+          "bcc0b56d-de38-48d9-8236-90552b878be9",
+          "aa168456-5103-450b-bd5f-de6e8c786d7b",
+          "bfd7efc6-ca35-46de-b83d-284a317bc1e2",
+          "507fe8d9-62d9-4998-971e-6936ea9964bc",
+          "17bbc885-4000-4a1a-8d79-eefb922746f1",
+          "95d896c6-ace9-4d60-8b37-da3879d81f3c",
+          "6e0add94-7098-48e2-b8f4-4bb789a8cbb5",
+          "eaf41c46-ca86-4caa-8ed7-350ee8b69479"
+        ],
+        "settings": {
+          "head": "BRANDING DIRECTORY",
+          "pahra": "<p>Home, collected. One platform for all the brands you <\/p><p>need to know and want to shop. <\/p>"
+        }
+      },
+      "vendor-section": {
+        "type": "vendor-section",
+        "blocks": {
+          "920b1752-c038-4d98-8bea-248331213c12": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/SJ_4-21-Web-0339_bc594a85-c6fa-4901-9614-085af4d892e0.webp",
+              "vendor_name": "SortJoy",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/sortjoy"
+            }
+          },
+          "c15f7a30-4ce8-42f6-9933-c6be4cd4c569": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/7095-LW-XL.webp",
+              "vendor_name": "1000Museums",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/1000-museums"
+            }
+          },
+          "749c23ee-92b9-4bd7-b70b-6a4f8c3574a0": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/13_1_1.jpg",
+              "vendor_name": "54 Celsius",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/54-celsius"
+            }
+          },
+          "97742f82-1a3d-4ba0-a30d-10fdaec3d343": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Screen_Shot_2022-02-03_at_12.52.14_PM.png",
+              "vendor_name": "Aarke",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/aarke"
+            }
+          },
+          "b2a67251-b301-49c5-a071-100ed7a2eaf3": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/aelfie__233787305_203277948436344_8776244597346954118_n.jpg",
+              "vendor_name": "Aelfie",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/aelfie"
+            }
+          },
+          "0bddca7a-90fb-4ec1-8762-f39be5477131": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/avfhome_212646928_216744050309575_7049345664763595247_n.jpg",
+              "vendor_name": "Alexandra Von Furstenberg",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/alexandra-von-furstenberg"
+            }
+          },
+          "d8eb4fcb-171d-4110-afa6-976a9d61593a": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/footed-vase_412a55ca-d9b8-44a3-b081-e1e32ec40c90.jpg",
+              "vendor_name": "Alice Cheng",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/alice-cheng"
+            }
+          },
+          "532e57ea-f41d-488a-af1d-96e09477f5bb": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/A170105_10_6x13_10_detail-1_copy.jpg",
+              "vendor_name": "Amadi Carpets",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/amadi-carpets"
+            }
+          },
+          "276599d7-d4ff-45d9-9915-9bc9e109a216": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/ES-ILLU-C-A_900x_8beadf8f-20f6-4c4f-b357-d05bc9bbe1cb.png",
+              "vendor_name": "Ameico",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/ameico"
+            }
+          },
+          "7d4a40d0-183f-4a38-b3fc-723466da7bd5": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/57633184-b0d9-4016-9d6b-ae556d7ab9311.jpg",
+              "vendor_name": "Andrew Iannazzi",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/andrew-iannazzi"
+            }
+          },
+          "5b7c9f33-57cc-4930-ada6-f487adc3fa89": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/AnglepoiseOriginal1227MiniDeskLampLinenWhite2copy_1.jpg",
+              "vendor_name": "Anglepoise",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/anglepoise"
+            }
+          },
+          "b06cd34c-6fa8-46ac-a919-e4ec1f75e0ad": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/aplatsf_238260426_354690686197561_7252045508721744922_n.jpg",
+              "vendor_name": "Aplat",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/aplat"
+            }
+          },
+          "5725d327-0d26-4bef-b1f4-6c314b180e4f": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/area.home_167213673_2229749717159756_7796355398247195159_n.jpg",
+              "vendor_name": "Area",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/area"
+            }
+          },
+          "f938cd0f-6f6d-455b-adc0-a3aa33713074": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/02_MAQ021_TIE-DYE_square.jpg",
+              "vendor_name": "Atelier Saucier",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/atelier-saucier"
+            }
+          },
+          "87f66e72-81f4-4cd2-8e05-b83530b3b3e5": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/about_2500x.progressive_3f9b7bdb-aa35-4b2e-88ac-f1dacae48e26.jpg",
+              "vendor_name": "Backdrop",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/backdrop"
+            }
+          },
+          "fe14ebf7-bf7b-469d-9963-2f5dd8c1e146": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/bamboozlehomewares_257758938_1021823021940220_4101808033073710660_n.jpg",
+              "vendor_name": "Bamboozle",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/bamboozle"
+            }
+          },
+          "0a0f4257-1dad-4ef8-9f88-c2ff8632b213": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/celadonforsite_1ba6ca07-faee-409f-b76b-55cc304adbd6_1.jpg",
+              "vendor_name": "BKLYN CLAY",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/bklyn-clay"
+            }
+          },
+          "ebb90218-7fd1-41ae-862e-c387d9436793": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/leopardo_1_1.jpg",
+              "vendor_name": "Brad Burleigh",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/brad-burleigh"
+            }
+          },
+          "836b6687-d8d5-47d1-9ea3-7135fb1061f0": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/byLassen_Saxe_collection2_300_1.jpg",
+              "vendor_name": "by Lassen",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/by-lassen"
+            }
+          },
+          "47eed557-b74e-45aa-8322-8fb253c46493": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Hero-Image-Edit-Canvas-2_76a76d98-45ba-46fd-a740-04d63929e8f1.png",
+              "vendor_name": "Claudia Pearson",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/claudia-pearson"
+            }
+          },
+          "42d3d44e-96be-45ab-bdea-181502ea5bb9": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/CT_Essentials_C3_Natural_LS.jpg",
+              "vendor_name": "Courant",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/courant"
+            }
+          },
+          "e0788e10-8441-49f2-afe9-0dd24eb771f7": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/5x4nickelbookends_78af4076-f30a-4432-9cb0-8e4fde9880f5.jpg",
+              "vendor_name": "Craighill",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/craighill"
+            }
+          },
+          "8ed2c936-7ad1-42c9-a098-8339ef20a2fa": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/01_256d6f3e-b704-4f21-936c-18d6f1cc6d67.png",
+              "vendor_name": "DADA Daily",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/dada-daily"
+            }
+          },
+          "6f9d8e56-3b02-4cd4-b044-cc4ce72b63d6": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/demedemedeme_162443774_165397772075645_6781808360700065287_n.jpg",
+              "vendor_name": "Demetria Chappo",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/demetria-chappo"
+            }
+          },
+          "05a37c8d-5f29-4651-aee0-41d4cfcf3483": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Screen_Shot_2022-06-28_at_1.42.18_PM.png",
+              "vendor_name": "Emeco",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/emeco"
+            }
+          },
+          "95644b82-130d-484f-9e03-ff277db79376": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/520416_Nordic_kitchen_serving_tray.jpg",
+              "vendor_name": "Eva Solo",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/eva-solo"
+            }
+          },
+          "8b8de60f-d5c2-4db2-8578-9c0a39f9bf66": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/a3_f61cc544-b803-41c1-a410-c105d0d265aa.png",
+              "vendor_name": "Fibre by Auskin",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/fibre-auskin"
+            }
+          },
+          "3d330375-4def-42c5-bbd3-cf0c790f0be6": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Screen_Shot_2022-06-28_at_1.51.22_PM.png",
+              "vendor_name": "Forge de Laguiole",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/forge-de-laguiole"
+            }
+          },
+          "afbe3178-2c5d-452e-a895-a79a98d0bb93": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/53535b07-00a1-4819-a1ca-ae26f7375a01.png",
+              "vendor_name": "Frieling",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/frieling"
+            }
+          },
+          "86369195-34c9-4cf2-8e7f-21ab59b900c0": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/4.jpg",
+              "vendor_name": "Georg Jensen",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/georg-jensen"
+            }
+          },
+          "764e71df-ab74-4296-87ba-86835a9bc0da": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/G_4357GNT_312_be6adfde-f0df-47fb-9d4b-a949b7a3c45d.jpg",
+              "vendor_name": "Graf Lantz",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/graf-lantz"
+            }
+          },
+          "f28bf710-0cdb-41bd-bf79-da2c418989a4": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/waffleazuremidnight2__08253.1646173097.500.750.jpg",
+              "vendor_name": "Hangai Mountain Textiles",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/hangai"
+            }
+          },
+          "354b043d-7f5c-4c66-93bb-aa9829641e1e": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Screen_Shot_2022-06-28_at_4.05.03_PM.png",
+              "vendor_name": "Hawkins New York",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/hawkins-new-york"
+            }
+          },
+          "1029f7d9-ea65-4dcc-88ec-deb071765ca6": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/homastudios_243218077_1306067573189998_8658841185430207342_n.jpg",
+              "vendor_name": "Homa Studios",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/homa-studios"
+            }
+          },
+          "5f0cb10b-b3f6-4e91-b16e-c9378dff34ff": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/euroway22_900x_7e19d4ff-de43-418b-ade7-10aa59461d4a.jpg",
+              "vendor_name": "Home Union",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/home-union"
+            }
+          },
+          "df2933b6-0dd1-4492-800b-a513f6242e95": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/MG_7403_a35121d5-1731-4b70-bb70-ace46587a841.jpg",
+              "vendor_name": "Huldra of Norway",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/huldra-of-norway"
+            }
+          },
+          "ee0af0ed-0c8d-497b-9037-c1c2d00de825": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/SMILEforweb_5188021d-7707-497d-a3fa-dd415af3a2f5_1.webp",
+              "vendor_name": "Jay Kaplan Studio",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/jay-kaplan"
+            }
+          },
+          "00964860-fe5e-47f1-8ac0-b53812daa960": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/C9C318E1-FCE9-42B9-9FCA-14A25874DF4C.jpg",
+              "vendor_name": "Julia Elsas",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/julia-elsas"
+            }
+          },
+          "195fee52-6b0e-4b20-8a0c-6ce64edf99bb": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/502E.jpg",
+              "vendor_name": "Karen Gayle Tinney",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/karen-gayle-tinney"
+            }
+          },
+          "4c5505df-dbdb-4bd2-aa42-81c6366ac76b": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/edit-DSCF9647.jpg",
+              "vendor_name": "Keith Simpson",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/keith-simpson"
+            }
+          },
+          "9d82ff40-3a2a-4723-a600-ad1369870483": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Blue-Archways-scaled.jpg",
+              "vendor_name": "Kiliim",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/kiliim"
+            }
+          },
+          "913685ef-50a2-44e5-a1c0-09a1d25009d8": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/1GXcJaeBtHrQfKFoDghNoeRrp6f2zvCq_3b5b8073-7abe-42d3-9473-f1257d8659ad.jpg",
+              "vendor_name": "Kitchen Basics",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/kitchen-basics"
+            }
+          },
+          "cf21ca65-7402-49b7-9ddb-b8bf6dbb1dc0": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/z_Lateral_Objects_Towel_Ellipse_Lifestyle_002_1.jpg",
+              "vendor_name": "Lateral Objects",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/lateral-objects"
+            }
+          },
+          "2896070b-6ace-4dcb-9208-d989fd993250": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/lepuzzpuzzles_272721120_1578340382541724_2138647772724456216_n.jpg",
+              "vendor_name": "Le Puzz",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/le-puzz"
+            }
+          },
+          "f69f59dd-3c22-4324-878a-e599de659345": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/leahsinghinc_104684179_328747044788543_4005714773071265383_n.jpg",
+              "vendor_name": "Leah Singh",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/leah-singh"
+            }
+          },
+          "333ae9eb-0541-4527-abf1-c436b1029b1e": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2.jpg",
+              "vendor_name": "Loll",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/loll"
+            }
+          },
+          "78646406-42cb-458f-bc63-87be19767d03": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/20210925_MBarclay_lifestyle_585A4491_900x_18668e6f-cd18-4f43-9ec8-01937c5e8ce3.webp",
+              "vendor_name": "M.Barclay",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/mbarclay"
+            }
+          },
+          "3c070bee-96f2-4403-a72e-fc747cd365e4": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/1UROhxAFZLIagd5c2YOH0bmBNnflI3-Wx.jpg",
+              "vendor_name": "Mawa",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/mawa"
+            }
+          },
+          "5860d6a4-f992-48d1-90af-0767efc21b72": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/MENU_Brasilia_Lounge_Chair_Sheepskin_Brasilia_Ottoman_Plint_Tall.jpg",
+              "vendor_name": "Menu",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/menu"
+            }
+          },
+          "68e41fc2-b936-4496-8558-ac1928c923f9": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2_bb7297e7-e4ca-4baa-ad2f-a1fc1ec1cefc.jpg",
+              "vendor_name": "Mepal",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/mepal"
+            }
+          },
+          "2958e15b-7855-4da1-b636-7659eccda9d6": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Agnesgrey_MINNA_styled_resize_439dccd0-b09b-48c7-8da5-eff57fdcd467.jpg",
+              "vendor_name": "MINNA",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/minna"
+            }
+          },
+          "5d5f476c-84db-47a8-ac66-495600680f41": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/1LAkKKCRf1xvSQgEkPhkjODKZGhKe1X_B.jpg",
+              "vendor_name": "Mono",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/mono"
+            }
+          },
+          "3f5e0d96-3a03-4112-a4b2-e75c82837450": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/6.jpg",
+              "vendor_name": "Monstruosus",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/monstruosus"
+            }
+          },
+          "819fe59f-b94c-4711-a88e-ba1ac7e62cbb": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/IMG_7971.webp",
+              "vendor_name": "Mylle",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/mylle"
+            }
+          },
+          "b8f5a987-8f9b-4edd-afdd-2f1b2b795f7a": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Nontron-Pocket-Knife-Violin-3_f7fa986b-54f1-4e2e-989b-2b6788dae658.jpg",
+              "vendor_name": "Nontron",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/nontron"
+            }
+          },
+          "6e02924c-4567-445e-948e-d1974cc83263": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/custom_resized_5e14d378-0b2f-4e99-b827-b0b0c5384d80_1.jpg",
+              "vendor_name": "Pieces",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/pieces"
+            }
+          },
+          "e172b5ab-bad9-4436-aee1-211e2e5d0cc3": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/FOOD-FOR-THOUGHT_1200px.jpg",
+              "vendor_name": "Piecework Puzzles",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/piecework-puzzles"
+            }
+          },
+          "25f1adb1-d689-45d5-b74d-3921eab830b8": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/3.jpg",
+              "vendor_name": "PlantPaper",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/plant-paper"
+            }
+          },
+          "5cf83f98-b4d5-44e8-b0f7-be12d23f48b0": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2_1_1.jpg",
+              "vendor_name": "Pott",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/pott"
+            }
+          },
+          "3663b100-802d-4a80-b0ec-7665a88f76e6": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Marfa_Bubble_Main_80db1559-59c4-4a4d-8b00-a76ca1e86ff9.jpg",
+              "vendor_name": "Quiet Town",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/quiet-town"
+            }
+          },
+          "ec2552ed-7861-4412-bf43-e21ce865c26e": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2_582ab3c8-0b46-4a7a-b00c-c877983623ca.jpg",
+              "vendor_name": "Rosti",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/rosti"
+            }
+          },
+          "4acb8761-4fb4-41c0-9ae9-5d6b820f970f": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Diagonal_red_DIPTA-3N_01.jpg",
+              "vendor_name": "RS Barcelona",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/rs-barcelona"
+            }
+          },
+          "1d9ab440-a776-46a8-828a-69a22498bbd9": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/MONBR-PT_Lifestyle-Pia_Sempli_Full_1.jpg",
+              "vendor_name": "Sempli",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/sempli"
+            }
+          },
+          "10351b43-7ffa-4d20-8875-cc8cca6a4040": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Adri-Chair_SlashObjects_Pistache_Front-Hero_web.jpg",
+              "vendor_name": "Slash Objects",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/slash-objects"
+            }
+          },
+          "b44d7ff6-50c5-44b3-923a-dc96a5bd5068": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Benny1-2.jpg",
+              "vendor_name": "Slowdown Studio",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/slowdown-studio"
+            }
+          },
+          "7191f5d5-21c1-4e6e-bb1f-3a17c34ada01": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Screen_Shot_2022-06-28_at_3.17.36_PM.png",
+              "vendor_name": "Smilow Design",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/smilow-design"
+            }
+          },
+          "62b1583e-0bc5-489a-8a1e-5b8323657d74": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/SOEDER_CARE_FAMILIY-SOAP_01_HR_1_1.jpg",
+              "vendor_name": "Soeder",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/soeder"
+            }
+          },
+          "c4951322-88c6-4a04-9ad8-6490eb67af14": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/F4D2D051-DEAE-47C7-9491-9845F30633A8-9275-000001DB9F516CB3_1.jpg",
+              "vendor_name": "Soil to Studio",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/soil-to-studio"
+            }
+          },
+          "b9d3db98-2086-49fa-9d1d-81f5eee57d12": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/grill-web-rough-9_1512x_602e7f6b-a8c9-45e3-a984-373a4e12f333.png",
+              "vendor_name": "Solo Stove",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/solo-stove"
+            }
+          },
+          "66722bfe-7d9f-4ebc-a41a-adee925571be": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/5_1.jpg",
+              "vendor_name": "Sophie Lou Jacobsen",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/sophie-lou-jacobsen"
+            }
+          },
+          "2c0c55b8-47c0-4a1b-8591-4afaf879a915": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2_2_1.jpg",
+              "vendor_name": "Steamery",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/steamery"
+            }
+          },
+          "747a3b2f-23bb-44ae-93fc-d6ae2ec8c3bb": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Re__n_KV_22_1.jpg",
+              "vendor_name": "Stellar Works",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/stellar-works"
+            }
+          },
+          "25d34779-de7f-4ca1-af5c-d31e28db40c2": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/download.webp",
+              "vendor_name": "Sticky Glass",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/sticky-glass"
+            }
+          },
+          "b5032cf0-f2fe-4206-8ef5-099765b2004a": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/1GuxkktsJi5EP8G9tJg-sE2bjDUnnFb_N.png",
+              "vendor_name": "Streicher Goods",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/streicher"
+            }
+          },
+          "aa071771-dae4-436f-89cf-10d02fd3a964": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Cannonball_Final_Combo_1IG.jpg",
+              "vendor_name": "Superflower Studio",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/superflower-studio"
+            }
+          },
+          "7a6b48b1-091e-4662-a34e-d475df35cfd5": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/taschen-autographed-david-bailey-photography-collectors-edition-with-book-stand-3-pieces-6117Large.jpg",
+              "vendor_name": "Taschen",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/taschen"
+            }
+          },
+          "e436ea4b-a1b9-4bf6-88f5-bf84d509b901": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/amani-sand-dog-bed-from-the-foggy-dog-883122_02ba94f4-6f95-47a5-ac36-411d0b0f3756.jpg",
+              "vendor_name": "The Foggy Dog",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/the-foggy-dog"
+            }
+          },
+          "c02caecc-1ade-4383-88d9-953430195896": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/PhotoFeb08_35313PM-removebg-preview.jpg",
+              "vendor_name": "The Rug Shop",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/the-rug-shop"
+            }
+          },
+          "cc554173-a52a-4500-a712-020d89e9464c": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/1iJDqZ-DXE_I3dfS0rJ-u0exzMYaRSt32.jpg",
+              "vendor_name": "Tom Dixon",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/tom-dixon"
+            }
+          },
+          "c06c5f04-e4b1-4a01-ae77-8f33684c1de6": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/MT07P001_a-ynqy787w-69994013_large_bd07012d-85de-4a00-a220-127efeb726e4.jpg",
+              "vendor_name": "Top Hat",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/top-hat"
+            }
+          },
+          "ba2e0abc-d158-4a59-acc5-83fd5b5bb964": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Upstate_Uprooted_Stills_068_2_1.jpg",
+              "vendor_name": "Upstate",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/upstate"
+            }
+          },
+          "4f4372d6-2d89-4668-84d6-a8444d629123": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/usm1_05ad4547-1892-423b-9c19-c0e1d8ad8c0d.png",
+              "vendor_name": "USM",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/haller"
+            }
+          },
+          "497f231d-f999-414a-9ad1-4bb7de58fbfb": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/PacificSideboard1-Web_1.png",
+              "vendor_name": "VOLK Furniture",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/volk-furniture"
+            }
+          },
+          "abdaaca6-94f6-4c23-af77-e22aa82f5c7b": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/BANNERsizing_5_5bc482e3-d903-41de-8278-61bfa0933515_1.png",
+              "vendor_name": "W & P",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/wandp"
+            }
+          },
+          "7c527f7e-549d-4b44-ab27-0c537e391765": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/a2_b6215ca0-aef2-4ba6-9e6d-346a8b69881d.png",
+              "vendor_name": "Well Made",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/well-made"
+            }
+          },
+          "399cc384-92a4-453c-84c1-251a7fd2d657": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/5_4b8b1de0-0a34-4bd2-b208-f243899cbf04.jpg",
+              "vendor_name": "Wild One",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/wild-one"
+            }
+          },
+          "f5dc6157-2d3a-4ccd-9b9b-358d7c3e1648": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2_3_1.jpg",
+              "vendor_name": "Yamazaki Home",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/yamazaki-home"
+            }
+          },
+          "efe0928e-b228-4914-961a-b313540a2ecb": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2020-11-20_22226_263faa3a-7427-4b74-b828-4b06e417b151.jpg",
+              "vendor_name": "Yui Brooklyn",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/yui-brooklyn"
+            }
+          },
+          "17ea1467-8444-4c08-aea3-c139088474db": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/5_3f0b0700-6915-42be-baef-9b6c8bc3dad4.jpg",
+              "vendor_name": "Zone Denmark",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/zone-denmark"
+            }
+          },
+          "149839a0-709e-4f68-8e54-ce027469b743": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/IMG_0771.png",
+              "vendor_name": "Afternoon Light",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/al-exclusives"
+            }
+          },
+          "5c1e863a-2874-4c81-83f9-3e66bc71687f": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/C292_group_enviro.jpg",
+              "vendor_name": "Cobalt Guild",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/cobalt-guild"
+            }
+          },
+          "cd6211c6-46dc-4ce3-b2ba-e8f7d34d200d": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/LNG_Green_on_Brass_Coffee.jpg",
+              "vendor_name": "FS Objects",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/fs-objects"
+            }
+          },
+          "6303d7b6-8813-4646-b31d-603a6afb9dca": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Screen_Shot_2022-06-28_at_2.58.57_PM_17dbf6e1-5c06-4a75-a680-afb5019c62cc.png",
+              "vendor_name": "Niche",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/niche-modern"
+            }
+          },
+          "fb052cd8-558d-4c15-8ec7-60083e5c8a2e": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/unnamed-10_1_df953661-43b1-425d-a0a3-ed3d583c689e.jpg",
+              "vendor_name": "SerpentSea",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/seprentsea"
+            }
+          },
+          "b23e43ea-7bec-4c0b-a31c-647a078d54f8": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/SS19_lowresSQ___81655.1554476051.365.365_331ad7ab-5184-4441-92a2-f4f957443954.jpg",
+              "vendor_name": "Sir|Madam",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/sir-madam"
+            }
+          },
+          "d01b51dc-5b17-4b8a-87f6-bde2323da4a4": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/5_94ea85eb-9ce5-4671-a956-1be0ef4f5d8a.jpg",
+              "vendor_name": "Tortuga Forma",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/tortuga-forma"
+            }
+          },
+          "2319d563-519a-4ae7-a456-2b0a125f4e7a": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/CommunityGarden_CandleAndBox.jpg",
+              "vendor_name": "Loam Candles",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/loam-candles"
+            }
+          },
+          "f0fd8b62-483f-4083-af4f-6921bfad870f": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Untitled-1.png",
+              "vendor_name": "Mater",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/mater"
+            }
+          },
+          "8526b828-4148-402e-a074-8b1430793279": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/ScreenShot2021-07-02at2.01.08PM.png",
+              "vendor_name": "Jeongyeon K Lim",
+              "vendor_url": "https:\/\/afternoonlight.com\/collections\/jeongyeon-k-lim"
+            }
+          },
+          "2e751fce-0e43-412a-b102-de74b1355a8a": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/download_1.png",
+              "vendor_name": "Bolé Road Textiles",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/bole-road"
+            }
+          },
+          "70d7e2a9-984d-4bfa-a288-d7198fc75df0": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/EB5F71E7-0893-4540-8A0E-06704640F135.jpg",
+              "vendor_name": "Ian Love Design",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/ian-love"
+            }
+          },
+          "75799d8d-3f95-4467-a2f7-edd85b036e02": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Mexa_small_feac1cb2-d797-43ce-8086-aba436a10eaa.png",
+              "vendor_name": "Mexa Design",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/mexa-design"
+            }
+          },
+          "c3aea453-9950-493a-b105-06c8c25a69f1": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/download.png",
+              "vendor_name": "CQC",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/cqc"
+            }
+          },
+          "0e766cf5-33af-420c-8048-4e7ad37d185e": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/sandoval.png",
+              "vendor_name": "SANDOVAL",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/sandoval"
+            }
+          },
+          "51b6fdb1-7b25-4ccf-beb2-c7a94746126e": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/plunger.png",
+              "vendor_name": "Staff",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/staff"
+            }
+          },
+          "99fe912a-cf09-4543-a5c5-2e1c65a0ee3f": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/teppi.png",
+              "vendor_name": "Studio Teppi",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/studio-teppi"
+            }
+          },
+          "8878f590-0510-4196-923f-ff1b54feaccd": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/HC-CO-NNB-P.b.jpg",
+              "vendor_name": "Artissanos",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/artissanos"
+            }
+          },
+          "49f44a4c-e9c7-48d0-95ce-27b211b8d845": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/hilma1.jpg",
+              "vendor_name": "Small Revisions",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/small-revisions"
+            }
+          },
+          "b04f5839-63e1-4763-8d4e-41b83a5ba7b4": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/JohnnyApronGrooveThang.jpg",
+              "vendor_name": "Royal Jelly",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/royal-jelly"
+            }
+          },
+          "6e114659-c100-4a09-b886-bd6bbffa2e1d": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/prism.png",
+              "vendor_name": "Prism Outdoors",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/prism-outdoors"
+            }
+          },
+          "5bb55365-59d7-4eb1-b11f-eb73688ad4e7": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/il_1588xN.2317044463_e7zk.jpg",
+              "vendor_name": "Treatment. Candle Co",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/treatment-candle-co"
+            }
+          },
+          "00f16b96-9c98-4fc4-8ad9-da9a87e765a7": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Screen_Shot_2022-07-20_at_4.17.20_PM.png",
+              "vendor_name": "Cheyenne Concepcion",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/cheyenne-concepcion"
+            }
+          },
+          "9930f74d-04c2-4e4e-bc1c-cc95ec731bbc": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/95555978-D31D-4270-B90F-A3539DA65F63_b5d8776a-73a6-4e1f-abc3-627d64f811bb.jpg",
+              "vendor_name": "Salam Hello",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/salam-hello"
+            }
+          },
+          "01aa7cb2-cce7-4e69-8879-7ce58f307658": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/lips_SETS_LIPS_RED_mirror_f1f6da24-7562-473a-b072-d818a6cada26.png",
+              "vendor_name": "4ARTWORKS",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/4artworks"
+            }
+          },
+          "5ac596fe-9081-4303-a26d-fcc6fdd9cc34": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/peter.png",
+              "vendor_name": "Echo Park Pottery by Peter Shire",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/echo-park"
+            }
+          },
+          "8c4a17bf-05d0-458a-9848-23e1bf207d04": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/stoops.png",
+              "vendor_name": "Stoops",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/stoops"
+            }
+          },
+          "38b4c45c-38e7-451c-bb6a-d8760ce01c97": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/tantubi.png",
+              "vendor_name": "Tantuvi",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/tantuvi"
+            }
+          },
+          "de2a257d-43f5-4087-856c-c7583b7dcc71": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/String10_white_1024x1024_ae6fa8cf-9808-4354-8113-c07608e9c7ab.jpg",
+              "vendor_name": "Townsend Design",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/townsend-design"
+            }
+          },
+          "52caa2a3-d5b6-44c2-8150-1ec5b80519ef": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/lips_SETS_LIPS_RED_mirror_f1f6da24-7562-473a-b072-d818a6cada26.png",
+              "vendor_name": "4ArtWorks",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/4artworks"
+            }
+          },
+          "112cc111-5170-4356-a7c7-5eaf9755fc25": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/00heroimg.jpg",
+              "vendor_name": "New Vernacular",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/new-vernacular"
+            }
+          },
+          "d9ba7033-aef0-4619-bf4f-cd236acc0c02": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/ezgif.com-gif-maker_45.jpg",
+              "vendor_name": "Airsign",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/airsign"
+            }
+          },
+          "5ba02aa8-3f8d-43a1-9bf5-d93de6b05485": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/5d9989a3-e507-416f-b477-0f14350e9839.png",
+              "vendor_name": "Xenia Taler",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/xenia-taler"
+            }
+          },
+          "2e849995-c60a-4d85-afca-f64302b1a75f": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/6_ccbffe81-f77f-4072-9368-c713eaee03e3.webp",
+              "vendor_name": "Departo",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/departo"
+            }
+          },
+          "68892087-38e4-492c-a62c-d68ca55086ac": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/schoenberger_group01.webp",
+              "vendor_name": "Sara Schoenberger",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/sara-shoenberger"
+            }
+          },
+          "901d3dc7-d78a-4ac9-90e2-5c58962f8eba": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/wallquest_-_vendor_page.jpg",
+              "vendor_name": "Wallquest",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/wallquest"
+            }
+          },
+          "ce039d50-71de-4553-ae86-6834a018ea21": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/108022005.jpg",
+              "vendor_name": "Mepra",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/mepra"
+            }
+          },
+          "891bd6bf-56a8-4e8d-98c5-b1c9c49520ff": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/1a-copycopy.jpg",
+              "vendor_name": "Le Foundouk",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/le-foundouk"
+            }
+          },
+          "8c7d7e04-0e08-4754-8b1c-ef98faf344a1": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Revision-Picasso-Coasters-All-Four-Gray_1.jpg",
+              "vendor_name": "Revision",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/revision"
+            }
+          },
+          "e75ba1e5-605b-4dca-a1f2-eeaf0cff8ba1": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2021_Knot_Chair_Black_Nature_Slice_Table_01_1.jpg",
+              "vendor_name": "Normann Copenhagen",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/normann-copenhagen"
+            }
+          },
+          "61293e3b-85c7-49c4-8b1b-5a6e3e606e01": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/FLRST-SF-FD-S4-A2-C0-CB-LW-OT.jpg",
+              "vendor_name": "Burrow",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/burrow"
+            }
+          },
+          "7997cfad-0cee-4eb0-8a35-301331efb78c": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Screen_Shot_2022-09-13_at_2.59.06_PM.png",
+              "vendor_name": "HAUS",
+              "vendor_url": "https:\/\/afternoonlight.com\/PAGES\/HAUS"
+            }
+          },
+          "fbc0f5e6-1494-4398-aca0-717ce3a02f32": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/FM_149_olephants_greyscale-1.png",
+              "vendor_name": "Flensted Mobiles",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/flensted-mobiles"
+            }
+          },
+          "01d2da62-190f-4b1d-b599-6fca92c933e1": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Grab-printemail.webp",
+              "vendor_name": "Harry Allen Design",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/harry-allen-design"
+            }
+          },
+          "a4cfdf11-07e3-4524-8ad4-81950b2be93a": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/r21mob3.jpg",
+              "vendor_name": "round21",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/round21"
+            }
+          },
+          "cb4f8a8a-d8c7-4b14-9233-ed7be7bad136": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/60RroTn4.jpg",
+              "vendor_name": "Varaluz",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/varaluz"
+            }
+          },
+          "f49cd18a-1035-4b83-adb6-39c891f6945c": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/grnmarketcanlde1_c7f15abb-2d4c-4a82-83dd-2908d06c3142.jpg",
+              "vendor_name": "Keap Candles",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/keap-candles"
+            }
+          },
+          "422d54cb-e98d-4360-82a6-29633410986c": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/pillow_inserts_2153.jpg",
+              "vendor_name": "Ohio Made",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/ohio-made"
+            }
+          },
+          "fb24cfcb-15f8-4c68-8be6-ee1ab8892985": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/IMG_7669_shade_pouf.jpg",
+              "vendor_name": "Nanimarquina",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/nanimarquina"
+            }
+          },
+          "38c5aaa2-e42b-4540-817f-b7e804962f6c": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/GooberCandle-Group-silo-03-TYGC_1.jpg",
+              "vendor_name": "Areaware",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/areaware"
+            }
+          },
+          "7e7a8051-08e9-485e-bfde-a25d06a9f509": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/OnWhite-20_copy.jpg",
+              "vendor_name": "Momma Pots",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/momma-pots"
+            }
+          },
+          "040c6875-16dd-41b3-bcc5-73973ceef02b": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/01_folding_chair_54d49964-ccd7-40f5-ba78-d181576ed5c4.webp",
+              "vendor_name": "departo",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/departo"
+            }
+          },
+          "3210bb8c-6f71-499e-af4d-3d8ea1e359f5": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/IMG_0709.jpg",
+              "vendor_name": "& Sunday",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/andsunday"
+            }
+          },
+          "0ee59cbf-8483-4826-bd9d-a07502acd41b": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Citrus_Ecomm_3_1.jpg",
+              "vendor_name": "Manifatura",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/manifatura"
+            }
+          },
+          "b4afd43c-3560-4900-8d2f-18fc5f1918c6": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/20210915-HT8A7678_edited_01cd6f9c-b006-468f-8846-f6b2aedce342.webp",
+              "vendor_name": "Cicil Home",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/cicil-home"
+            }
+          },
+          "f3e7e61f-6175-416f-b372-44f0bab1a7a5": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/rochere.jpg",
+              "vendor_name": "La Rochere",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/la-rochere"
+            }
+          },
+          "f016658b-c9a9-4153-b98f-6303601d9315": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/intiearth.png",
+              "vendor_name": "Intiearth",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/intiearth"
+            }
+          },
+          "3465376e-9a4a-4a32-a10d-e56848399a65": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/laylo.webp",
+              "vendor_name": "Lay Lo",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/lay-lo"
+            }
+          },
+          "f9812732-e058-45c3-a0da-644816f61428": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Flora_Bong_Moss_cea5cdae-26ae-4cfc-bbae-5e8fe36fa871.png",
+              "vendor_name": "Wandering Bud",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/wandering-bud"
+            }
+          },
+          "d65bfb0a-1323-4cbe-abb6-944a8106df4b": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/PrettiCool_Lifestyle_TRB05711.jpg",
+              "vendor_name": "pretti.cool",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/pretti-cool"
+            }
+          },
+          "11ae757c-e043-4a70-8aa5-cfcf844a7ae6": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/ScreenShot2022-07-21at2.09.55PM.png",
+              "vendor_name": "Jessi Highet Studio",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/jessi-highet-studio"
+            }
+          },
+          "e2e4ff19-048b-444f-871a-d195f03ec19a": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Bundle.jpg",
+              "vendor_name": "Loftie",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/loftie"
+            }
+          },
+          "004a300e-62ff-46cb-9d5f-75ea5018ff33": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/12abce706ba82ab2490de80a47c8c8f9_5c6030a3-46a6-4393-8bf8-d80621480d1d.webp",
+              "vendor_name": "Myves",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/myves"
+            }
+          },
+          "6e17d2ed-20a0-4feb-bfbb-74c9dbac1b76": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/download_dfc3a0c5-0330-4408-92aa-5ded067a38fe.webp",
+              "vendor_name": "Humber",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/humber"
+            }
+          },
+          "a284d6ad-1ce0-4a6d-a1f1-17eca8031e31": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Dis-ocean_heymat_11_verakyte_liveberg_sofiebrovold.jpg",
+              "vendor_name": "Heymat",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/heymat"
+            }
+          },
+          "c98d19e9-968b-4dc0-8183-d9aca033c3f2": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Colombia_1-large.webp",
+              "vendor_name": "CrushGrind",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/crushgrind"
+            }
+          },
+          "1c30582f-9f79-4a9a-9124-fd852f27daca": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Apron_japanese_denim.webp",
+              "vendor_name": "Olga Joan",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/olga-joan"
+            }
+          },
+          "1224ab6e-0006-4fe0-8833-1ab0fcf5fd3b": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Martian_Desert_7C_NASA.webp",
+              "vendor_name": "Fotofish",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/fotofish"
+            }
+          },
+          "9a6f841e-6c42-4dec-9770-84f26e6fcc21": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/0496610_0496710_1.jpg",
+              "vendor_name": "Kartell",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/kartell"
+            }
+          },
+          "d4c07b00-fb5e-47e4-b1f2-62d11483c924": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/pestos1.webp",
+              "vendor_name": "Bella Cucina",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/bella-cucina"
+            }
+          },
+          "b7e0a0e1-2147-456f-9391-7894ff5b1f15": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/ScreenShot2022-03-27at2.27.53PM.webp",
+              "vendor_name": "Fishwife",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/fishwife"
+            }
+          },
+          "d0fda271-e788-418a-9419-5829bfbb92f3": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/YH01BN02-pdp-silo-01.webp",
+              "vendor_name": "Yun Hai",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/yun-hai"
+            }
+          },
+          "a51a4b3b-6403-4c50-8fda-dede64bcaa82": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/IMG_6514.webp",
+              "vendor_name": "The Qi",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/the-qi"
+            }
+          },
+          "854e4687-de47-4363-862a-75dde3e0aaec": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/a7_577e15b6-1f3c-4ef1-a9c9-6b2aede61bf5.webp",
+              "vendor_name": "Skagerak by Fritz Hansen",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/skagerak-by-fritz-hansen"
+            }
+          },
+          "2326d441-d4af-4d66-92b5-bb621b0aa4ec": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/JubilationMaroonDuvet.webp",
+              "vendor_name": "AphroChic",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/aphrochic"
+            }
+          },
+          "4fa74ddb-d92f-4fc8-a54a-23785224af4a": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Advent_n.jpg",
+              "vendor_name": "Onyx",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/onyx-coffee-lab"
+            }
+          },
+          "cfe4565b-792d-4c42-995f-9fe46f17a9ae": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/DryShampooDark_1_3.jpg",
+              "vendor_name": "Captain Blankenship",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/captain-blankenship"
+            }
+          },
+          "952070c0-00fe-4155-9c15-516c54a69d1d": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/putbjzhmecpcicc68d90.jpg",
+              "vendor_name": "My Drap",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/my-drap"
+            }
+          },
+          "ab5ddf1a-27c1-4809-8fb6-846a7d2dcfc8": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2022.9.21-FriendsOf-105446_6a0fa98d-6670-4a7f-891d-cce7443c7f70.jpg",
+              "vendor_name": "Tchotchke",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/tchotchke"
+            }
+          },
+          "66ccda6c-0628-4290-8395-8a691215459a": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/DSC_3813_1e915e19-92d2-47aa-9d10-af9e322743f0_1.jpg",
+              "vendor_name": "Tickle Quo",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/tickle-quo"
+            }
+          },
+          "69287c61-410e-4f7d-a404-6aba3967f985": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/ItTakesAVillage-Neutral-4.jpg",
+              "vendor_name": "Happy Habitat",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/happy-habitat"
+            }
+          },
+          "d35821c1-038a-46c6-ae1b-032da5e88c69": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Scoreboard_square_Oak-scaled.webp",
+              "vendor_name": "WeDoWood",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/wedowood"
+            }
+          },
+          "507695a8-835d-4c1f-8e92-be3beb5827be": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/image2-2682-2000-KnotXLYellow-Lifestyle.webp",
+              "vendor_name": "Design House Stockholm",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/design-house-stockholm"
+            }
+          },
+          "a90dd3ca-07d2-47aa-9805-6ca525420488": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/221202_GOLDIE_HOME_GREEN-0068.jpg",
+              "vendor_name": "Goldie Home",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/goldie-home"
+            }
+          },
+          "c77ea652-3157-49d3-85c0-79df58aefe8e": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/digitalsunrise1.webp",
+              "vendor_name": "Zuzunaga",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/zuzunaga"
+            }
+          },
+          "f57c802f-8325-443d-8b9a-e6482de0e0d5": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/download_fa1f099e-faee-4af3-8a08-46cba4dd2c97.webp",
+              "vendor_name": "British Colour Standard",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/british-colour-standard"
+            }
+          },
+          "44e2ca3d-d4d7-432d-ba39-2b948b74d836": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Harry-McNally-art-Black-clock-FRONT-Harry-McNally.webp",
+              "vendor_name": "Harry McNally",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/harry-mcnally"
+            }
+          },
+          "32246de5-1ef7-4e05-8170-dca4e733840a": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2022_Dust_Form_HoldingForm_Charcoal.webp",
+              "vendor_name": "Dust + Form",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/dust-form"
+            }
+          },
+          "90608d72-224e-4ff9-898c-26f7e362778d": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/continuum_mobile_brass-6_7d5af6b3-38d6-420c-97ba-e72d5d261203.webp",
+              "vendor_name": "Circle & Line",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/circle-line"
+            }
+          },
+          "afa01e98-4364-4a41-a7d4-bf957f5cb2d3": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/IMG_0710.webp",
+              "vendor_name": "Christopher Merchant",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/christopher-merchant"
+            }
+          },
+          "4af5da99-3918-407c-abe0-d8f4a3ec26e7": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/21Milk.webp",
+              "vendor_name": "Lucie Kaas",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/lucie-kaas"
+            }
+          },
+          "811ed7d7-231a-4421-a052-1b1337680d86": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/NY14_02_scene1Large.webp",
+              "vendor_name": "Lemnos",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/lemnos"
+            }
+          },
+          "681c81dd-5e15-4773-a6e7-9f3fc32a5d46": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Smiley_CK_SBDrawer.webp",
+              "vendor_name": "Hapny Home",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/hapny-home"
+            }
+          },
+          "0ebaf7ed-e83e-40bd-8317-7dae15a3e119": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/NudgeCounter-PDP-ProductImage-01.webp",
+              "vendor_name": "Nanu",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/nanu"
+            }
+          },
+          "6b8b33da-8df6-48c3-9c90-442308c57d68": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Langston1_1Flame-lowres2.webp",
+              "vendor_name": "Harlem Candle Company",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/harlem-candle-company"
+            }
+          },
+          "340142c5-4a63-465d-a0c6-ca4a20c1ae5f": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Grouping3.jpg",
+              "vendor_name": "Beginner Ceramics",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/beginner-ceramics"
+            }
+          },
+          "81917ce2-87ec-45f1-927c-b1fadada6ee4": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2022_25374_27123_aRGB_High.webp",
+              "vendor_name": "Rosendahl",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/rosendahl"
+            }
+          },
+          "3e2cf057-2aa1-4833-9cee-ab600d838c80": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/KAH_691781_691780_omaggio_mother_of_pearl.webp",
+              "vendor_name": "Kähler",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/kahler"
+            }
+          },
+          "426de382-1778-416d-b114-555dae2b261f": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/KB_39427.webp",
+              "vendor_name": "Kay Bojesen",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/kay-bojesen"
+            }
+          },
+          "cc02eff3-9d7a-402f-bad0-292c70dfe28f": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/43670.webp",
+              "vendor_name": "Arne Jacobsen",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/arne-jacobsen"
+            }
+          },
+          "b53c46b7-303c-4901-a577-d6b23598cd82": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/9093VA-3909Large.webp",
+              "vendor_name": "Alessi",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/alessi"
+            }
+          },
+          "56147e46-999f-4dc1-a6eb-5817afc33ce3": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/2022_brandphoto_4343511_4343500_4343502_1.jpg",
+              "vendor_name": "Holmegaard",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/holmegaard"
+            }
+          },
+          "33f9cb00-e380-43e5-991e-d2b7ac4aefc5": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/20220922_PortageFoodsProductShootAmericanSturgeon0255.jpg",
+              "vendor_name": "Portage Foods",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/portage-foods"
+            }
+          },
+          "a58e55ad-ae44-49ff-9952-ca6e69f5e5a8": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/SETUP--SHOP_CandleLit_TheCape.jpg",
+              "vendor_name": "Abbott",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/abbott"
+            }
+          },
+          "450c6a70-e74c-4633-a02c-a2b7d6945c93": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/SJ_4-21-Web-0339_bc594a85-c6fa-4901-9614-085af4d892e0.webp",
+              "vendor_name": "Sortjoy",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/sortjoy"
+            }
+          },
+          "78a02238-a052-418a-b82a-8d4a1df4450c": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/CPHoliday_MBrockington1P9A6253.jpg",
+              "vendor_name": "Campfire Pottery",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/campfire-pottery"
+            }
+          },
+          "1d4868e0-fd46-4d1c-ae45-2de37181c290": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Heller_Studio_1033_Vignelli_Rocker_Red_218.webp",
+              "vendor_name": "Heller",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/heller"
+            }
+          },
+          "e42c6945-561c-4934-91fb-b11278d88375": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/M6A2613.jpg",
+              "vendor_name": "Olive & Olde's",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/olive-oldes"
+            }
+          },
+          "34732991-38e5-4887-ac0a-9fa9bd2920a7": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/649-BLACK-4-2-750x750.jpg",
+              "vendor_name": "Royce New York",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/royce-new-york"
+            }
+          },
+          "15140a73-3ce1-4049-a844-df50f458c2c3": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/MHRM_Girard_CheckerPillow_810210-008_detail.webp",
+              "vendor_name": "Maharam",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/maharam"
+            }
+          },
+          "c58177ec-45ad-4eeb-9d24-4c15791bf7d0": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/SardelSardel_14293_web.jpg",
+              "vendor_name": "Sardel",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/sardel"
+            }
+          },
+          "9963a879-6095-4e87-9a5a-ed68bc071d9b": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Chanterelle_Rug_0009_MKSPRING_027_jpg.jpg",
+              "vendor_name": "Mark Krebs",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/mark-krebs"
+            }
+          },
+          "ddeebdd8-0aa9-474f-a523-ed19f26c74f0": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/NUVOLA-WALL_MF-3-1280x853.jpg",
+              "vendor_name": "Nemo Lighting",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/nemo-lighting"
+            }
+          },
+          "a3fbc97c-9b67-4069-9ec3-0a9e3d938b6a": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/JM_Hats_Fam_01.webp",
+              "vendor_name": "Jason Markk",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/jason-markk"
+            }
+          },
+          "17e722a4-7182-4a69-ac47-cb3b04c419f6": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/RenewKit-Final-_1_1680x_16417c9d-b297-4cff-994b-c9953e7b49f4.webp",
+              "vendor_name": "Palermo",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/palermo"
+            }
+          },
+          "f6064639-b36c-49f2-8326-e572e18df96b": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Console_2_2022_fa4e2d12-779e-4f54-9c0f-63da3b47836e.jpg",
+              "vendor_name": "Karakter",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/karakter"
+            }
+          },
+          "b2b3dd75-1c1a-4dda-88e7-66cccb0967bf": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/MH053-22Rory-Pots766327.jpg",
+              "vendor_name": "Rory Pots",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/rory-pots"
+            }
+          },
+          "31896023-a330-4bac-8292-f5271761d428": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/TaperHolder_All2_ed3faca9-6fff-44d9-bd06-ce8a05758c91.jpg",
+              "vendor_name": "Botanica",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/botanica"
+            }
+          },
+          "d6103354-b719-4a2e-a776-6fbbb83f1808": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/MagazineTable6500_1b68ab4e-688b-4854-9803-91804af9fe2b_1.jpg",
+              "vendor_name": "Fredericia",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/fredericia"
+            }
+          },
+          "c94e5f74-2380-42a9-8ac8-3c6d2e17da1c": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Resident_Pier_Chair_Black_cutout_1Large.jpg",
+              "vendor_name": "Resident",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/Resident"
+            }
+          },
+          "d062e2f3-15f3-4ae9-be08-69f2a07bb236": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/newproducs-6_ff600c92-318c-4fc0-be4b-03c6c449bcf1.jpg",
+              "vendor_name": "STATE",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/state"
+            }
+          },
+          "41375197-a544-409b-b86a-12af12cda9d7": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Milton_Floor_Lamp_-_Ash_Veneer_-_P01-ns2022_1.jpg",
+              "vendor_name": "Gus Modern",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/gus-modern"
+            }
+          },
+          "c5d783d6-13a8-4c60-86fc-306631ec2843": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Pretti-Cool-Product-Images17_b2684a7a-b2de-47a0-8d06-e686e0486ec0.webp",
+              "vendor_name": "Pretti.Cool",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/pretti-cool"
+            }
+          },
+          "71b6e77d-d854-42f5-818a-25d8c2779a48": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/Ghost_Bed_01_22a1b67a-10a8-4911-9dec-846e226877e4.webp",
+              "vendor_name": "Coda Studio",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/coda-studio"
+            }
+          },
+          "3a70d0ad-bd34-481c-a7c4-4c8bb8790e40": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/14_aaab115e-cc48-46a6-9a73-64c78a094291.png",
+              "vendor_name": "Food Huggers",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/food-huggers"
+            }
+          },
+          "262bed5b-13ae-4bd7-bc35-8e2c538086b8": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/cutleryherocliffset_42c6ca4b-eefd-42c1-ac81-f2ecca30208c.jpg",
+              "vendor_name": "Cliffset",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/cliffset"
+            }
+          },
+          "29ac571e-174b-4244-938b-c2a30968b6ac": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/10193_20Teak_20black_20Fin_20side_20table_db5eae76-bcd2-4595-80a8-b636c7e00217.jpg",
+              "vendor_name": "Ethnicraft",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/ethnicraft"
+            }
+          },
+          "641feb15-f100-490b-866a-98ce95c2d985": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/BW-TRIKE-RED-1_3b4c69ae-2733-4737-abe7-fe18ea6e2b28.jpg",
+              "vendor_name": "Banwood",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/banwood"
+            }
+          },
+          "4b3f6c82-a4df-40c1-b072-82c16b7881eb": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/MENU_Brasilia_Lounge_Chair_Gravel_Rug_21_2321fb89-ae67-4d19-8123-efdc06683b2a.webp",
+              "vendor_name": "Audo Copenhagen",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/audo-copenhagen"
+            }
+          },
+          "a538232d-68d4-4d85-ad4d-1226dc7ae7ff": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/IMG_4470_1f14a912-b10d-47b9-95b3-06b127f925be.jpg",
+              "vendor_name": "Lucca House",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/lucca-house"
+            }
+          },
+          "3dd0c4d8-2a0d-428d-a130-19cc2c33a8ce": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/FTR_Candle-Green.webp",
+              "vendor_name": "For The Record",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/for-the-record"
+            }
+          },
+          "7b8e466e-7a03-4401-9cf2-24e852ec18c2": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/FRITZ_HANSEN_02_0136_V2_330_ff35169a-8417-468b-9409-9c2e12e8bdc9.jpg",
+              "vendor_name": "Fritz Hansen",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/fritz-hansen"
+            }
+          },
+          "d95c08e6-e150-45d1-ade4-352ac01807bc": {
+            "type": "text",
+            "settings": {
+              "vendor_img": "shopify:\/\/shop_images\/pillar_holders_travertine-01-min_3439cec1-ce25-4025-aa67-67d03d369c6d.jpg",
+              "vendor_name": "Populus Project",
+              "vendor_url": "https:\/\/afternoonlight.com\/pages\/populus-project"
+            }
+          }
+        },
+        "block_order": [
+          "920b1752-c038-4d98-8bea-248331213c12",
+          "c15f7a30-4ce8-42f6-9933-c6be4cd4c569",
+          "749c23ee-92b9-4bd7-b70b-6a4f8c3574a0",
+          "97742f82-1a3d-4ba0-a30d-10fdaec3d343",
+          "b2a67251-b301-49c5-a071-100ed7a2eaf3",
+          "0bddca7a-90fb-4ec1-8762-f39be5477131",
+          "d8eb4fcb-171d-4110-afa6-976a9d61593a",
+          "532e57ea-f41d-488a-af1d-96e09477f5bb",
+          "276599d7-d4ff-45d9-9915-9bc9e109a216",
+          "7d4a40d0-183f-4a38-b3fc-723466da7bd5",
+          "5b7c9f33-57cc-4930-ada6-f487adc3fa89",
+          "b06cd34c-6fa8-46ac-a919-e4ec1f75e0ad",
+          "5725d327-0d26-4bef-b1f4-6c314b180e4f",
+          "f938cd0f-6f6d-455b-adc0-a3aa33713074",
+          "87f66e72-81f4-4cd2-8e05-b83530b3b3e5",
+          "fe14ebf7-bf7b-469d-9963-2f5dd8c1e146",
+          "0a0f4257-1dad-4ef8-9f88-c2ff8632b213",
+          "ebb90218-7fd1-41ae-862e-c387d9436793",
+          "836b6687-d8d5-47d1-9ea3-7135fb1061f0",
+          "47eed557-b74e-45aa-8322-8fb253c46493",
+          "42d3d44e-96be-45ab-bdea-181502ea5bb9",
+          "e0788e10-8441-49f2-afe9-0dd24eb771f7",
+          "8ed2c936-7ad1-42c9-a098-8339ef20a2fa",
+          "6f9d8e56-3b02-4cd4-b044-cc4ce72b63d6",
+          "05a37c8d-5f29-4651-aee0-41d4cfcf3483",
+          "95644b82-130d-484f-9e03-ff277db79376",
+          "8b8de60f-d5c2-4db2-8578-9c0a39f9bf66",
+          "3d330375-4def-42c5-bbd3-cf0c790f0be6",
+          "afbe3178-2c5d-452e-a895-a79a98d0bb93",
+          "86369195-34c9-4cf2-8e7f-21ab59b900c0",
+          "764e71df-ab74-4296-87ba-86835a9bc0da",
+          "f28bf710-0cdb-41bd-bf79-da2c418989a4",
+          "354b043d-7f5c-4c66-93bb-aa9829641e1e",
+          "1029f7d9-ea65-4dcc-88ec-deb071765ca6",
+          "5f0cb10b-b3f6-4e91-b16e-c9378dff34ff",
+          "df2933b6-0dd1-4492-800b-a513f6242e95",
+          "ee0af0ed-0c8d-497b-9037-c1c2d00de825",
+          "00964860-fe5e-47f1-8ac0-b53812daa960",
+          "195fee52-6b0e-4b20-8a0c-6ce64edf99bb",
+          "4c5505df-dbdb-4bd2-aa42-81c6366ac76b",
+          "9d82ff40-3a2a-4723-a600-ad1369870483",
+          "913685ef-50a2-44e5-a1c0-09a1d25009d8",
+          "cf21ca65-7402-49b7-9ddb-b8bf6dbb1dc0",
+          "2896070b-6ace-4dcb-9208-d989fd993250",
+          "f69f59dd-3c22-4324-878a-e599de659345",
+          "333ae9eb-0541-4527-abf1-c436b1029b1e",
+          "78646406-42cb-458f-bc63-87be19767d03",
+          "3c070bee-96f2-4403-a72e-fc747cd365e4",
+          "5860d6a4-f992-48d1-90af-0767efc21b72",
+          "68e41fc2-b936-4496-8558-ac1928c923f9",
+          "2958e15b-7855-4da1-b636-7659eccda9d6",
+          "5d5f476c-84db-47a8-ac66-495600680f41",
+          "3f5e0d96-3a03-4112-a4b2-e75c82837450",
+          "819fe59f-b94c-4711-a88e-ba1ac7e62cbb",
+          "b8f5a987-8f9b-4edd-afdd-2f1b2b795f7a",
+          "6e02924c-4567-445e-948e-d1974cc83263",
+          "e172b5ab-bad9-4436-aee1-211e2e5d0cc3",
+          "25f1adb1-d689-45d5-b74d-3921eab830b8",
+          "5cf83f98-b4d5-44e8-b0f7-be12d23f48b0",
+          "3663b100-802d-4a80-b0ec-7665a88f76e6",
+          "ec2552ed-7861-4412-bf43-e21ce865c26e",
+          "4acb8761-4fb4-41c0-9ae9-5d6b820f970f",
+          "1d9ab440-a776-46a8-828a-69a22498bbd9",
+          "10351b43-7ffa-4d20-8875-cc8cca6a4040",
+          "b44d7ff6-50c5-44b3-923a-dc96a5bd5068",
+          "7191f5d5-21c1-4e6e-bb1f-3a17c34ada01",
+          "62b1583e-0bc5-489a-8a1e-5b8323657d74",
+          "c4951322-88c6-4a04-9ad8-6490eb67af14",
+          "b9d3db98-2086-49fa-9d1d-81f5eee57d12",
+          "66722bfe-7d9f-4ebc-a41a-adee925571be",
+          "2c0c55b8-47c0-4a1b-8591-4afaf879a915",
+          "747a3b2f-23bb-44ae-93fc-d6ae2ec8c3bb",
+          "25d34779-de7f-4ca1-af5c-d31e28db40c2",
+          "b5032cf0-f2fe-4206-8ef5-099765b2004a",
+          "aa071771-dae4-436f-89cf-10d02fd3a964",
+          "7a6b48b1-091e-4662-a34e-d475df35cfd5",
+          "e436ea4b-a1b9-4bf6-88f5-bf84d509b901",
+          "c02caecc-1ade-4383-88d9-953430195896",
+          "cc554173-a52a-4500-a712-020d89e9464c",
+          "c06c5f04-e4b1-4a01-ae77-8f33684c1de6",
+          "ba2e0abc-d158-4a59-acc5-83fd5b5bb964",
+          "4f4372d6-2d89-4668-84d6-a8444d629123",
+          "497f231d-f999-414a-9ad1-4bb7de58fbfb",
+          "abdaaca6-94f6-4c23-af77-e22aa82f5c7b",
+          "7c527f7e-549d-4b44-ab27-0c537e391765",
+          "399cc384-92a4-453c-84c1-251a7fd2d657",
+          "f5dc6157-2d3a-4ccd-9b9b-358d7c3e1648",
+          "efe0928e-b228-4914-961a-b313540a2ecb",
+          "17ea1467-8444-4c08-aea3-c139088474db",
+          "149839a0-709e-4f68-8e54-ce027469b743",
+          "5c1e863a-2874-4c81-83f9-3e66bc71687f",
+          "cd6211c6-46dc-4ce3-b2ba-e8f7d34d200d",
+          "6303d7b6-8813-4646-b31d-603a6afb9dca",
+          "fb052cd8-558d-4c15-8ec7-60083e5c8a2e",
+          "b23e43ea-7bec-4c0b-a31c-647a078d54f8",
+          "d01b51dc-5b17-4b8a-87f6-bde2323da4a4",
+          "2319d563-519a-4ae7-a456-2b0a125f4e7a",
+          "f0fd8b62-483f-4083-af4f-6921bfad870f",
+          "8526b828-4148-402e-a074-8b1430793279",
+          "2e751fce-0e43-412a-b102-de74b1355a8a",
+          "70d7e2a9-984d-4bfa-a288-d7198fc75df0",
+          "75799d8d-3f95-4467-a2f7-edd85b036e02",
+          "c3aea453-9950-493a-b105-06c8c25a69f1",
+          "0e766cf5-33af-420c-8048-4e7ad37d185e",
+          "51b6fdb1-7b25-4ccf-beb2-c7a94746126e",
+          "99fe912a-cf09-4543-a5c5-2e1c65a0ee3f",
+          "8878f590-0510-4196-923f-ff1b54feaccd",
+          "49f44a4c-e9c7-48d0-95ce-27b211b8d845",
+          "b04f5839-63e1-4763-8d4e-41b83a5ba7b4",
+          "6e114659-c100-4a09-b886-bd6bbffa2e1d",
+          "5bb55365-59d7-4eb1-b11f-eb73688ad4e7",
+          "00f16b96-9c98-4fc4-8ad9-da9a87e765a7",
+          "9930f74d-04c2-4e4e-bc1c-cc95ec731bbc",
+          "01aa7cb2-cce7-4e69-8879-7ce58f307658",
+          "5ac596fe-9081-4303-a26d-fcc6fdd9cc34",
+          "8c4a17bf-05d0-458a-9848-23e1bf207d04",
+          "38b4c45c-38e7-451c-bb6a-d8760ce01c97",
+          "de2a257d-43f5-4087-856c-c7583b7dcc71",
+          "52caa2a3-d5b6-44c2-8150-1ec5b80519ef",
+          "112cc111-5170-4356-a7c7-5eaf9755fc25",
+          "d9ba7033-aef0-4619-bf4f-cd236acc0c02",
+          "5ba02aa8-3f8d-43a1-9bf5-d93de6b05485",
+          "2e849995-c60a-4d85-afca-f64302b1a75f",
+          "68892087-38e4-492c-a62c-d68ca55086ac",
+          "901d3dc7-d78a-4ac9-90e2-5c58962f8eba",
+          "ce039d50-71de-4553-ae86-6834a018ea21",
+          "891bd6bf-56a8-4e8d-98c5-b1c9c49520ff",
+          "8c7d7e04-0e08-4754-8b1c-ef98faf344a1",
+          "e75ba1e5-605b-4dca-a1f2-eeaf0cff8ba1",
+          "61293e3b-85c7-49c4-8b1b-5a6e3e606e01",
+          "7997cfad-0cee-4eb0-8a35-301331efb78c",
+          "fbc0f5e6-1494-4398-aca0-717ce3a02f32",
+          "01d2da62-190f-4b1d-b599-6fca92c933e1",
+          "a4cfdf11-07e3-4524-8ad4-81950b2be93a",
+          "cb4f8a8a-d8c7-4b14-9233-ed7be7bad136",
+          "f49cd18a-1035-4b83-adb6-39c891f6945c",
+          "422d54cb-e98d-4360-82a6-29633410986c",
+          "fb24cfcb-15f8-4c68-8be6-ee1ab8892985",
+          "38c5aaa2-e42b-4540-817f-b7e804962f6c",
+          "7e7a8051-08e9-485e-bfde-a25d06a9f509",
+          "040c6875-16dd-41b3-bcc5-73973ceef02b",
+          "3210bb8c-6f71-499e-af4d-3d8ea1e359f5",
+          "0ee59cbf-8483-4826-bd9d-a07502acd41b",
+          "b4afd43c-3560-4900-8d2f-18fc5f1918c6",
+          "f3e7e61f-6175-416f-b372-44f0bab1a7a5",
+          "f016658b-c9a9-4153-b98f-6303601d9315",
+          "3465376e-9a4a-4a32-a10d-e56848399a65",
+          "f9812732-e058-45c3-a0da-644816f61428",
+          "d65bfb0a-1323-4cbe-abb6-944a8106df4b",
+          "11ae757c-e043-4a70-8aa5-cfcf844a7ae6",
+          "e2e4ff19-048b-444f-871a-d195f03ec19a",
+          "004a300e-62ff-46cb-9d5f-75ea5018ff33",
+          "6e17d2ed-20a0-4feb-bfbb-74c9dbac1b76",
+          "a284d6ad-1ce0-4a6d-a1f1-17eca8031e31",
+          "c98d19e9-968b-4dc0-8183-d9aca033c3f2",
+          "1c30582f-9f79-4a9a-9124-fd852f27daca",
+          "1224ab6e-0006-4fe0-8833-1ab0fcf5fd3b",
+          "9a6f841e-6c42-4dec-9770-84f26e6fcc21",
+          "d4c07b00-fb5e-47e4-b1f2-62d11483c924",
+          "b7e0a0e1-2147-456f-9391-7894ff5b1f15",
+          "d0fda271-e788-418a-9419-5829bfbb92f3",
+          "a51a4b3b-6403-4c50-8fda-dede64bcaa82",
+          "854e4687-de47-4363-862a-75dde3e0aaec",
+          "2326d441-d4af-4d66-92b5-bb621b0aa4ec",
+          "4fa74ddb-d92f-4fc8-a54a-23785224af4a",
+          "cfe4565b-792d-4c42-995f-9fe46f17a9ae",
+          "952070c0-00fe-4155-9c15-516c54a69d1d",
+          "ab5ddf1a-27c1-4809-8fb6-846a7d2dcfc8",
+          "66ccda6c-0628-4290-8395-8a691215459a",
+          "69287c61-410e-4f7d-a404-6aba3967f985",
+          "d35821c1-038a-46c6-ae1b-032da5e88c69",
+          "507695a8-835d-4c1f-8e92-be3beb5827be",
+          "a90dd3ca-07d2-47aa-9805-6ca525420488",
+          "c77ea652-3157-49d3-85c0-79df58aefe8e",
+          "f57c802f-8325-443d-8b9a-e6482de0e0d5",
+          "44e2ca3d-d4d7-432d-ba39-2b948b74d836",
+          "32246de5-1ef7-4e05-8170-dca4e733840a",
+          "90608d72-224e-4ff9-898c-26f7e362778d",
+          "afa01e98-4364-4a41-a7d4-bf957f5cb2d3",
+          "4af5da99-3918-407c-abe0-d8f4a3ec26e7",
+          "811ed7d7-231a-4421-a052-1b1337680d86",
+          "681c81dd-5e15-4773-a6e7-9f3fc32a5d46",
+          "0ebaf7ed-e83e-40bd-8317-7dae15a3e119",
+          "6b8b33da-8df6-48c3-9c90-442308c57d68",
+          "340142c5-4a63-465d-a0c6-ca4a20c1ae5f",
+          "81917ce2-87ec-45f1-927c-b1fadada6ee4",
+          "3e2cf057-2aa1-4833-9cee-ab600d838c80",
+          "426de382-1778-416d-b114-555dae2b261f",
+          "cc02eff3-9d7a-402f-bad0-292c70dfe28f",
+          "b53c46b7-303c-4901-a577-d6b23598cd82",
+          "56147e46-999f-4dc1-a6eb-5817afc33ce3",
+          "33f9cb00-e380-43e5-991e-d2b7ac4aefc5",
+          "a58e55ad-ae44-49ff-9952-ca6e69f5e5a8",
+          "450c6a70-e74c-4633-a02c-a2b7d6945c93",
+          "78a02238-a052-418a-b82a-8d4a1df4450c",
+          "1d4868e0-fd46-4d1c-ae45-2de37181c290",
+          "e42c6945-561c-4934-91fb-b11278d88375",
+          "34732991-38e5-4887-ac0a-9fa9bd2920a7",
+          "15140a73-3ce1-4049-a844-df50f458c2c3",
+          "c58177ec-45ad-4eeb-9d24-4c15791bf7d0",
+          "9963a879-6095-4e87-9a5a-ed68bc071d9b",
+          "ddeebdd8-0aa9-474f-a523-ed19f26c74f0",
+          "a3fbc97c-9b67-4069-9ec3-0a9e3d938b6a",
+          "17e722a4-7182-4a69-ac47-cb3b04c419f6",
+          "f6064639-b36c-49f2-8326-e572e18df96b",
+          "b2b3dd75-1c1a-4dda-88e7-66cccb0967bf",
+          "31896023-a330-4bac-8292-f5271761d428",
+          "d6103354-b719-4a2e-a776-6fbbb83f1808",
+          "c94e5f74-2380-42a9-8ac8-3c6d2e17da1c",
+          "d062e2f3-15f3-4ae9-be08-69f2a07bb236",
+          "41375197-a544-409b-b86a-12af12cda9d7",
+          "c5d783d6-13a8-4c60-86fc-306631ec2843",
+          "71b6e77d-d854-42f5-818a-25d8c2779a48",
+          "3a70d0ad-bd34-481c-a7c4-4c8bb8790e40",
+          "262bed5b-13ae-4bd7-bc35-8e2c538086b8",
+          "29ac571e-174b-4244-938b-c2a30968b6ac",
+          "641feb15-f100-490b-866a-98ce95c2d985",
+          "4b3f6c82-a4df-40c1-b072-82c16b7881eb",
+          "a538232d-68d4-4d85-ad4d-1226dc7ae7ff",
+          "3dd0c4d8-2a0d-428d-a130-19cc2c33a8ce",
+          "7b8e466e-7a03-4401-9cf2-24e852ec18c2",
+          "d95c08e6-e150-45d1-ade4-352ac01807bc"
+        ],
+        "settings": {
+          "ref_heading": "https:\/\/afternoonlight.com\/pages\/sortjoy"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": true
+        }
+      },
+      "home-stories": {
+        "type": "home-stories",
+        "blocks": {
+          "124c7e3f-fb9c-4d1d-80c4-9d821127966c": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/mothersdayco-founderpicks"
+            }
+          },
+          "8194ddf6-0594-49a0-8889-24d63d2d7a80": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/lepique-nique"
+            }
+          },
+          "5db1f56a-c339-4179-a45f-c33c17d15a1c": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/mother"
+            }
+          },
+          "96d4f42c-0a87-4e6c-ab62-eb514f858bb5": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/takefivenickwooster"
+            }
+          },
+          "2c73b397-d454-42e5-9d76-4fa8a82e9c04": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/motherearth"
+            }
+          },
+          "b2fd6e7b-b472-40c1-a5ea-06d197ea9c8d": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/clawmoneyx420mamiiforafternoonlight"
+            }
+          },
+          "9433978b-afb7-4c2c-9322-fdf612404f19": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/glassmenagerie"
+            }
+          },
+          "6acf2248-d0f6-411d-b08e-169243a366d2": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/takefive"
+            }
+          },
+          "82e99105-39be-4326-b0a8-4ed9c58dbcec": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/springbreak"
+            }
+          },
+          "326148f0-6605-4a24-bcab-801fb7f84158": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/theafternoonquestionnairepriyavij"
+            }
+          },
+          "ab5f6c4e-369d-4f4e-8779-3cc62aadc5cf": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/itsglowtime"
+            }
+          },
+          "888cde60-925f-4d7d-b7db-fa5830854a45": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/alltogethernow"
+            }
+          },
+          "74d4d2a6-3e69-4348-b744-0c182c11a017": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/nurturenature"
+            }
+          },
+          "00e57d0a-ccf4-4f3a-a527-e200229f2b65": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/takealoadoff"
+            }
+          },
+          "09477c2b-9f34-4212-8e57-9074ee478b78": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/afreshstart"
+            }
+          },
+          "116bd4db-0cdb-48a9-8aed-a22bcf0dbfb0": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/theafternoonquestionnairejaniekorn"
+            }
+          },
+          "295b6b23-c22e-42d3-8253-f845df43d516": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/aprilshowers"
+            }
+          },
+          "555171ce-9079-47d3-878a-f678df1316b4": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/ontheroad"
+            }
+          },
+          "25c66bea-7cf9-4f91-8cba-aae9698fd6ca": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/camellaehlke"
+            }
+          },
+          "a5bac41e-01ce-4680-b78e-2e5669858f6e": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/introducing-aphrochic"
+            }
+          },
+          "28c1f381-7c4d-44b2-9c25-ba55362d7fdb": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/vases"
+            }
+          },
+          "1771a275-16a0-4623-9955-cfb10d6bc62b": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/gather"
+            }
+          },
+          "98c29d4c-9d82-4c4c-93c0-77c3d36bd65e": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/partywithtortuga"
+            }
+          },
+          "74679fd2-7bf1-42e9-98f9-a1ce9260bae0": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/shaniqwajarvisforafternoonlight"
+            }
+          },
+          "2ea76785-884c-422e-be5a-aac09a014e51": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/getorganized"
+            }
+          },
+          "b9c68bbd-edd6-49f0-9fc7-bcc984a0e4c6": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/atthevanity"
+            }
+          },
+          "92e22a0b-0ba4-454d-93e8-0bceb5aa69d4": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/ghettogastroxusm"
+            }
+          },
+          "88747b77-a1d0-4996-bd84-8962e761639b": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/seasonofthewitch"
+            }
+          },
+          "90af8781-bdca-4050-b00d-2b645592221c": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/theafternoonquestionnairehildiegifstad"
+            }
+          },
+          "1f57280c-7ab1-4eb4-b340-73db8fd866c2": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/allthethings"
+            }
+          },
+          "69c90a88-40b9-4394-ae4d-e740def9461f": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/wakebake"
+            }
+          },
+          "9c3d782a-42b5-413b-a72e-c3cc67c5ae05": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/pinksauce"
+            }
+          },
+          "d0c97c3f-1157-421f-b1c8-611179c95447": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/japandi"
+            }
+          },
+          "9ba34cab-15ad-46d5-b540-f56383e445b8": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/shineon"
+            }
+          },
+          "bdeefe6f-fa7b-4b4f-8e21-01816c607741": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/upgrade-your-essentials"
+            }
+          },
+          "ccde86cc-9db3-4bae-be55-224b1eb1c5e4": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/anewlease"
+            }
+          },
+          "d0ea4214-69fe-4639-9d41-8893663a45dc": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/otakara-nyc"
+            }
+          },
+          "e305e49d-4e82-4820-a89b-82ca0ddecf1f": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/smorgasbord"
+            }
+          },
+          "969136a4-a6a4-4a97-b00a-5d33d2798628": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/charlie-weisman"
+            }
+          },
+          "cf2f77b4-de31-44f9-a2b2-f144ba700e87": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/ladies-first"
+            }
+          },
+          "f44cb03e-9b60-4101-a38a-8e674d4cfa8c": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/megan-enright"
+            }
+          },
+          "e80d67f7-09aa-4c11-855e-aebe72150d85": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/marc-hundley"
+            }
+          },
+          "0da6ccfa-6e2e-4a67-b461-9af500c3071c": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/meet-vanilla"
+            }
+          },
+          "a2d0744d-a294-41a4-b99b-8e05ee618184": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/blueskies"
+            }
+          },
+          "db923646-4718-4571-81fa-bda4789192d8": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/chop-chop"
+            }
+          },
+          "52d95d0e-7743-4344-b8e0-7bed9258ca8f": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/dopamine-decor"
+            }
+          },
+          "044eab7e-9da0-428a-9df2-3a88e90492a3": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/longweekend"
+            }
+          },
+          "946ba33b-741e-47f9-8cc0-922c5db0d315": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/fara-extinguisher"
+            }
+          },
+          "9288a68b-4db8-4ef6-b936-f8f6f5a20e2e": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/kris-myllenbeck"
+            }
+          },
+          "e7fe2360-866c-4b78-af92-c0adbd2a1c9f": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/alexclusive-mugs"
+            }
+          },
+          "ee4ec246-2565-4847-b6ae-1d98889abfaf": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/flower-power"
+            }
+          },
+          "a2b330b0-7eac-4e5f-b750-f81817c95c6b": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/fathers-day"
+            }
+          },
+          "076c7a9b-681b-421e-8697-cde03b7fe05d": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/grace-whiteside"
+            }
+          },
+          "0dcec716-f2fb-4394-8ba2-3c597df1a143": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/spring-cleaning"
+            }
+          },
+          "14f3d6a3-7330-47a2-87b9-ce07271491f1": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/neutrals"
+            }
+          },
+          "38cda1ad-89a7-494e-b123-4b5773d7e684": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/dream-machine"
+            }
+          },
+          "c2b16662-0c97-415a-af47-84e3fef0b409": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/live-laugh-love"
+            }
+          },
+          "453375ae-1316-4fb9-9bad-b64506a0b979": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/usm-haller-mediab218"
+            }
+          },
+          "8ee2cc32-bd95-49d3-b7db-1ee09effe5f7": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/heath-ceramics"
+            }
+          },
+          "df7b9f78-95d1-463f-87f3-c4cd8a04c45d": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/noguchi-coffee-table"
+            }
+          },
+          "30ce2715-6002-4181-a288-a817750ca964": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/baby-its-dark"
+            }
+          },
+          "0381129d-354f-416c-a23a-9938da5ccc6d": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/the-mingei-movment"
+            }
+          },
+          "4370e6fb-5bce-4d8b-bc3e-573d76aa474c": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/trickle-down-mushroom-lamps"
+            }
+          },
+          "56f1f1c7-3eb0-47de-b28f-3e54fc4d3501": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/the-house-book-forever"
+            }
+          },
+          "cdb8ed1d-857e-4fe8-84ae-c6aafc957392": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/ultrafragola"
+            }
+          },
+          "f6dba247-a2e5-4570-9a7e-2df4973ee5dc": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/solitary-refinement"
+            }
+          },
+          "6003e86d-b56b-4cf4-818e-45d7bcd0ae8f": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/theultimatefriendsgiftguide"
+            }
+          },
+          "3a579a1f-8b33-45cc-86e7-f7e37d901835": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/athomewithlaurachautin"
+            }
+          },
+          "11e3c1aa-c224-4184-ba5e-98eed3d56b0a": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/theultimatefamilygiftguide"
+            }
+          },
+          "47d22a49-8314-462e-bf80-705937c39fc0": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/lunarnewyear"
+            }
+          },
+          "ad16fcf6-e040-4539-92e6-9891e47b4867": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/escapetothewoods"
+            }
+          }
+        },
+        "block_order": [
+          "124c7e3f-fb9c-4d1d-80c4-9d821127966c",
+          "8194ddf6-0594-49a0-8889-24d63d2d7a80",
+          "5db1f56a-c339-4179-a45f-c33c17d15a1c",
+          "96d4f42c-0a87-4e6c-ab62-eb514f858bb5",
+          "2c73b397-d454-42e5-9d76-4fa8a82e9c04",
+          "b2fd6e7b-b472-40c1-a5ea-06d197ea9c8d",
+          "9433978b-afb7-4c2c-9322-fdf612404f19",
+          "6acf2248-d0f6-411d-b08e-169243a366d2",
+          "82e99105-39be-4326-b0a8-4ed9c58dbcec",
+          "326148f0-6605-4a24-bcab-801fb7f84158",
+          "ab5f6c4e-369d-4f4e-8779-3cc62aadc5cf",
+          "888cde60-925f-4d7d-b7db-fa5830854a45",
+          "74d4d2a6-3e69-4348-b744-0c182c11a017",
+          "00e57d0a-ccf4-4f3a-a527-e200229f2b65",
+          "09477c2b-9f34-4212-8e57-9074ee478b78",
+          "116bd4db-0cdb-48a9-8aed-a22bcf0dbfb0",
+          "295b6b23-c22e-42d3-8253-f845df43d516",
+          "555171ce-9079-47d3-878a-f678df1316b4",
+          "25c66bea-7cf9-4f91-8cba-aae9698fd6ca",
+          "a5bac41e-01ce-4680-b78e-2e5669858f6e",
+          "28c1f381-7c4d-44b2-9c25-ba55362d7fdb",
+          "1771a275-16a0-4623-9955-cfb10d6bc62b",
+          "98c29d4c-9d82-4c4c-93c0-77c3d36bd65e",
+          "74679fd2-7bf1-42e9-98f9-a1ce9260bae0",
+          "2ea76785-884c-422e-be5a-aac09a014e51",
+          "b9c68bbd-edd6-49f0-9fc7-bcc984a0e4c6",
+          "92e22a0b-0ba4-454d-93e8-0bceb5aa69d4",
+          "88747b77-a1d0-4996-bd84-8962e761639b",
+          "90af8781-bdca-4050-b00d-2b645592221c",
+          "1f57280c-7ab1-4eb4-b340-73db8fd866c2",
+          "69c90a88-40b9-4394-ae4d-e740def9461f",
+          "9c3d782a-42b5-413b-a72e-c3cc67c5ae05",
+          "d0c97c3f-1157-421f-b1c8-611179c95447",
+          "9ba34cab-15ad-46d5-b540-f56383e445b8",
+          "bdeefe6f-fa7b-4b4f-8e21-01816c607741",
+          "ccde86cc-9db3-4bae-be55-224b1eb1c5e4",
+          "d0ea4214-69fe-4639-9d41-8893663a45dc",
+          "e305e49d-4e82-4820-a89b-82ca0ddecf1f",
+          "969136a4-a6a4-4a97-b00a-5d33d2798628",
+          "cf2f77b4-de31-44f9-a2b2-f144ba700e87",
+          "f44cb03e-9b60-4101-a38a-8e674d4cfa8c",
+          "e80d67f7-09aa-4c11-855e-aebe72150d85",
+          "0da6ccfa-6e2e-4a67-b461-9af500c3071c",
+          "a2d0744d-a294-41a4-b99b-8e05ee618184",
+          "db923646-4718-4571-81fa-bda4789192d8",
+          "52d95d0e-7743-4344-b8e0-7bed9258ca8f",
+          "044eab7e-9da0-428a-9df2-3a88e90492a3",
+          "946ba33b-741e-47f9-8cc0-922c5db0d315",
+          "9288a68b-4db8-4ef6-b936-f8f6f5a20e2e",
+          "e7fe2360-866c-4b78-af92-c0adbd2a1c9f",
+          "ee4ec246-2565-4847-b6ae-1d98889abfaf",
+          "a2b330b0-7eac-4e5f-b750-f81817c95c6b",
+          "076c7a9b-681b-421e-8697-cde03b7fe05d",
+          "0dcec716-f2fb-4394-8ba2-3c597df1a143",
+          "14f3d6a3-7330-47a2-87b9-ce07271491f1",
+          "38cda1ad-89a7-494e-b123-4b5773d7e684",
+          "c2b16662-0c97-415a-af47-84e3fef0b409",
+          "453375ae-1316-4fb9-9bad-b64506a0b979",
+          "8ee2cc32-bd95-49d3-b7db-1ee09effe5f7",
+          "df7b9f78-95d1-463f-87f3-c4cd8a04c45d",
+          "30ce2715-6002-4181-a288-a817750ca964",
+          "0381129d-354f-416c-a23a-9938da5ccc6d",
+          "4370e6fb-5bce-4d8b-bc3e-573d76aa474c",
+          "56f1f1c7-3eb0-47de-b28f-3e54fc4d3501",
+          "cdb8ed1d-857e-4fe8-84ae-c6aafc957392",
+          "f6dba247-a2e5-4570-9a7e-2df4973ee5dc",
+          "6003e86d-b56b-4cf4-818e-45d7bcd0ae8f",
+          "3a579a1f-8b33-45cc-86e7-f7e37d901835",
+          "11e3c1aa-c224-4184-ba5e-98eed3d56b0a",
+          "47d22a49-8314-462e-bf80-705937c39fc0",
+          "ad16fcf6-e040-4539-92e6-9891e47b4867"
+        ],
+        "settings": {
+          "title": "Blog posts"
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "255c5704-c1d4-4aca-b75e-687a729cde12": {
+            "type": "header",
+            "disabled": true,
+            "settings": {
+              "title": "PROMO TITLE",
+              "message": "Shop Coming Soon! Join now for updates and first access.",
+              "url": "https:\/\/afternoonlight.com\/"
+            }
+          },
+          "7fe54f7a-84a6-40f7-8256-feba9d333d13": {
+            "type": "header",
+            "disabled": true,
+            "settings": {
+              "title": "PROMO TITLE2",
+              "message": "Shop Coming Soon!",
+              "url": "https:\/\/afternoonlight.com\/collections\/all"
+            }
+          },
+          "149ab1e4-e00c-4820-a2ef-0731e1be7bfc": {
+            "type": "header",
+            "disabled": true,
+            "settings": {
+              "title": "",
+              "message": "SPEND $150+ TO ACTIVATE FREE STANDARD SHIPPING",
+              "url": "https:\/\/afternoonlight.com\/collections\/all"
+            }
+          },
+          "cd86e161-c8a3-40ae-9f53-0fb3b64ba83c": {
+            "type": "header",
+            "disabled": true,
+            "settings": {
+              "title": "",
+              "message": "",
+              "url": ""
+            }
+          },
+          "6c1f8d7a-33eb-4578-8862-a88ee2c8b9cd": {
+            "type": "header",
+            "settings": {
+              "title": "THE FOURTH OF JULY SALE IS ON! TAKE 20% OFF ORDERS $250+",
+              "message": "FREE SHIPPING ON ORDERS OVER $150",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "255c5704-c1d4-4aca-b75e-687a729cde12",
+          "7fe54f7a-84a6-40f7-8256-feba9d333d13",
+          "149ab1e4-e00c-4820-a2ef-0731e1be7bfc",
+          "cd86e161-c8a3-40ae-9f53-0fb3b64ba83c",
+          "6c1f8d7a-33eb-4578-8862-a88ee2c8b9cd"
+        ],
+        "settings": {
+          "show_announcement_bar": true,
+          "autoplay": true,
+          "delay": "5000",
+          "colorBackground": "#eb6c44",
+          "colorText": "#ffffff"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "hero-banner": {
+        "type": "hero-banner",
+        "settings": {
+          "banner_img": "shopify:\/\/shop_images\/herobanner.png",
+          "sub_heading": "AFTERNOON LIGHT x EMECO",
+          "heading": "AT HOME WITH MARC HUNDLEY",
+          "shop_btn": "SHOP EMECO",
+          "shop_btn_url": "#",
+          "auth_name": "Photographed by Mary Manning"
+        }
+      },
+      "166418594320aa8d2c": {
+        "type": "home-categories",
+        "disabled": true,
+        "blocks": {
+          "0f6ea723-f3b9-43d2-bb64-e156e2b82da6": {
+            "type": "Category",
+            "settings": {
+              "category-img": "shopify:\/\/shop_images\/2_e7b1c80e-cfdd-4356-832c-a15d6dd15adf.png",
+              "category-name": "FURNITURE",
+              "category-url": "https:\/\/afternoonlight.com\/collections\/furniture",
+              "text1": "the boundaries of our moving about,",
+              "text2": "the anchors",
+              "text3": "of our rooms",
+              "text4": ""
+            }
+          },
+          "380df4ff-feff-4f08-8475-8b9694569dc4": {
+            "type": "Category",
+            "settings": {
+              "category-img": "shopify:\/\/shop_images\/6_ba085247-b120-4cd4-be03-8b4ee4adf1fb.png",
+              "category-name": "décor",
+              "category-url": "https:\/\/afternoonlight.com\/collections\/decor-1",
+              "text1": "a symphony that plays",
+              "text2": "our",
+              "text3": "unique",
+              "text4": "song"
+            }
+          },
+          "3d61aaeb-49bb-4207-b764-ac8a21458f02": {
+            "type": "Category",
+            "settings": {
+              "category-img": "shopify:\/\/shop_images\/5_35488256-4a4c-42f6-8196-534e470bb96f.png",
+              "category-name": "kitchen &  dining",
+              "category-url": "https:\/\/afternoonlight.com\/collections\/kitchen-dining-1",
+              "text1": "let’s invite",
+              "text2": "pleasure",
+              "text3": "to the table",
+              "text4": ""
+            }
+          },
+          "f73d347e-86a5-4ee8-b120-8983ff14e60b": {
+            "type": "Category",
+            "settings": {
+              "category-img": "shopify:\/\/shop_images\/3_31c4b143-0967-47c2-bb30-38b2906c15eb.png",
+              "category-name": "bedding & bath",
+              "category-url": "https:\/\/afternoonlight.com\/collections\/bedding-bath",
+              "text1": "The places to be our",
+              "text2": "most naked,",
+              "text3": "truest",
+              "text4": "selves."
+            }
+          },
+          "5b8851c3-e5d1-4c23-befa-dc15a363a8eb": {
+            "type": "Category",
+            "settings": {
+              "category-img": "shopify:\/\/shop_images\/1_b304f42b-6000-491c-87e7-945c2ba48b96.png",
+              "category-name": "lighting",
+              "category-url": "https:\/\/afternoonlight.com\/collections\/lighting",
+              "text1": "Dimmed low",
+              "text2": "or all ablaze,",
+              "text3": "turn it on.",
+              "text4": ""
+            }
+          },
+          "49fd515a-fcf8-4e52-806d-58203a7e7f62": {
+            "type": "Category",
+            "settings": {
+              "category-img": "shopify:\/\/shop_images\/4_31011ba0-ce4b-4c41-812c-81b01d616a3f.png",
+              "category-name": "outdoor",
+              "category-url": "https:\/\/afternoonlight.com\/collections\/outdoor-1",
+              "text1": "Commune with",
+              "text2": "nature;",
+              "text3": "the sweet",
+              "text4": "al fresco life."
+            }
+          }
+        },
+        "block_order": [
+          "0f6ea723-f3b9-43d2-bb64-e156e2b82da6",
+          "380df4ff-feff-4f08-8475-8b9694569dc4",
+          "3d61aaeb-49bb-4207-b764-ac8a21458f02",
+          "f73d347e-86a5-4ee8-b120-8983ff14e60b",
+          "5b8851c3-e5d1-4c23-befa-dc15a363a8eb",
+          "49fd515a-fcf8-4e52-806d-58203a7e7f62"
+        ],
+        "settings": {
+          "main-heading": "Categories"
+        }
+      },
+      "1664256311a0659f79": {
+        "type": "best-sellers-slider",
+        "settings": {
+          "title": "NEW",
+          "collection": "new"
+        }
+      },
+      "166426710524c9ae63": {
+        "type": "home-blogs",
+        "settings": {
+          "title": "Blog posts",
+          "blog": "stories",
+          "post_limit": 3,
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "show_view_all": false
+        }
+      },
+      "71437a4a-5381-4ed5-bab2-de6b8c27775a": {
+        "type": "vibe-collection",
+        "blocks": {
+          "5dfea495-eecf-4c42-8d8f-22a3cec00298": {
+            "type": "collection",
+            "settings": {
+              "name": "MODERN",
+              "image": "shopify:\/\/shop_images\/1a72bafab291e5642e00cfa73f5b29e2_1024x1024_1.webp",
+              "collection_url": "shopify:\/\/collections\/modern"
+            }
+          },
+          "3b0a105f-4f7f-4ff2-a37b-7102528a17ee": {
+            "type": "collection",
+            "settings": {
+              "name": "CLASSIC",
+              "image": "shopify:\/\/shop_images\/41a01fa7a9ca025c6c8462c330214fae_1024x1024_1.webp",
+              "collection_url": "shopify:\/\/collections\/classic"
+            }
+          },
+          "db40206c-2cbb-4334-be5e-9215e5bc7dae": {
+            "type": "collection",
+            "settings": {
+              "name": "MINIMALIST",
+              "image": "shopify:\/\/shop_images\/e23d7b9f973248f45ad613d203062b1d.png",
+              "collection_url": "shopify:\/\/collections\/minimalist"
+            }
+          },
+          "a5ca7acb-9d09-490f-a65a-2dc9423a82b2": {
+            "type": "collection",
+            "settings": {
+              "name": "COOL",
+              "image": "shopify:\/\/shop_images\/9093VA-3909Large_1024x1024_1.webp",
+              "collection_url": "https:\/\/afternoonlight.com\/collections\/cool"
+            }
+          },
+          "ffcfa5ad-f96b-4190-8dc0-145e423401bc": {
+            "type": "collection",
+            "settings": {
+              "name": "HANDMADE",
+              "image": "shopify:\/\/shop_images\/9084dc58c15578b51f51815c2d113232_1024x1024_1_1.webp",
+              "collection_url": "shopify:\/\/collections\/handmade"
+            }
+          },
+          "308fe85f-fec5-432c-9c47-1d70b8b63563": {
+            "type": "collection",
+            "settings": {
+              "name": "ESSENTIAL",
+              "image": "shopify:\/\/shop_images\/cb80432769889ae6f6970112b793b3e6_1024x1024_1.webp",
+              "collection_url": "https:\/\/afternoonlight.com\/collections\/essential"
+            }
+          }
+        },
+        "block_order": [
+          "5dfea495-eecf-4c42-8d8f-22a3cec00298",
+          "3b0a105f-4f7f-4ff2-a37b-7102528a17ee",
+          "db40206c-2cbb-4334-be5e-9215e5bc7dae",
+          "a5ca7acb-9d09-490f-a65a-2dc9423a82b2",
+          "ffcfa5ad-f96b-4190-8dc0-145e423401bc",
+          "308fe85f-fec5-432c-9c47-1d70b8b63563"
+        ],
+        "settings": {
+          "bg_color": "#f4f0ec",
+          "title": "SHOP BY VIBE"
+        }
+      },
+      "2b13fcb7-736b-441f-ac8d-aaa643bc8108": {
+        "type": "best-sellers-slider",
+        "settings": {
+          "title": "Best Sellers",
+          "collection": "best-sellers"
+        }
+      },
+      "b98bb2e6-f5dc-49ed-bcbe-9c448c11ad2c": {
+        "type": "home-featured-collection",
+        "settings": {
+          "title": "Items we love",
+          "title_mobile": "items we love",
+          "shop_all": "Shop All",
+          "shop_all_url": "https:\/\/afternoonlight.com\/collections\/all",
+          "collection": "items-we-love"
+        }
+      },
+      "aa9978af-7b36-405b-a0d7-16c95756a96b": {
+        "type": "home-categories_v2",
+        "blocks": {
+          "3f1985ab-ad77-41a4-80bb-3a37f81a64ad": {
+            "type": "Category",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Bookend-Laguna2-Medium_1c1a92a8-294e-4250-8c50-ef6ab6537515_1.png",
+              "heading": "TORTUGA FORMA",
+              "text": "New colors in planters, coasters and  everyone’s favorite bookends are here.",
+              "url": "shopify:\/\/collections\/tortuga"
+            }
+          },
+          "60e3f6cd-2d8f-49d9-a53c-afd79ae2f117": {
+            "type": "Category",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ServingFriendsBoard-Silo-02-SLSFBL_b4fc0019-9860-429c-b5ad-43f0db78d20c_1_1024x1024_1.webp",
+              "heading": "AREAWARE",
+              "text": "Explore the Spring ’23 releases",
+              "url": "shopify:\/\/collections\/areaware-1"
+            }
+          },
+          "73e0fd1a-9201-49bd-8a7e-81f177f42e6c": {
+            "type": "Category",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shinwhite_1.png",
+              "heading": "LEMNOS",
+              "text": "The most beautiful shoe horn in the world?",
+              "url": "shopify:\/\/collections\/lemnos"
+            }
+          }
+        },
+        "block_order": [
+          "3f1985ab-ad77-41a4-80bb-3a37f81a64ad",
+          "60e3f6cd-2d8f-49d9-a53c-afd79ae2f117",
+          "73e0fd1a-9201-49bd-8a7e-81f177f42e6c"
+        ],
+        "settings": {
+          "heading": "New Colors In Planters, Coasters And Everyone's Favorite Bookends Are Here"
+        }
+      },
+      "4471aeaa-d92f-4c66-a1d8-d78da4e73741": {
+        "type": "home-stories",
+        "blocks": {
+          "af7aacfb-2f27-433b-a28c-40a27c8373d9": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/howtocandle101"
+            }
+          },
+          "42d9196e-5945-4539-a76d-747c4887073d": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/how-tothehomebar"
+            }
+          },
+          "b85a0b6f-bfa2-412d-b254-6f4377791638": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/heydaddy"
+            }
+          },
+          "8452b4f8-6b5e-46ac-bd17-70fc07ffe608": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/howtomakeyourbed"
+            }
+          },
+          "fa2b7519-5d31-4697-8944-3738611f989a": {
+            "type": "stories",
+            "settings": {
+              "blog": "stories\/saygay"
+            }
+          }
+        },
+        "block_order": [
+          "af7aacfb-2f27-433b-a28c-40a27c8373d9",
+          "42d9196e-5945-4539-a76d-747c4887073d",
+          "b85a0b6f-bfa2-412d-b254-6f4377791638",
+          "8452b4f8-6b5e-46ac-bd17-70fc07ffe608",
+          "fa2b7519-5d31-4697-8944-3738611f989a"
+        ],
+        "settings": {
+          "title": "Blog posts"
+        }
+      }
+    },
+    "content_for_index": [
+      "hero-1",
+      "1664256311a0659f79",
+      "aa9978af-7b36-405b-a0d7-16c95756a96b",
+      "2b13fcb7-736b-441f-ac8d-aaa643bc8108",
+      "71437a4a-5381-4ed5-bab2-de6b8c27775a",
+      "b98bb2e6-f5dc-49ed-bcbe-9c448c11ad2c",
+      "collection",
+      "166418594320aa8d2c",
+      "166426710524c9ae63",
+      "4471aeaa-d92f-4c66-a1d8-d78da4e73741"
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "3247695095287076946": {
+        "type": "shopify:\/\/apps\/aaa-gift-registry\/blocks\/app-emabed\/1755f090-00e0-4093-a5b8-5b328beb0136",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+          }
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+          }
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {
+          }
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {
+          }
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "product-template",
+      "blocks": {
+        "912beb02-fffe-4ecd-9740-e894adbce332": {
+          "type": "color-swatch",
+          "settings": {
+            "heading": "Jade Velvet",
+            "color_code": "#e3c5aa"
+          }
+        },
+        "ba64d5da-9b94-4311-8a4d-144029c09f13": {
+          "type": "color-swatch",
+          "settings": {
+            "heading": "Red",
+            "color_code": "#ef776c"
+          }
+        },
+        "52c997c3-b348-4107-83d5-f6b4f5740485": {
+          "type": "color-swatch",
+          "settings": {
+            "heading": "Fog Linen",
+            "color_code": "#3a3a3a"
+          }
+        },
+        "1bf03032-3f94-49c2-9328-0e9e3c233864": {
+          "type": "color-swatch",
+          "settings": {
+            "heading": "",
+            "color_code": "#b4b4b4"
+          }
+        }
+      },
+      "block_order": [
+        "912beb02-fffe-4ecd-9740-e894adbce332",
+        "ba64d5da-9b94-4311-8a4d-144029c09f13",
+        "52c997c3-b348-4107-83d5-f6b4f5740485",
+        "1bf03032-3f94-49c2-9328-0e9e3c233864"
+      ],
+      "settings": {
+        "show_quantity_selector": true,
+        "show_vendor": true,
+        "enable_payment_button": true,
+        "show_share_buttons": true,
+        "media_size": "medium",
+        "enable_image_zoom": false,
+        "enable_video_looping": false
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "You may also like",
+        "explore_brand": "You may also like",
+        "show_vendor": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed-section",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "Recently Viewed Products",
+        "show_vendor": false
+      }
+    },
+    "product-editorial": {
+      "type": "product-editorial",
+      "settings": {
+        "isEditorial": true
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "main",
+    "recommendations",
+    "recently-viewed",
+    "product-editorial",
+    "shogun-below"
+  ]
+}

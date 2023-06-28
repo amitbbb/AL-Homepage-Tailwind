@@ -1,0 +1,169 @@
+/* ACCOUNT PAGE */
+@media (min-width: 768px){ 
+.section-header.bnbg {
+    margin-bottom: 21px;
+    padding-top: 200px;
+}
+  .cart-popup-wrapper {
+    
+    z-index: 900999!important;
+}
+  a.text-link.text-link--accent {
+    font-family: Tungsten;
+    font-size: 25px;
+}
+  .cart-popup {
+    box-shadow: 1px 1px 10px 2px rgb(185 194 203 / 65%)!important;
+}
+/*   .boost-pfs-filter-option.boost-pfs-filter-option-list.boost-pfs-filter-option-brand-in-stock.boost-pfs-filter-has-scrollbar.boost-pfs-filter-option-column-1:before {
+    content: 'in stock';
+    position: relative;
+    font-family: 'Tungsten';
+    font-weight: 700;
+    left: 37px;
+    top: 31px;
+    text-transform: uppercase;
+} */
+
+
+}
+.boost-pfs-search-suggestion-no-result span {
+    font-size: 20px;
+}
+  .boost-pfs-filter-message.result-empty-search p {
+    font-size: 25px;
+}
+.newoo {
+
+    top: 207px;
+}
+
+/* HEADER-WISHLIST ICON */
+img.site-header__icon.site-header__wishlist{
+height: 20px;
+    width: 22px;
+    position: relative;
+    top: 0px;
+}
+@media (max-width: 767px){  
+  img.site-header__icon.site-header__wishlist {
+    height: 28px;
+    width: 26px !important;
+    position: relative;
+    padding: 5px;
+    top: -3px;
+}
+  .grid__item.myaccount__order-history.myorder h2 {
+    letter-spacing: 0px;
+    font-family: Tungsten;
+    font-size: 16px;
+}
+  .section-header.bnbg {
+    margin-bottom: 21px;
+    padding-top: 125px;
+}
+  ul#MobileNav {
+    padding-top: 60px;
+}
+  .mobile-nav__link, .mobile-nav__sublist-link {
+  
+    font-size: 30px !important;
+}
+  .mobile-nav__item .icon {
+    top: 66%;
+  }
+  .boost-pfs-search-suggestion-no-result span {
+    font-size: 20px;
+}
+  .boost-pfs-filter-message.result-empty-search p {
+    font-size: 20px;
+}
+}
+
+/* home page mobile price fixing for ipone 12 */
+
+@media only screen and (min-width: 380px) and (max-width: 390px){
+
+  .home-product-slider.homepage-final-sliders .homepage-final-product .homepage-final-price {
+    position: absolute;
+    top: 348px!important;
+    right: 0;
+       }
+  
+  img.site-header__icon.site-header__wishlist {
+    height: 24px!important;
+    width: 24px!important;
+    position: relative;
+    top: -3px;
+  }
+    }
+
+@media screen and (max-width: 480px){
+#shopify-section-header .logo-align--center .site-header__logo {
+    max-width: 155px !important;
+}
+}
+
+h2#CartPopupHeading {
+    font-family: 'Tungsten';
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+h3.cart-popup-item__title {
+    font-family: 'Keplerlite';
+    font-size: 15px;
+}
+
+.cart-popup-item__quantity {
+    font-family: 'Kepler';
+    font-size: 15px;
+}
+
+a.cart-popup__cta-link.btn.btn--secondary-accent {
+    font-family: 'Tungsten';
+    font-size: 15px;
+}
+
+button.cart-popup__dismiss-button.text-link.text-link--accent {
+    font-family: 'Tungsten';
+    font-size: 15px;
+}
+
+li.product-details__item.product-details__item--variant-option {
+    font-family: 'Kepler';
+    font-size: 15px;
+}
+
+svg#Capa_1 {
+    font-size: 20px;
+    height: 29px;
+    width: 23px;
+}
+
+@media (max-width: 767px){
+
+ svg#Capa_1 {
+    font-size: 20px !important;
+    height: 63px!important;
+    width: 42px!important;
+    position: relative!important;
+    top: -3px!important;
+} 
+}
+
+
+@media (min-width: 1200px){
+#s-e0511fff-ce26-41a3-bbc5-406802f30e60 {
+    min-height: 35vh!important;
+    max-width: 100%!important;
+}
+}
+  
+  .shop-cta-brand a {
+    background-color: #f4f0ec !important;
+    color: #242d2d !important;
+    font-weight: 600 !important;
+}
+  

@@ -1,0 +1,264 @@
+<div class="block-content-wrap">
+  <h2>{{ section.settings.heading }}</h2>
+{% for block in section.blocks %}
+  {% if block.settings.image != blank %}    
+  <div class="block-content{% if forloop.index == 2 %} second-block{% elsif forloop.last %} last-block{% endif %}">
+   <div class="content-text-wrap"> 
+      <h2>{{ block.settings.heading }}</h2>
+      <p>{{ block.settings.text }}</p>
+      <a class="shop-now" href="{{ block.settings.url }}">Shop Now</a>
+    </div>
+    <a class="square-image" href="{{ block.settings.url }}">
+      {% assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+       <img class="lazyload" 
+       src="{{ img | img_url: '300x' }}"
+       data-src="{{ img_url }}"
+       data-widths="[180, 360, 470, 600, 770, 970, 1060, 1280, 1512, 1728, 2048]"
+       data-aspectratio="{{ img.aspect_ratio }}"
+       data-sizes="auto" width="100" height="100">
+    </a>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+{% schema %}
+{
+  "name": "Home Categories v2",
+  "class": "home-categories-v2 fadein",
+  "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label":"Main Heading",
+        "default": "New Colors In Planters, Coasters And Everyone's Favorite Bookends Are Here"
+      }
+  ],
+  "blocks": [
+    {
+      "type": "Category",
+      "name": "Category Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label":"Category Image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label":"Heading"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Small Description"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label":"Category URL"
+        }
+      ]
+    }
+  ],
+  "presets" : [
+    {
+      "name" : "Home Categories v2"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+  .home-categories-v2{
+    padding: 120px 150px;
+    background: #E2E4E2;
+  }
+  .home-categories-v2 h2{
+    letter-spacing: normal;
+    font-family: 'Compacta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 62px;
+    color: #000000;
+    margin: 0;
+  }
+  .home-categories-v2 p{
+    font-family: 'Kepler';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+    height: 138px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .home-categories-v2 .shop-now{
+    border: 1px solid #000000;
+    width: 100%;
+    height: 100%;
+    max-height: 64px;
+    max-width: 192px;
+    font-family: 'Tungsten';
+    font-style: normal;
+    font-weight: 326;
+    font-size: 32px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+  .home-categories-v2 .block-content-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .home-categories-v2 .block-content-wrap > h2{
+    display: none;
+  }
+  .home-categories-v2 .block-content{
+    width: calc(33.33% - 70px);
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .home-categories-v2 .block-content.second-block{
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  } 
+  .home-categories-v2 .block-content.second-block h2{
+    margin-top: 65px;
+  }
+  .home-categories-v2 .block-content.second-block h2{
+    margin-bottom: 0;
+  } 
+  .home-categories-v2 .block-content.second-block .shop-now{
+    margin-bottom: 0px;
+  }
+  .square-image{
+    position: relative;
+    display: block;
+  }
+  .square-image::after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+  .square-image img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    display: block;
+    background-color: #E7E3E0;
+    opacity:0;
+  }
+.square-image img.lazyautosizes.lazyloaded{
+    opacity:1;
+}
+@media screen and (max-width:1650px){
+  .home-categories-v2 p{
+    height: 100px;
+  }
+}
+@media screen and (max-width:1366px){
+  .home-categories-v2{
+    padding: 100px;
+  }
+}
+
+@media screen and (max-width:1024px){
+  .home-categories-v2{
+    padding: 100px 70px;
+  }
+  .home-categories-v2 p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width:990px){
+  .home-categories-v2{
+    padding: 80px 30px;
+  }
+  .home-categories-v2 h2{
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .home-categories-v2 p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .home-categories-v2 .block-content{
+    width: calc(33.33% - 30px);
+  }
+
+}
+@media screen and (max-width:767px){
+  .home-categories-v2 .block-content-wrap > h2{
+    display: block;
+    font-size: 17px;
+    line-height: 26px;
+    max-width: 250px;
+    margin: 0 auto;
+    font-family: 'Kepler';
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 40px;
+    text-decoration: none;
+  }
+  .home-categories-v2{
+    padding: 60px 20px;
+    padding-bottom: 0;
+  }
+  .home-categories-v2 h2{
+    font-size: 23px;
+    line-height: 43.8px;
+    text-decoration: underline;
+  }
+  .home-categories-v2 .block-content{
+    width: 100%;
+  }
+  .home-categories-v2 .block-content{
+    flex-direction: column-reverse;
+    padding: 0 62px;
+  }
+  .content-text-wrap{
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  .home-categories-v2 .shop-now{
+    margin-bottom: 0;
+    display: none;
+  }
+  .home-categories-v2 .block-content.second-block h2{
+    margin-top: 0;
+  }
+  .home-categories-v2 p{
+    height: unset;
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+  .block-content.last-block .content-text-wrap{
+    margin-bottom: 0;
+  }
+}
+{% endstylesheet %}

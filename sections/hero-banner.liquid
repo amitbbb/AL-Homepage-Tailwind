@@ -1,0 +1,69 @@
+<div class="hero-banner-img">
+    {% comment %}
+    <img class="hero-new lazyload lazypreload"
+       data-src="{{ section.settings.banner_img | img_url: 'master' }}"
+       data-widths="[180, 360, 470, 600, 770, 970, 1060, 1280, 1512, 1728, 2048]"
+       data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+       data-sizes="auto"
+       alt="{{ section.settings.heading | escape }}">
+    {% endcomment %}
+    <img src="{{ section.settings.banner_img | img_url: 'master' }}" alt="">
+  <div class="banner-content">
+    <p class="sub-heading">{{ section.settings.sub_heading }}</p>
+    <h1 class="main-heading">{{ section.settings.heading }}</h1>
+    <a href="{{ section.settings.shop_btn_url }}" class="shop-btn">{{ section.settings.shop_btn }}</a>
+    <p class="author">{{ section.settings.auth_name }}</p>
+  </div>
+</div>
+{% schema %}
+{ 
+  "name": "Hero Banner",
+  "class": "hero-banner",
+  "settings": [
+    {
+      "id": "banner_img",
+      "type": "image_picker",
+      "label": "Banner Image"
+    },
+    {
+      "id": "sub_heading",
+      "type": "text",
+      "label": "Sub Heading"
+    },
+    {
+      "id": "heading",
+      "type": "text",
+      "label": "Heading"
+    },
+    {
+      "id": "shop_btn",
+      "type": "text",
+      "label": "Shop Button Text"
+    },
+    {
+      "id": "shop_btn_url",
+      "type": "text",
+      "label": "Shop Button URL"
+    },
+    {
+      "id": "auth_name",
+      "type": "text",
+      "label": "Author Name"
+    }
+  ],
+  "presets" : [
+    {
+      "name" : "Hero Banner"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+
+
+  
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

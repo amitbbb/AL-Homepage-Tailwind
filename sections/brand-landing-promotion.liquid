@@ -1,0 +1,81 @@
+
+{%comment%} Promotional Section  {%endcomment%}
+
+  
+  	
+	<div class="promotion-section">
+      <div class="promo-img"><img src="{{section.settings.promotion_img.src | img_url: 'master' }}"></div>
+      <div class="promo-right">
+        <div class="line-wrap">
+          <div class="first_line promo_line">{{section.settings.first_line}}</div>
+          <div class="second_line promo_line">{{section.settings.second_line}}</div>
+          <div class="third_line promo_line">{{section.settings.third_line}}</div>
+          <div class="fourth_line promo_line">{{section.settings.fourth_line}}</div>
+          <div class="cta-btn"><a href="{{section.settings.btn_url}}">{{section.settings.btn_text}}</a></div>
+        </div>  
+      </div>
+	</div>
+
+  
+
+
+
+
+
+{% schema %}
+  {
+	"name": "Promotion Section",
+    
+    "settings": [
+		{
+          "type": "image_picker",
+          "id": "promotion_img",
+		  "label": "Image URL"
+        },
+        {
+          "type": "text",
+          "id": "first_line",
+          "label": "First Line"
+        },
+        {
+          "type": "text",
+          "id": "second_line",
+          "label": "Second Line"
+        },
+        {
+          "type": "text",
+          "id": "third_line",
+          "label": "Third Line"
+        },
+        {
+          "type": "text",
+          "id": "fourth_line",
+          "label": "Fourth Line"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "text",
+          "id": "btn_url",
+          "label": "Button URL"
+        }
+
+	],
+
+    "presets": [
+    {
+      "name": "Brand Landing Promotion Section"
+      
+  }
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

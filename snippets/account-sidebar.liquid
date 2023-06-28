@@ -1,0 +1,12 @@
+<div class="account-sidebar">
+  <ul class="account-nav" data-template="{{template.name}}">
+    <li class="account-details-nav {% if template.name == 'account' %}active{% endif %}"><h2><a href="/account/#account-details">Account details</a></h2>
+      <!--p>{{ customer.name }}<br/>{{ customer.email }}</p-->
+    </li>
+    <li class="order-history-nav"><h2><a href="/account/#orderhistory">Order History</a></h2></li>
+    <li class="{% if template.name == 'addresses' %}active{% endif %}"><h2><a href="/account/addresses">Addresses</a></h2></li>
+    <li><h2><a href="/pages/wishlist/">Wishlist</a></h2></li>
+    <li><h2><a href="/apps/giftregistry">Gift Registry</a></h2></li>
+    <li><h2><a href="/account/logout/">Logout</a></h2></li>
+  </ul>
+</div>

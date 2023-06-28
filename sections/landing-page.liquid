@@ -1,0 +1,365 @@
+<div id="landingpage" 
+     data-bg-home="{{ 'Slide1.png' | asset_url }}" 
+     data-bg_about="{{ 'Slide2.png' | asset_url }}" 
+     data-bg-mood="{{ 'Slide3a.png' | asset_url }}" 
+     >
+  <div class="landing-bg landing-bg-home active" style="background-image: url('https://cdn.shopify.com/s/files/1/0573/2201/2880/files/imgpsh_fullsize_anim_3.png?v=1625036344');"></div>
+  <div class="landing-bg landing-bg-about" style="background-image: url('https://cdn.shopify.com/s/files/1/0573/2201/2880/files/imgpsh_fullsize_anim_3.png?v=1625036344');"></div>
+  <div class="landing-bg landing-bg-mood" >
+    <div class="slider desktop">
+           <img  src="{{section.settings.sliderimg1  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg2  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg3  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg4  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg5  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg6  | img_url: 'master'}}">
+          {%comment%} <img  src="{{section.settings.sliderimg7  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg8  | img_url: 'master'}}">{%endcomment%}
+           <img  src="{{section.settings.sliderimg9  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg10 | img_url: 'master'}}">
+
+            
+    </div>
+     <div class="slider mobile">
+        <img  src="{{section.settings.sliderimg11  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg22  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg33  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg44  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg55  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg66  | img_url: 'master'}}">
+          {%comment%} <img  src="{{section.settings.sliderimg7  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg88 | img_url: 'master'}}">{%endcomment%}
+           <img  src="{{section.settings.sliderimg99  | img_url: 'master'}}">
+           <img  src="{{section.settings.sliderimg100 | img_url: 'master'}}">
+
+            
+    </div>
+  </div>
+    <div class="landing-bg landing-bg-follow" style="background-image: url('https://cdn.shopify.com/s/files/1/0573/2201/2880/files/imgpsh_fullsize_anim_3.png?v=1625036344');"></div>
+  <div class="landing-bg landing-bg-contact" style="background-image: url('https://cdn.shopify.com/s/files/1/0573/2201/2880/files/imgpsh_fullsize_anim_3.png?v=1625036344');"></div>
+
+    
+  
+
+  <div class="landing-logo">
+    <img src="{{section.settings.logo | img_url: 'master'}}https://cdn.shopify.com/s/files/1/0573/2201/2880/files/AL_Stacked_logo_606x332_66180cea-6dc6-4245-9f33-e3645aece031.png?v=1624603612" alt="logo">
+  </div>
+  <div class="landing-balloon">
+    <img src="https://cdn.shopify.com/s/files/1/0573/2201/2880/files/imgpsh_fullsize_anim_4.png?v=1625040501" class="forDesktop" alt="logo">
+    <img src="https://cdn.shopify.com/s/files/1/0573/2201/2880/files/imgpsh_fullsize_anim_1.png?v=1625034920" class="forMobile" alt="logo">
+  </div>
+  <div class="page-slide page-slide1 slide_home active">
+    <div class="landing-menu middle-content">
+      <ul class="landing_nav">
+        <li><a class="aboutLink" href="#" data-target="about">ABOUT</a>/</li>
+        <li><a class="moodLink" href="#" data-target="mood">MOOD</a>/</li>
+        <li><a class="followLink" href=" https://www.instagram.com/afternoonlighthome" data-target="follow" onclick="basicPopup(this.href);return false">FOLLOW</a>/</li>
+        <li><a class="contactLink" href="mailto:hi@afternoonlight.com"  data-target="contact" onclick="basicPopup(this.href);return false">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="page-slide page-slide2 slide_about">
+    <div class="aboutPage middle-content">
+      <div class="aboutContent">
+        <div class="group group1">
+        <span class="sp1">{{section.settings.t1}}<span>&nbsp;&nbsp;{{section.settings.t2}}</span></span>
+        </div>
+        <div class="group group2">
+          <span class="sp1">{{section.settings.t3}}&nbsp;&nbsp;<span><em>{{section.settings.t4}}&nbsp;&nbsp;</em></span>{{section.settings.t5}} &nbsp;&nbsp;{{section.settings.t6}}</span>
+        <span class="sp2">{{section.settings.t7}} &nbsp;&nbsp; {{section.settings.t8}} &nbsp;&nbsp;{{section.settings.t9}}</span>
+        <span class="sp3">{{section.settings.t10}}</span>
+        </div>
+        <div class="group group3">
+          <span class="sp1">{{section.settings.t11}}</span>
+          <span class="sp2">{{section.settings.t12}}</span>
+        </div>
+        <div class="group group4">
+          <span class="sp1">{{section.settings.t13}} <d>&nbsp;&nbsp;&nbsp;&nbsp;</d> <span>{{section.settings.t14}}</span></span>
+          <span class="sp2">{{section.settings.t15}}</span>
+        </div>
+        <div class="group group5">
+          <span class="sp1">{{section.settings.t16}}</span>
+          <span class="sp2"><span>{{section.settings.t17}}</span></span>
+          <span class="sp3">{{section.settings.t18}}</span>
+        </div>
+        
+      </div>
+    </div>
+    <span class="back-to-home"><img src="https://cdn.shopify.com/s/files/1/0573/2201/2880/files/Group_30.svg?v=1625037110" alt="back arrow"></span>
+  </div>
+
+  
+  <div class="landing-form">
+    <label class="appendToForm" for="{{ formId }}-email">Sign up for early access</label>
+    <div class="klaviyo-form-UpsG3d"></div>
+    {% comment %}
+    {%- assign formId = 'ContactForm' -%}
+        {% form 'contact', id: formId %}
+          {% include 'form-status', form: form, form_id: formId %}
+    	  <input
+                type="email"
+                id="{{ formId }}-email"
+                name="contact[email]"
+                autocorrect="off"
+                autocapitalize="off"
+                value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                aria-required="true"
+                {%- if form.errors contains 'email' -%}
+                  class="input--error"
+                  aria-invalid="true"
+                  aria-describedby="{{ formId }}-email-error"
+                {%- endif -%}
+                >
+              {%- if form.errors contains 'email' -%}
+                <span id="{{ formId}}-email-error" class="input-error-message">
+                  <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+                  {% include 'icon-error' %}
+                  <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+                </span>
+              {%- endif -%}
+        <input type="submit" class="btn" value="">
+        {% endform %}
+    {% endcomment %}
+  </div>
+</div>
+
+
+
+
+{% schema %}
+  {
+    "name": "Landing Page",
+    "settings": [
+{
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo image here"
+},
+ {
+          "type": "image_picker",
+          "id": "sliderimg1",
+          "label": "first slider image here"
+},
+ {
+          "type": "image_picker",
+          "id": "sliderimg11",
+          "label": "Mobile first slider image here",
+           "info":"Mobile image here"
+ 
+},
+ {
+          "type": "image_picker",
+          "id": "sliderimg2",
+          "label": "second slider image here"
+},
+
+{
+          "type": "image_picker",
+          "id": "sliderimg22",
+          "label": "Mobile second slider image here",
+           "info":"Mobile image here"
+ 
+},
+
+ {
+          "type": "image_picker",
+          "id": "sliderimg3",
+          "label": "third slider image here"
+},
+{
+          "type": "image_picker",
+          "id": "sliderimg33",
+          "label": "Mobile third slider image here",
+           "info":"Mobile image here"
+ 
+},
+
+
+ {
+          "type": "image_picker",
+          "id": "sliderimg4",
+          "label": "fourth slider image here"
+},
+{
+          "type": "image_picker",
+          "id": "sliderimg44",
+          "label": "Mobile fourth slider image here",
+           "info":"Mobile image here"
+ 
+},
+
+{
+          "type": "image_picker",
+          "id": "sliderimg5",
+          "label": "fifth slider image here"
+},
+{
+          "type": "image_picker",
+          "id": "sliderimg55",
+          "label": "Mobile fourth slider image here",
+           "info":"Mobile image here"
+ 
+},
+ {
+          "type": "image_picker",
+          "id": "sliderimg6",
+          "label": "sixth slider image here"
+},
+{
+          "type": "image_picker",
+          "id": "sliderimg66",
+          "label": "Mobile sixth slider image here",
+           "info":"Mobile image here"
+ 
+},
+ {
+          "type": "image_picker",
+          "id": "sliderimg9",
+          "label": "nienth slider image here"
+},
+{
+          "type": "image_picker",
+          "id": "sliderimg99",
+          "label": "nienth slider image here",
+          "info":"Mobile image here"
+},
+ {
+          "type": "image_picker",
+          "id": "sliderimg10",
+          "label": "Tenth slider image here"
+},
+{
+          "type": "image_picker",
+          "id": "sliderimg100",
+          "label": "Tenth slider image here",
+          "info":"Mobile image here"
+},
+ {
+          "type": "text",
+          "id": "t1",
+          "label": "text here"
+},
+{
+          "type": "text",
+          "id": "t2",
+          "label": "text here"
+},{
+          "type": "text",
+          "id": "t3",
+          "label": "text here"
+},{
+          "type": "text",
+          "id": "t4",
+          "label": "text here"
+},{
+          "type": "text",
+          "id": "t5",
+          "label": "text here"
+},{
+          "type": "text",
+          "id": "t6",
+          "label": "text here"
+},{
+          "type": "text",
+          "id": "t7",
+          "label": "text here"
+},
+{
+          "type": "text",
+          "id": "t8",
+          "label": "text here"
+},
+{
+          "type": "text",
+          "id": "t9",
+          "label": "text here"
+},{
+          "type": "text",
+          "id": "t10",
+          "label": "text here"
+},
+{
+          "type": "text",
+          "id": "t11",
+          "label": "text here"
+},
+{
+          "type": "text",
+          "id": "t12",
+          "label": "text here"
+},
+{
+          "type": "text",
+          "id": "t13",
+          "label": "text here"
+},{
+          "type": "text",
+          "id": "t14",
+          "label": "text here"
+},
+{
+          "type": "text",
+          "id": "t15",
+          "label": "text here"
+},{
+          "type": "text",
+          "id": "t16",
+          "label": "text here"
+},
+{
+          "type": "text",
+          "id": "t17",
+          "label": "text here"
+},
+{
+          "type": "text",
+          "id": "t18",
+          "label": "text here"
+}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+<script>
+
+// Popup window function
+	function basicPopup(url) {
+popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
+	}
+  
+  $(".moodLink").hover(
+    function() {
+//       alert("hello");
+        $(".landing-bg-mood").addClass('active');
+    }
+);
+</script>
+<style>
+   @media only screen and (min-width: 749px) {
+    .slider.mobile{display:none;}
+    
+  
+}
+ 
+ @media only screen and (max-width: 749px) {
+   .desktop{display:none}
+/*  .slider.mobile{display:none;} */
+    
+}
+   img.slick-slide {
+  
+    height: 100vh;
+    object-fit: cover;
+}
+ 
+  #landingpage .back-to-home {
+  
+    bottom: 5vh !important;
+  }
+</style>

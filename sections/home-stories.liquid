@@ -1,0 +1,65 @@
+  <ul class="blog-list-view blog-list">
+    <h2 class="main-hed-blog one"><a href="/blogs/stories/">STORIES</a></h2>
+    {% for block in section.blocks %}
+      <li class="another-blog-list postNum-3 {% if forloop.index > 1 %}other-grid{% else %}first-grid{% endif %} {% if forloop.index > 3 %}home-blog{% endif %}">
+        <div class="page-width">
+          <div class="grid">
+            <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+              <div class="article-listing">
+				<a href="{{ block.settings.blog.url }}">
+                <div class="blog-list-image">
+                <div class="blog-hover-effect">
+                </div>
+                    <img data-src="{{ block.settings.blog.image | img_url: 'master' }}" alt="{{ block.settings.blog.title }}" class="lazyload article__grid-image">
+                    {%comment%}{{ block.settings.blog.image | img_url: 'master', scale: 2 | img_tag: article.title, 'article__grid-image' }}{%endcomment%}  
+					</div>
+                </a>
+                <h2 class="article__title h3 mob">
+                  <a href="{{ block.settings.blog.url }}" class="blog-title">{{ block.settings.blog.title }}</a>
+                  <p class="edi">{{ block.settings.blog.excerpt  | truncate: 100  }}</p>
+                  <p class="read-story"><a href="{{ block.settings.blog.url }}">READ THE STORY</a></p>
+				</h2>				
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul> 
+<style>
+.shopify-section.home-stories{
+    display: none;
+  }
+</style> 
+{% schema %}
+{
+  "name": "Home stories",
+  "class": "home-stories fadein",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Blog posts"
+    }
+			  ],
+  "blocks": [
+    {
+      "type": "stories",
+      "name": "Add Article",
+      "settings": [
+        {
+          "type": "article",
+		  "label": "Select Article",
+          "id": "blog"
+        }
+      ]
+    }
+  ],
+  "presets" : [
+    {
+      "name" : "Home Stories"
+    }
+  ]
+}
+{% endschema %}
